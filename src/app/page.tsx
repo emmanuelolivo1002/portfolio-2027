@@ -1,12 +1,22 @@
-import Image from "next/image";
 import { Copyright, Heart, Link as LinkIcon, Mail } from "lucide-react";
 import { siGithub } from "simple-icons";
+import { HeroProjects } from "@/components/hero-projects";
 import { ProjectCard } from "@/components/project-card";
 import { RichText } from "@/components/rich-text";
 import { SiteHeader } from "@/components/site-header";
 import { Timeline } from "@/components/timeline";
 import { Button } from "@/components/ui/button";
 import { portfolio } from "@/content/portfolio";
+
+const heroProjectSlugs = [
+  "atlas",
+  "searchtexastax",
+  "wealthcharts",
+  "enjoyspi",
+  "verderosa",
+  "unfolded-poetry-project",
+  "mcallen-education-foundation",
+];
 
 function ContactIcon({ name }: { name: string }) {
   const className = "size-4 shrink-0";
@@ -26,7 +36,12 @@ function ContactIcon({ name }: { name: string }) {
 
 export default function Home() {
   const { hero, work, experience, about, contact, navigation, sourceLink } = portfolio;
-  const [featured] = work.projects;
+  const heroProjects = heroProjectSlugs.flatMap((slug) => {
+    const project = work.projects.find((item) => item.slug === slug);
+    if (!project?.thumbnail) return [];
+    const { id, title, roles, thumbnail } = project;
+    return [{ id, title, roles, thumbnail }];
+  });
   const intro = hero.heading.replace(/^Hi! I'm Emmanuel Olivo, a /, "");
 
   return (
@@ -53,22 +68,7 @@ export default function Home() {
                 </Button>
               </div>
             </div>
-            {featured?.thumbnail && (
-              <figure className="hero-feature">
-                <div className="hero-feature-frame">
-                  <Image
-                    src={featured.thumbnail.src} alt={featured.thumbnail.alt || featured.title}
-                    width={featured.thumbnail.width} height={featured.thumbnail.height} preload
-                    sizes="(min-width: 1200px) 610px, (min-width: 950px) 46vw, 88vw"
-                    className="h-auto w-full rounded-[0.55rem]"
-                  />
-                </div>
-                <figcaption className="hero-feature-caption">
-                  <span className="font-semibold">{featured.title}</span>
-                  <span className="text-sm">{featured.roles.join(" · ")}</span>
-                </figcaption>
-              </figure>
-            )}
+            <HeroProjects projects={heroProjects} />
           </section>
         </div>
 
