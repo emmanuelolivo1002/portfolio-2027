@@ -3020,7 +3020,7 @@
         "children": [
           {
             "type": "text",
-            "text": "Hi there! I'm a Software Engineer specializing in front-end web and mobile development since 2017. Originally from Veracruz, Mexico, I've been calling Texas home since 2012. I graduated with a degree in Computer Engineering from The University of Texas Rio Grande Valley in 2016."
+            "text": "Hi there! I’m Emmanuel, a software engineer and technical lead who’s been building web and mobile applications since 2017. Originally from Veracruz, Mexico, I’ve called Texas home since 2012. I graduated from The University of Texas Rio Grande Valley with a degree in Computer Engineering in 2016."
           }
         ]
       },
@@ -3029,7 +3029,25 @@
         "children": [
           {
             "type": "text",
-            "text": "I've always loved video games and computers. I started making my first text adventure games in high school with Pascal, and later, I created my first apps with Visual Basic for school projects. These days, I work mainly with React, building responsive, user-friendly applications that look great and work even better."
+            "text": "I’ve always loved video games and computers. I started by making text adventure games in Pascal in high school, then built my first apps in Visual Basic for school projects. That same curiosity still drives me today: I enjoy turning complex problems into useful, intuitive experiences."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "These days, I work with React, Next.js, TypeScript, and React Native to build everything from booking and payment platforms to mobile apps and tools for hospitality operations. I’ve led engineering teams, redesigned a trading platform, and built AI-assisted workflows that help people spend less time on repetitive tasks. I also volunteer my technical skills with local nonprofits, helping them use technology to support their communities."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Whether I’m working on a new feature or a whole product, my goal is the same: build things that look great, work even better, and make someone’s day a little easier."
           }
         ]
       }
