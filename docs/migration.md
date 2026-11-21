@@ -25,6 +25,8 @@ The old frontend includes Vercel Analytics and Speed Insights. The rebuild enabl
 - The public API archive recovered 422 of 701 original and derivative Media Library URLs. This count includes variants and unused records. The private archive records the missing URLs and the hashes of surviving files.
 - The supplied July 2024 SQLite backups passed `PRAGMA quick_check`. The private workspace archive holds verified copies of both databases, the supplied local Strapi uploads, the public capture, and its surviving media. The public locales API returned HTTP 403.
 - The production service ran Strapi 4.24.3 with SQLite at `/app/data/data.db` and uploads at `/app/public/uploads`. A consistent SQLite snapshot and an archive of the production uploads and restoration folders are stored in `.migration-private/live-railway-2026-11-21/`. The database passed `PRAGMA quick_check` and reconciled with the live API at 20 published projects, 147 media records, one homepage, seven jobs, and one locale. The archive includes 423 files in the public upload directory plus the restoration folders.
+- A Strapi 4.24.3 content-only export from an isolated copy of the production snapshot contains 29 schemas, 238 entities, and 390 links. It is retained alongside the production SQLite and uploads archive.
+- The live Unfolded project had a description pasted into its website URL field. The rebuild points the button to the verified [Unfolded: Poetry Project website](https://unfoldedpoetryproject.com/).
 
 ## Cutover and rollback
 

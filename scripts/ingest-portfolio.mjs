@@ -207,6 +207,14 @@ function readSection(name) {
   return section;
 }
 
+function projectLink(value, project, fallback = null) {
+  if (!value) return null;
+  const url = URL.canParse(value) ? new URL(value) : null;
+  if (url && ["https:", "http:"].includes(url.protocol)) return value;
+  if (fallback) return fallback;
+  throw new Error(`Review the invalid public project URL for ${project}.`);
+}
+
 const hero = readSection("hero-section");
 const projectSection = readSection("projects-section");
 const about = readSection("about");
@@ -232,7 +240,9 @@ for (const card of projectSection.projects) {
     id, slug, title, shortDescription, thumbnail,
     roles: (project.project_categories ?? []).map(({ label }) => label),
     technologies: (project.technologies ?? []).map(({ iconKey, label }) => ({ iconKey, label })),
-    detail, gallery: gallery.filter(Boolean), linkToView, linkToCode,
+    detail, gallery: gallery.filter(Boolean),
+    linkToView: projectLink(linkToView, title, id === 21 ? "https://unfoldedpoetryproject.com/" : null),
+    linkToCode: projectLink(linkToCode, title),
   });
 }
 
