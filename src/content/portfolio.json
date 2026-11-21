@@ -98,70 +98,70 @@
         "gallery": [
           {
             "src": "/images/projects/atlas/atlas-07-rate-shop.webp",
-            "alt": "",
+            "alt": "ATLAS hotel rate shopping dashboard",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/atlas/atlas-03-forecast-trends.webp",
-            "alt": "",
+            "alt": "ATLAS forecast trends dashboard",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/atlas/atlas-04-realtime.webp",
-            "alt": "ATLAS",
+            "alt": "ATLAS real-time reporting dashboard",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/atlas/atlas-10-purchasing.webp",
-            "alt": "",
+            "alt": "ATLAS purchasing requests",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/atlas/atlas-11-design-requests.webp",
-            "alt": "",
+            "alt": "ATLAS design requests",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/atlas/atlas-06-food-ordering.webp",
-            "alt": "",
+            "alt": "ATLAS food ordering interface",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/atlas/atlas-05-reviews.webp",
-            "alt": "",
+            "alt": "ATLAS guest reviews dashboard",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/atlas/atlas-02-forecast.webp",
-            "alt": "",
+            "alt": "ATLAS hotel occupancy forecast",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/atlas/atlas-09-network-uptime.webp",
-            "alt": "",
+            "alt": "ATLAS network uptime dashboard",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/atlas/atlas-08-maintenance.webp",
-            "alt": "",
+            "alt": "ATLAS maintenance tasks",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
@@ -234,42 +234,42 @@
         "gallery": [
           {
             "src": "/images/projects/searchtexastax/stt-06-portfolio.webp",
-            "alt": "",
+            "alt": "SearchTexasTax portfolio view",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/searchtexastax/stt-05-brands.webp",
-            "alt": "",
+            "alt": "SearchTexasTax hotel brands view",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/searchtexastax/stt-04-revenue-chart.webp",
-            "alt": "SearchTexasTax",
+            "alt": "SearchTexasTax property revenue history chart",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/searchtexastax/stt-02-speedsearch.webp",
-            "alt": "",
+            "alt": "SearchTexasTax quick search results",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/searchtexastax/stt-03-hotel-page.webp",
-            "alt": "",
+            "alt": "SearchTexasTax hotel profile",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/searchtexastax/stt-01-search.webp",
-            "alt": "",
+            "alt": "SearchTexasTax main search page",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
@@ -1035,49 +1035,49 @@
         "gallery": [
           {
             "src": "/images/projects/all-inclusive-dashboard/console-04-orders.webp",
-            "alt": "",
+            "alt": "All Inclusive Dashboard orders view",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/all-inclusive-dashboard/console-07-woocommerce-payout.webp",
-            "alt": "",
+            "alt": "All Inclusive Dashboard WooCommerce payout view",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/all-inclusive-dashboard/console-05-packages.webp",
-            "alt": "",
+            "alt": "All Inclusive Dashboard hotel packages",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/all-inclusive-dashboard/console-06-rate-calendar.webp",
-            "alt": "",
+            "alt": "All Inclusive Dashboard rate calendar",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/all-inclusive-dashboard/console-03-hotel-payout.webp",
-            "alt": "",
+            "alt": "All Inclusive Dashboard hotel payout view",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/all-inclusive-dashboard/console-02-performance.webp",
-            "alt": "All Inclusive Dashboard",
+            "alt": "All Inclusive Dashboard performance reports",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/all-inclusive-dashboard/console-01-dashboard.webp",
-            "alt": "",
+            "alt": "All Inclusive Dashboard overview",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080

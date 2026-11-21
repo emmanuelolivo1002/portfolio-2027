@@ -42,6 +42,23 @@ function ProjectDetails({ project }: { project: Project }) {
           <Roles roles={project.roles} className="lg:hidden" />
           <article className="min-w-0">
             <RichText content={project.detail} />
+            {project.gallery.length > 0 && (
+              <section className="rich-text mt-6" aria-label="Screenshots">
+                <h3>Screenshots</h3>
+                {project.gallery.map((image, index) => (
+                  <figure key={image.src}>
+                    <Image
+                      src={image.src}
+                      alt={image.alt || `${project.title} screenshot ${index + 1}`}
+                      width={image.width}
+                      height={image.height}
+                      sizes="(min-width: 64rem) 40rem, calc(90vw - 3rem)"
+                    />
+                    {image.caption && <figcaption>{image.caption}</figcaption>}
+                  </figure>
+                ))}
+              </section>
+            )}
           </article>
           <aside className="flex min-w-0 flex-col gap-4 self-start lg:sticky lg:top-0">
             <Roles roles={project.roles} className="hidden lg:flex" />
