@@ -69,6 +69,10 @@
           {
             "iconKey": "typescript",
             "label": "TypeScript"
+          },
+          {
+            "iconKey": "supabase",
+            "label": "Supabase"
           }
         ],
         "detail": [
@@ -182,7 +186,8 @@
           "UX/UI",
           "Design",
           "Back End",
-          "Front End"
+          "Front End",
+          "AI"
         ],
         "technologies": [
           {
@@ -200,6 +205,10 @@
           {
             "iconKey": "tailwind",
             "label": "TailwindCSS"
+          },
+          {
+            "iconKey": "supabase",
+            "label": "Supabase"
           }
         ],
         "detail": [
@@ -284,7 +293,8 @@
         },
         "roles": [
           "Front End",
-          "UX/UI"
+          "UX/UI",
+          "AI"
         ],
         "technologies": [
           {
@@ -558,7 +568,8 @@
         },
         "roles": [
           "Front End",
-          "UX/UI"
+          "UX/UI",
+          "AI"
         ],
         "technologies": [
           {
@@ -835,7 +846,8 @@
         "roles": [
           "Front End",
           "Back End",
-          "UX/UI"
+          "UX/UI",
+          "AI"
         ],
         "technologies": [
           {
@@ -1090,7 +1102,8 @@
           "Back End",
           "Front End",
           "Design",
-          "UX/UI"
+          "UX/UI",
+          "AI"
         ],
         "technologies": [
           {
@@ -1137,7 +1150,8 @@
         "roles": [
           "Design",
           "Back End",
-          "Front End"
+          "Front End",
+          "AI"
         ],
         "technologies": [
           {
