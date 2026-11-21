@@ -28,8 +28,9 @@ async function writeAsset(path, bytes) {
 }
 
 async function verify(bytes, mime) {
-  if (mime === "application/pdf" || bytes.subarray(0, 5).equals(Buffer.from("%PDF-"))) {
-    if (!bytes.subarray(0, 5).equals(Buffer.from("%PDF-")) || !bytes.subarray(-1024).includes("%%EOF")) {
+  const pdf = bytes.subarray(0, 5).equals(Buffer.from("%PDF-"));
+  if (mime === "application/pdf" || pdf) {
+    if (!pdf || (mime && mime !== "application/pdf") || !bytes.subarray(-1024).includes("%%EOF")) {
       throw new Error("Invalid PDF");
     }
     return { mime: "application/pdf" };
@@ -58,8 +59,10 @@ if (process.argv[2] === "--add-image") {
   }
   const bytes = await readFile(file);
   const { mime } = await verify(bytes);
+  const name = slugify(basename(file, extname(file)));
+  if (mime === "application/pdf" || !name) throw new Error("Choose a supported image with a usable filename.");
   const extension = mime === "image/gif" ? ".gif" : ".webp";
-  const path = `/images/projects/${project}/${slugify(basename(file, extname(file)))}${extension}`;
+  const path = `/images/projects/${project}/${name}${extension}`;
   const optimized = await optimize(bytes, 1920, mime);
   await writeAsset(join(output, path), optimized);
   const { width, height } = await sharp(optimized).metadata();
@@ -118,7 +121,7 @@ const libraryByUrl = new Map(library.map((record) => [absolute(record.url), reco
 const manifest = new Map();
 const optimizedByHash = new Map();
 const assets = new Map();
-function useMedia(record, owner, target, preferred, alt) {
+function resolveMedia(record, owner, target, preferred, alt) {
   if (!record?.url) return Promise.resolve(null);
   const url = absolute(record.url);
   let promise = assets.get(url);
@@ -182,14 +185,14 @@ function useMedia(record, owner, target, preferred, alt) {
 async function rewriteBlocks(blocks, owner, target) {
   return (await Promise.all((blocks ?? []).map(async (block) => {
     if (block.type === "image") {
-      const image = await useMedia(block.image, owner, target, ["large", "medium", "small", "thumbnail"]);
+      const image = await resolveMedia(block.image, owner, target, ["large", "medium", "small", "thumbnail"]);
       if (!image) return null;
       return { ...block, image: { ...image, url: image.src, alternativeText: image.alt } };
     }
     if (block.type === "link" && block.url?.includes("/uploads/")) {
       const document = libraryByUrl.get(absolute(block.url));
       if (!document) throw new Error(`Unknown uploaded link: ${owner} ${block.url}`);
-      const asset = await useMedia(document, owner, target, ["large", "medium", "small", "thumbnail"]);
+      const asset = await resolveMedia(document, owner, target, ["large", "medium", "small", "thumbnail"]);
       if (!asset) return block.children;
       return { ...block, url: asset.src };
     }
@@ -221,8 +224,8 @@ for (const card of projectSection.projects) {
   const target = `/images/projects/${slug}`;
   const owner = `/#projects, ${title}`;
   const [thumbnail, gallery, detail] = await Promise.all([
-    useMedia(project.thumbnail, `${owner} thumbnail`, target, ["large", "medium", "small", "thumbnail"], title),
-    Promise.all((project.images ?? []).map((image) => useMedia(image, `${owner} gallery`, target, ["large", "medium", "small", "thumbnail"]))),
+    resolveMedia(project.thumbnail, `${owner} thumbnail`, target, ["large", "medium", "small", "thumbnail"], title),
+    Promise.all((project.images ?? []).map((image) => resolveMedia(image, `${owner} gallery`, target, ["large", "medium", "small", "thumbnail"]))),
     rewriteBlocks(project.detailedDescription, `${owner} dialog`, target),
   ]);
   projectData.push({
@@ -234,8 +237,8 @@ for (const card of projectSection.projects) {
 }
 
 const [resume, portrait, aboutDetail, jobs] = await Promise.all([
-  useMedia(hero.secondaryLink.fileData, "/ résumé", "/downloads/emmanuel-olivo-resume.pdf"),
-  useMedia(about.image, "/#about portrait", "/images/about", ["large", "medium", "small", "thumbnail"], "Emmanuel Olivo"),
+  resolveMedia(hero.secondaryLink.fileData, "/ résumé", "/downloads/emmanuel-olivo-resume.pdf"),
+  resolveMedia(about.image, "/#about portrait", "/images/about", ["large", "medium", "small", "thumbnail"], "Emmanuel Olivo"),
   rewriteBlocks(about.detailedDescription, "/#about body", "/images/about"),
   Promise.all(experience.job.map(async ({ id, title, company, location, startDate, endDate, detailedDescription }) => ({
     id, title, company, location, startDate, endDate,
