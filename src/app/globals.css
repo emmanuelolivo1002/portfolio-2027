@@ -160,8 +160,8 @@
   }
 
   @media (prefers-reduced-motion: no-preference) {
-    .hero-lights::before { animation: hero-drift 17s ease-in-out infinite alternate; }
-    .hero-lights::after { animation: hero-drift 23s ease-in-out infinite alternate-reverse; }
+    .hero-lights::before { animation: hero-drift 8s ease-in-out infinite alternate; }
+    .hero-lights::after { animation: hero-drift 11s ease-in-out infinite alternate-reverse; }
   }
 
   .hero-panel h1, .section-heading {
@@ -272,11 +272,74 @@
 
   .experience-layout {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1.42fr);
-    gap: clamp(2rem, 7vw, 8rem);
+    gap: clamp(2rem, 5vw, 4rem);
   }
 
-  .experience-heading p { margin-top: 1.25rem; max-width: 30ch; }
+  .experience-heading p { margin-top: 1.25rem; max-width: 56ch; }
+
+  .experience-timeline {
+    --timeline-gutter: clamp(1.25rem, 3.5vw, 2.5rem);
+    --timeline-marker-top: 1.75rem;
+    position: relative;
+    min-width: 0;
+  }
+
+  .experience-timeline::before, .experience-progress {
+    position: absolute;
+    inset-block: 0;
+    inset-inline-start: 0;
+    width: 1px;
+    translate: -50% 0;
+    pointer-events: none;
+  }
+
+  .experience-timeline::before { background-color: var(--border); content: ""; }
+
+  .experience-cards {
+    display: grid;
+    gap: 1.25rem;
+    padding-inline-start: var(--timeline-gutter);
+  }
+
+  .experience-card::before, .experience-marker { position: absolute; }
+
+  .experience-card::before {
+    inset-block-start: calc(var(--timeline-marker-top) + 0.3125rem);
+    inset-inline-end: 100%;
+    width: var(--timeline-gutter);
+    height: 1px;
+    background: var(--border);
+    content: "";
+  }
+
+  .experience-marker {
+    inset-block-start: var(--timeline-marker-top);
+    inset-inline-start: calc(-1 * var(--timeline-gutter) - 1px);
+    translate: -50% 0;
+  }
+
+  @media (min-width: 64rem) {
+    .experience-heading { justify-self: center; text-align: center; }
+    .experience-timeline::before, .experience-progress { inset-inline-start: 50%; }
+
+    .experience-cards {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      align-items: start;
+      column-gap: calc(var(--timeline-gutter) * 2);
+      padding-inline-start: 0;
+    }
+
+    .experience-card:nth-child(even) { margin-block-start: 2rem; }
+
+    .experience-card:nth-child(odd)::before {
+      inset-inline: 100% auto;
+    }
+
+    .experience-card:nth-child(odd) .experience-marker {
+      inset-inline: auto calc(-1 * var(--timeline-gutter) - 1px);
+      translate: 50% 0;
+    }
+  }
 
   .about-layout {
     display: grid;
@@ -372,7 +435,7 @@
   @media (max-width: 47.99rem) {
     .site-header { grid-template-columns: 1fr; gap: 0.12rem; padding-block: 0.65rem; }
     .site-nav { gap: 0.4rem 1rem; }
-    .hero-panel, .experience-layout, .about-layout, .contact-layout, .section-intro { grid-template-columns: 1fr; }
+    .hero-panel, .about-layout, .contact-layout, .section-intro { grid-template-columns: 1fr; }
     .hero-panel { min-height: auto; gap: 1.45rem; }
     .hero-feature { gap: 0.65rem; }
     .contact-links { justify-content: start; }
