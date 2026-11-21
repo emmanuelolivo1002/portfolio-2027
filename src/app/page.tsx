@@ -52,6 +52,7 @@ export default function Home() {
       <main id="main" tabIndex={-1} className="overflow-x-clip">
         <div className="site-container">
           <section aria-label="Introduction" className="hero-panel">
+            <div aria-hidden="true" className="hero-lights" />
             <div className="hero-copy">
               <h1>Emmanuel<br /><span className="hero-surname">Olivo<span>.</span></span></h1>
               <p className="hero-intro">{intro}</p>
