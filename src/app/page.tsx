@@ -1,9 +1,9 @@
 import Image from "next/image";
-import Link from "next/link";
 import { Copyright, Heart, Link as LinkIcon, Mail } from "lucide-react";
 import { siGithub } from "simple-icons";
 import { ProjectCard } from "@/components/project-card";
 import { RichText } from "@/components/rich-text";
+import { SiteHeader } from "@/components/site-header";
 import { Timeline } from "@/components/timeline";
 import { Button } from "@/components/ui/button";
 import { portfolio } from "@/content/portfolio";
@@ -35,19 +35,7 @@ export default function Home() {
         Skip to content
       </a>
 
-      <header className="site-container site-header">
-        <Link href="/" className="site-wordmark" aria-label="Emmanuel Olivo home">Emmanuel Olivo<span aria-hidden="true">.</span></Link>
-        <nav aria-label="Main navigation">
-          <ul className="site-nav">
-            {navigation.map(({ href, label }) => (
-              <li key={href}><a href={href}>{label}</a></li>
-            ))}
-          </ul>
-        </nav>
-        <Button asChild variant="outline" className="hidden h-10 rounded-full border-border bg-transparent px-5 text-sm font-semibold text-foreground hover:bg-muted md:inline-flex">
-          <a href={hero.resumeLink.href} target="_blank" rel="noopener noreferrer">{hero.resumeLink.label}</a>
-        </Button>
-      </header>
+      <SiteHeader navigation={navigation} resumeLink={hero.resumeLink} />
 
       <main id="main" tabIndex={-1} className="overflow-x-clip">
         <div className="site-container">
