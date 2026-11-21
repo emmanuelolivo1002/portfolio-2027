@@ -297,7 +297,7 @@
 
   .experience-cards {
     display: grid;
-    gap: 1.25rem;
+    row-gap: 2rem;
     padding-inline-start: var(--timeline-gutter);
   }
 
@@ -325,11 +325,12 @@
     .experience-cards {
       grid-template-columns: repeat(2, minmax(0, 1fr));
       align-items: start;
+      row-gap: clamp(2.5rem, 4vw, 3.5rem);
       column-gap: calc(var(--timeline-gutter) * 2);
       padding-inline-start: 0;
     }
 
-    .experience-card:nth-child(even) { margin-block-start: 2rem; }
+    .experience-card:nth-child(even) { margin-block-start: clamp(3.75rem, 6vw, 5rem); }
 
     .experience-card:nth-child(odd)::before {
       inset-inline: 100% auto;
