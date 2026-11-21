@@ -34,7 +34,10 @@ function ProjectDetails({ project }: { project: Project }) {
   return (
     <>
       {!reducedMotion && <motion.div aria-hidden="true" className="absolute inset-x-0 top-0 h-1 origin-left bg-primary-ink" style={{ scaleX: progress }} />}
-      <div ref={container} className="overflow-y-auto overscroll-contain px-6">
+      <div
+        ref={container} tabIndex={0} role="region" aria-label={`${project.title} details`}
+        className="overflow-y-auto overscroll-contain px-6 focus-visible:-outline-offset-2"
+      >
         <div className="grid gap-6 pb-1 lg:grid-cols-[minmax(0,65ch)_minmax(15rem,1fr)]">
           <Roles roles={project.roles} className="lg:hidden" />
           <article className="min-w-0">
