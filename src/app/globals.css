@@ -270,17 +270,19 @@
   }
 
   .contact-band {
+    --contact-accent: #c6e3b5;
     position: relative;
     isolation: isolate;
-    color: var(--primary-foreground);
-    background: linear-gradient(115deg, #a6f173, var(--primary) 67%, #70e847);
+    border-top: 1px solid #587660;
+    color: var(--foreground);
+    background: linear-gradient(115deg, #283e31, #304b3b 67%, #365843);
   }
 
   .contact-band::before {
     position: absolute;
     z-index: -1;
     inset: 0;
-    background: repeating-linear-gradient(132deg, transparent 0 30px, #152f1a2e 30px 31px);
+    background: repeating-linear-gradient(132deg, transparent 0 30px, #d4e7cd24 30px 31px);
     mask-image: linear-gradient(90deg, transparent 48%, #0008);
     pointer-events: none;
     content: "";
@@ -313,7 +315,7 @@
     gap: 0.5rem;
     min-height: 2.75rem;
     padding: 0.55rem 0.95rem;
-    border: 1px solid currentColor;
+    border: 1px solid #aac3ad;
     border-radius: 10rem;
     font-size: 0.925rem;
     font-weight: 560;
@@ -321,13 +323,13 @@
   }
 
   .contact-link[href^="mailto:"], .contact-link:hover {
-    border-color: var(--primary-foreground);
-    background-color: var(--primary-foreground);
-    color: var(--foreground);
+    border-color: var(--contact-accent);
+    background-color: var(--contact-accent);
+    color: var(--primary-foreground);
   }
 
-  .contact-link[href^="mailto:"]:hover { background-color: var(--secondary); }
-  .contact-link:focus-visible { outline-color: var(--primary-foreground); }
+  .contact-link[href^="mailto:"]:hover { background-color: var(--foreground); }
+  .contact-link:focus-visible { outline-color: var(--contact-accent); }
 
   .rich-text { overflow-wrap: anywhere; line-height: 1.7; }
   .rich-text > :where(p, ul, ol, figure, blockquote, h2, h3, h4) + * { margin-top: 0.85em; }
