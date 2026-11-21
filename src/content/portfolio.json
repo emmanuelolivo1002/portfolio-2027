@@ -3019,14 +3019,7 @@
           }
         ]
       }
-    ],
-    "portrait": {
-      "src": "/images/about/img-7516.webp",
-      "alt": "Emmanuel Olivo",
-      "mime": "image/webp",
-      "width": 750,
-      "height": 1000
-    }
+    ]
   },
   "contact": {
     "title": "Stay Connected",

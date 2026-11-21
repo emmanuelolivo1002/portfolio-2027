@@ -1982,33 +1982,5 @@
     "references": [
       "/ résumé"
     ]
-  },
-  {
-    "url": "https://adminv2.emmanuelolivo.com/uploads/IMG_7516_38bf422347.JPG",
-    "originalName": "IMG_7516.JPG",
-    "mime": "image/jpeg",
-    "width": 1200,
-    "height": 1600,
-    "alt": "Emmanuel Olivo",
-    "caption": null,
-    "variants": {
-      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_IMG_7516_38bf422347.JPG",
-      "small": "https://adminv2.emmanuelolivo.com/uploads/small_IMG_7516_38bf422347.JPG",
-      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_IMG_7516_38bf422347.JPG",
-      "large": "https://adminv2.emmanuelolivo.com/uploads/large_IMG_7516_38bf422347.JPG"
-    },
-    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/large_IMG_7516_38bf422347.JPG",
-    "recovery": "live variant",
-    "sourceSha256": "ec02f43c001539b87eff671fbf9f49f850ab24198126b8a19a1f62e50802d82b",
-    "src": "/images/about/img-7516.webp",
-    "sha256": "856a9d9e76be744e7a2fafa6dbed72b475b5a88c096edde27dc438c4b553de62",
-    "optimized": {
-      "mime": "image/webp",
-      "width": 750,
-      "height": 1000
-    },
-    "references": [
-      "/#about portrait"
-    ]
   }
 ]

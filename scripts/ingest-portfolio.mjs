@@ -246,9 +246,8 @@ for (const card of projectSection.projects) {
   });
 }
 
-const [resume, portrait, aboutDetail, jobs] = await Promise.all([
+const [resume, aboutDetail, jobs] = await Promise.all([
   resolveMedia(hero.secondaryLink.fileData, "/ résumé", "/downloads/emmanuel-olivo-resume.pdf"),
-  resolveMedia(about.image, "/#about portrait", "/images/about", ["large", "medium", "small", "thumbnail"], "Emmanuel Olivo"),
   rewriteBlocks(about.detailedDescription, "/#about body", "/images/about"),
   Promise.all(experience.job.map(async ({ id, title, company, location, startDate, endDate, detailedDescription }) => ({
     id, title, company, location, startDate, endDate,
@@ -266,7 +265,7 @@ const data = {
     resumeLink: { label: hero.secondaryLink.label, href: resume.src } },
   work: { title: projectSection.title, subtitle: projectSection.subtitle, projects: projectData },
   experience: { title: experience.title, subtitle: experience.subtitle, jobs },
-  about: { title: about.title, detail: aboutDetail, portrait },
+  about: { title: about.title, detail: aboutDetail },
   contact: { title: contact.title, subtitle: contact.subtitle, links: Object.entries(contact.socialLinks)
     .filter(([, href]) => href).map(([label, href]) => ({ label, href: label === "email" ? `mailto:${href}` : href })) },
 };

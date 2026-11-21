@@ -33,7 +33,7 @@ function ProjectDetails({ project }: { project: Project }) {
 
   return (
     <>
-      {!reducedMotion && <motion.div aria-hidden="true" className="absolute inset-x-0 top-0 h-1 origin-left bg-primary-ink" style={{ scaleX: progress }} />}
+      {!reducedMotion && <motion.div aria-hidden="true" className="absolute inset-x-0 top-0 h-1 origin-left bg-primary" style={{ scaleX: progress }} />}
       <div
         ref={container} tabIndex={0} role="region" aria-label={`${project.title} details`}
         className="overflow-y-auto overscroll-contain px-6 focus-visible:-outline-offset-2"
@@ -82,7 +82,7 @@ export function ProjectCard({ project, featured = false }: { project: Project; f
 
   return (
     <Dialog>
-      <Card className="group relative gap-0 overflow-hidden rounded-[1.25rem] border border-border bg-card p-0 text-foreground ring-0 shadow-none transition-colors hover:border-primary-ink">
+      <Card className={cn("project-card group relative gap-0 overflow-hidden rounded-[1.25rem] border border-border p-0 text-foreground ring-0", featured && "border-t-primary/60")}>
         <div className="relative aspect-video w-full overflow-hidden bg-background-alt">
           {thumbnail && (
             <Image
@@ -101,7 +101,7 @@ export function ProjectCard({ project, featured = false }: { project: Project; f
           <Roles roles={project.roles} className="gap-1.5" />
           <h3 className={`mt-3 font-heading font-bold tracking-tight ${featured ? "text-3xl" : "text-[1.65rem]"}`}>
             <DialogTrigger asChild>
-              <button type="button" className="cursor-pointer text-left after:absolute after:inset-0 after:rounded-lg hover:underline focus-visible:outline-none focus-visible:after:outline-2 focus-visible:after:-outline-offset-3 focus-visible:after:outline-primary-ink">
+              <button type="button" className="cursor-pointer text-left after:absolute after:inset-0 after:rounded-lg hover:text-primary hover:underline focus-visible:outline-none focus-visible:after:outline-2 focus-visible:after:-outline-offset-3 focus-visible:after:outline-primary">
                 {title}
               </button>
             </DialogTrigger>

@@ -47,7 +47,7 @@ type Portfolio = {
   hero: { heading: string; workLink: SiteLink; resumeLink: SiteLink };
   work: Section & { projects: Project[] };
   experience: Section & { jobs: Experience[] };
-  about: { title: string; detail: BlocksContent; portrait: PortfolioImage | null };
+  about: { title: string; detail: BlocksContent };
   contact: Section & { links: SiteLink[] };
 };
 

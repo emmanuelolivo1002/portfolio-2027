@@ -53,13 +53,13 @@ export default function Home() {
         <div className="site-container">
           <section aria-label="Introduction" className="hero-panel">
             <div className="hero-copy">
-              <h1>Emmanuel<br />Olivo<span>.</span></h1>
+              <h1>Emmanuel<br /><span className="hero-surname">Olivo<span>.</span></span></h1>
               <p className="hero-intro">{intro}</p>
               <div className="flex flex-wrap gap-3">
-                <Button asChild className="h-11 rounded-full px-5 text-sm font-semibold sm:px-6">
+                <Button asChild className="hero-work-link h-11 rounded-full px-5 text-sm font-semibold sm:px-6">
                   <a href={hero.workLink.href}>{hero.workLink.label}</a>
                 </Button>
-                <Button asChild variant="outline" className="h-11 rounded-full border-white/35 bg-transparent px-5 text-sm font-semibold text-white hover:bg-white hover:text-primary-foreground sm:px-6">
+                <Button asChild variant="outline" className="h-11 rounded-full border-primary/35 bg-background/45 px-5 text-sm font-semibold text-foreground hover:border-primary hover:bg-muted sm:px-6">
                   <a href={hero.resumeLink.href} target="_blank" rel="noopener noreferrer">{hero.resumeLink.label}</a>
                 </Button>
               </div>
@@ -107,17 +107,9 @@ export default function Home() {
         </section>
 
         <section id="about" className="site-container section-space">
-          <div className="about-layout">
-            {about.portrait && (
-              <Image
-                src={about.portrait.src} alt={about.portrait.alt}
-                width={about.portrait.width} height={about.portrait.height}
-                sizes="(min-width: 1024px) 420px, (min-width: 720px) 38vw, 92vw"
-                className="about-portrait"
-              />
-            )}
-            <div className="max-w-prose self-center">
-              <h2 className="section-heading mb-6">{about.title}</h2>
+          <div className="about-panel">
+            <h2 className="section-heading">{about.title}</h2>
+            <div className="about-copy max-w-prose">
               <RichText content={about.detail} />
             </div>
           </div>
@@ -127,7 +119,7 @@ export default function Home() {
           <div className="contact-panel">
             <div>
               <h2 className="section-heading">{contact.title}</h2>
-              <p className="mt-4 max-w-[56ch] text-white/75">{contact.subtitle}</p>
+              <p className="mt-4 max-w-[56ch] text-muted-foreground">{contact.subtitle}</p>
             </div>
             <div className="flex flex-wrap gap-2.5">
               {contact.links.map(({ label, href }) => {
