@@ -1295,11 +1295,11 @@
         "title": "Las Joyas",
         "shortDescription": "Developed a custom WordPress website for Las Joyas Residencies featuring detailed property listings, image galleries, and a blog.",
         "thumbnail": {
-          "src": "/images/projects/las-joyas/lasjoyas-1.webp",
-          "alt": "Las Joyas",
+          "src": "/images/projects/las-joyas/screenshot-home.webp",
+          "alt": "Las Joyas homepage",
           "mime": "image/webp",
-          "width": 750,
-          "height": 410
+          "width": 1920,
+          "height": 1080
         },
         "roles": [
           "Front End",
@@ -1407,7 +1407,22 @@
             ]
           }
         ],
-        "gallery": [],
+        "gallery": [
+          {
+            "src": "/images/projects/las-joyas/screenshot-home.webp",
+            "alt": "Las Joyas homepage",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "/images/projects/las-joyas/screenshot-residences.webp",
+            "alt": "Las Joyas residences page and site plan",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
         "linkToView": "https://lasjoyaspi.com/",
         "linkToCode": null
       },
@@ -1417,11 +1432,11 @@
         "title": "Las Velas Village",
         "shortDescription": "Developed a custom WordPress website for Las Velas Village, a premier condo complex located in South Padre Island, TX. ",
         "thumbnail": {
-          "src": "/images/projects/las-velas-village/lasvelas-1.webp",
-          "alt": "Las Velas Village",
+          "src": "/images/projects/las-velas-village/screenshot-home.webp",
+          "alt": "Las Velas Village homepage",
           "mime": "image/webp",
-          "width": 750,
-          "height": 403
+          "width": 1920,
+          "height": 1080
         },
         "roles": [
           "Front End",
@@ -1519,7 +1534,22 @@
             ]
           }
         ],
-        "gallery": [],
+        "gallery": [
+          {
+            "src": "/images/projects/las-velas-village/screenshot-home.webp",
+            "alt": "Las Velas Village homepage",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "/images/projects/las-velas-village/screenshot-details.webp",
+            "alt": "Las Velas Village property photo gallery",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
         "linkToView": "https://lasvelasvillage.com/",
         "linkToCode": null
       },
@@ -1529,11 +1559,11 @@
         "title": "Paez Development",
         "shortDescription": "WordPress website with custom theme for Paez Development, showcasing their unique and high-standard tropical living properties.",
         "thumbnail": {
-          "src": "/images/projects/paez-development/paezdevelopment-1.webp",
-          "alt": "Paez Development",
+          "src": "/images/projects/paez-development/screenshot-home.webp",
+          "alt": "Paez Development homepage",
           "mime": "image/webp",
-          "width": 750,
-          "height": 676
+          "width": 1920,
+          "height": 1080
         },
         "roles": [
           "Design",
@@ -1592,45 +1622,24 @@
                 "text": "This website was developed using WordPress with a custom-built theme based on the Foundation front-end framework. It features three main pages that highlight the company’s offerings and additional pages for detailed property listings and information."
               }
             ]
-          },
-          {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/paez-development/paezdevelopment-3-640x2353.webp",
-              "alt": "PaezDevelopment-3-640x2353.png",
-              "mime": "image/webp",
-              "width": 82,
-              "height": 300,
-              "url": "/images/projects/paez-development/paezdevelopment-3-640x2353.webp",
-              "alternativeText": "PaezDevelopment-3-640x2353.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
-          },
-          {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/paez-development/paezdevelopment-4-640x1400.webp",
-              "alt": "PaezDevelopment-4-640x1400.png",
-              "mime": "image/webp",
-              "width": 137,
-              "height": 300,
-              "url": "/images/projects/paez-development/paezdevelopment-4-640x1400.webp",
-              "alternativeText": "PaezDevelopment-4-640x1400.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
           }
         ],
-        "gallery": [],
+        "gallery": [
+          {
+            "src": "/images/projects/paez-development/screenshot-home.webp",
+            "alt": "Paez Development homepage",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "/images/projects/paez-development/screenshot-details.webp",
+            "alt": "Paez Development company overview",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
         "linkToView": "https://paezdevelopment.com/",
         "linkToCode": null
       },
@@ -1640,11 +1649,11 @@
         "title": "Valley Animal Hospital",
         "shortDescription": "WordPress website with a custom theme for a veterinary hospital in Pharr, TX, featuring detailed service information, doctor profiles, a newsletter, and a blog",
         "thumbnail": {
-          "src": "/images/projects/valley-animal-hospital/vah-1.webp",
-          "alt": "Valley Animal Hospital",
+          "src": "/images/projects/valley-animal-hospital/screenshot-home.webp",
+          "alt": "Valley Animal Hospital homepage",
           "mime": "image/webp",
-          "width": 750,
-          "height": 542
+          "width": 1920,
+          "height": 1080
         },
         "roles": [
           "Front End",
@@ -1752,42 +1761,6 @@
             ]
           },
           {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/valley-animal-hospital/webp-net-resizeimage-768x2565.webp",
-              "alt": "Webp.net-resizeimage-768x2565.png",
-              "mime": "image/webp",
-              "width": 90,
-              "height": 300,
-              "url": "/images/projects/valley-animal-hospital/webp-net-resizeimage-768x2565.webp",
-              "alternativeText": "Webp.net-resizeimage-768x2565.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
-          },
-          {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/valley-animal-hospital/vah-3-768x1718.webp",
-              "alt": "VAH-3-768x1718.png",
-              "mime": "image/webp",
-              "width": 134,
-              "height": 300,
-              "url": "/images/projects/valley-animal-hospital/vah-3-768x1718.webp",
-              "alternativeText": "VAH-3-768x1718.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
-          },
-          {
             "type": "paragraph",
             "children": [
               {
@@ -1797,7 +1770,22 @@
             ]
           }
         ],
-        "gallery": [],
+        "gallery": [
+          {
+            "src": "/images/projects/valley-animal-hospital/screenshot-home.webp",
+            "alt": "Valley Animal Hospital homepage",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "/images/projects/valley-animal-hospital/screenshot-doctors.webp",
+            "alt": "Valley Animal Hospital doctors page",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
         "linkToView": "https://valleyanimal.net/",
         "linkToCode": null
       },
@@ -1807,11 +1795,11 @@
         "title": "Atlas Hall Rodriguez",
         "shortDescription": "Website is a comprehensive marketing platform for a leading full-service law firm in South Texas. Built using a fully custom WordPress theme and Foundation as the CSS framework.",
         "thumbnail": {
-          "src": "/images/projects/atlas-hall-rodriguez/ahr-1.webp",
-          "alt": "Atlas Hall Rodriguez",
+          "src": "/images/projects/atlas-hall-rodriguez/screenshot-home.webp",
+          "alt": "Atlas Hall Rodriguez homepage",
           "mime": "image/webp",
-          "width": 300,
-          "height": 191
+          "width": 1920,
+          "height": 1080
         },
         "roles": [
           "Front End",
@@ -1849,24 +1837,6 @@
         ],
         "detail": [
           {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/atlas-hall-rodriguez/ahr-1.webp",
-              "alt": "AHR-1.png",
-              "mime": "image/webp",
-              "width": 300,
-              "height": 191,
-              "url": "/images/projects/atlas-hall-rodriguez/ahr-1.webp",
-              "alternativeText": "AHR-1.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
-          },
-          {
             "type": "paragraph",
             "children": [
               {
@@ -1892,45 +1862,24 @@
                 "text": "With offices in McAllen and Brownsville, Atlas Hall Rodriguez provides legal representation in various fields, including litigation, corporate law, real estate, insurance, employment, and more. The website highlights the firm’s dedication to serving a diverse clientele, from individuals to large corporations and governmental entities, across the Rio Grande Valley and beyond."
               }
             ]
-          },
-          {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/atlas-hall-rodriguez/ahr-2-640x1366.webp",
-              "alt": "AHR-2-640x1366.png",
-              "mime": "image/webp",
-              "width": 141,
-              "height": 300,
-              "url": "/images/projects/atlas-hall-rodriguez/ahr-2-640x1366.webp",
-              "alternativeText": "AHR-2-640x1366.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
-          },
-          {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/atlas-hall-rodriguez/ahr-3-640x1284.webp",
-              "alt": "AHR-3-640x1284.png",
-              "mime": "image/webp",
-              "width": 150,
-              "height": 300,
-              "url": "/images/projects/atlas-hall-rodriguez/ahr-3-640x1284.webp",
-              "alternativeText": "AHR-3-640x1284.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
           }
         ],
-        "gallery": [],
+        "gallery": [
+          {
+            "src": "/images/projects/atlas-hall-rodriguez/screenshot-home.webp",
+            "alt": "Atlas Hall Rodriguez homepage",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "/images/projects/atlas-hall-rodriguez/screenshot-attorneys.webp",
+            "alt": "Atlas Hall Rodriguez attorney directory",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
         "linkToView": "https://atlashall.com/",
         "linkToCode": null
       },
@@ -1940,11 +1889,11 @@
         "title": "Chorizo de San Manuel",
         "shortDescription": "Website is a dynamic marketing and e-commerce platform developed with WordPress, utilizing a custom theme built on the Foundation CSS framework. Specializing in selling high-quality chorizo and meats across Texas, this site provides a seamless shopping experience for customers.",
         "thumbnail": {
-          "src": "/images/projects/chorizo-de-san-manuel/chorizo-1-956x1024.webp",
-          "alt": "Chorizo de San Manuel",
+          "src": "/images/projects/chorizo-de-san-manuel/screenshot-home.webp",
+          "alt": "Chorizo de San Manuel homepage",
           "mime": "image/webp",
-          "width": 750,
-          "height": 370
+          "width": 1920,
+          "height": 1080
         },
         "roles": [
           "Design",
@@ -2025,81 +1974,24 @@
                 "text": "I was responsible for both the UX and UI design, which I crafted using Figma, ensuring a user-friendly and visually appealing interface. The design focuses on providing an intuitive shopping experience while highlighting the rich culinary heritage and quality of the products offered by Chorizo de San Manuel."
               }
             ]
-          },
-          {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/chorizo-de-san-manuel/chorizo-5-768x2018.webp",
-              "alt": "chorizo-5-768x2018.png",
-              "mime": "image/webp",
-              "width": 114,
-              "height": 300,
-              "url": "/images/projects/chorizo-de-san-manuel/chorizo-5-768x2018.webp",
-              "alternativeText": "chorizo-5-768x2018.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
-          },
-          {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/chorizo-de-san-manuel/chorizo-6-768x1620.webp",
-              "alt": "chorizo-6-768x1620.png",
-              "mime": "image/webp",
-              "width": 142,
-              "height": 300,
-              "url": "/images/projects/chorizo-de-san-manuel/chorizo-6-768x1620.webp",
-              "alternativeText": "chorizo-6-768x1620.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
-          },
-          {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/chorizo-de-san-manuel/chorizo-4-768x1625.webp",
-              "alt": "chorizo-4-768x1625.png",
-              "mime": "image/webp",
-              "width": 142,
-              "height": 300,
-              "url": "/images/projects/chorizo-de-san-manuel/chorizo-4-768x1625.webp",
-              "alternativeText": "chorizo-4-768x1625.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
-          },
-          {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/chorizo-de-san-manuel/chorizo-3-768x1108.webp",
-              "alt": "chorizo-3-768x1108.png",
-              "mime": "image/webp",
-              "width": 208,
-              "height": 300,
-              "url": "/images/projects/chorizo-de-san-manuel/chorizo-3-768x1108.webp",
-              "alternativeText": "chorizo-3-768x1108.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
           }
         ],
-        "gallery": [],
+        "gallery": [
+          {
+            "src": "/images/projects/chorizo-de-san-manuel/screenshot-home.webp",
+            "alt": "Chorizo de San Manuel homepage",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "/images/projects/chorizo-de-san-manuel/screenshot-products.webp",
+            "alt": "Chorizo de San Manuel product listings",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
         "linkToView": "https://www.chorizodesanmanuel.com/",
         "linkToCode": null
       },
@@ -2109,11 +2001,11 @@
         "title": "Kapal Industries",
         "shortDescription": "E-commerce website, built with a custom WordPress theme and Foundation framework, offers a streamlined catalog and filter functionality. It specializes in granite, quartz, and solid surface countertops, ensuring seamless product browsing and professional installation.",
         "thumbnail": {
-          "src": "/images/projects/kapal-industries/kapal-thumbnail.webp",
-          "alt": "Kapal Industries",
+          "src": "/images/projects/kapal-industries/screenshot-home.webp",
+          "alt": "Kapal Industries homepage",
           "mime": "image/webp",
-          "width": 750,
-          "height": 392
+          "width": 1920,
+          "height": 1080
         },
         "roles": [
           "Front End",
@@ -2191,7 +2083,36 @@
             ]
           }
         ],
-        "gallery": [],
+        "gallery": [
+          {
+            "src": "/images/projects/kapal-industries/screenshot-home.webp",
+            "alt": "Kapal Industries homepage",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "/images/projects/kapal-industries/screenshot-video-frame.webp",
+            "alt": "Kapal Industries manufacturing video still",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "/images/projects/kapal-industries/screenshot-gallery.webp",
+            "alt": "Kapal Industries project gallery",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "/images/projects/kapal-industries/screenshot-products.webp",
+            "alt": "Kapal Industries product catalog",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
         "linkToView": "https://kapalindustries.com/",
         "linkToCode": null
       },
@@ -2201,11 +2122,11 @@
         "title": "Silver Ribbon Community Partners",
         "shortDescription": "Wordpress website for an organization dedicated to providing advocacy, education, and resources to prevent the elderly or disabled from becoming victims of abuse, neglect, and financial exploitation. ",
         "thumbnail": {
-          "src": "/images/projects/silver-ribbon-community-partners/silverribbon-4.webp",
-          "alt": "Silver Ribbon Community Partners",
+          "src": "/images/projects/silver-ribbon-community-partners/screenshot-home.webp",
+          "alt": "Silver Ribbon Community Partners homepage and mission statement",
           "mime": "image/webp",
-          "width": 300,
-          "height": 233
+          "width": 1920,
+          "height": 1080
         },
         "roles": [
           "Back End",
@@ -2244,24 +2165,6 @@
         ],
         "detail": [
           {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/silver-ribbon-community-partners/silverribbon-1.webp",
-              "alt": "SilverRibbon-1.png",
-              "mime": "image/webp",
-              "width": 300,
-              "height": 179,
-              "url": "/images/projects/silver-ribbon-community-partners/silverribbon-1.webp",
-              "alternativeText": "SilverRibbon-1.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
-          },
-          {
             "type": "paragraph",
             "children": [
               {
@@ -2287,63 +2190,31 @@
                 "text": "The website features five main pages, including a dedicated Donation page that handles contributions through a PayPal plugin, ensuring secure and seamless transactions."
               }
             ]
-          },
-          {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/silver-ribbon-community-partners/silverribbon-2-640x1944.webp",
-              "alt": "SilverRibbon-2-640x1944.png",
-              "mime": "image/webp",
-              "width": 99,
-              "height": 300,
-              "url": "/images/projects/silver-ribbon-community-partners/silverribbon-2-640x1944.webp",
-              "alternativeText": "SilverRibbon-2-640x1944.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
-          },
-          {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/silver-ribbon-community-partners/silverribbon-3.webp",
-              "alt": "SilverRibbon-3.png",
-              "mime": "image/webp",
-              "width": 230,
-              "height": 300,
-              "url": "/images/projects/silver-ribbon-community-partners/silverribbon-3.webp",
-              "alternativeText": "SilverRibbon-3.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
-          },
-          {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/silver-ribbon-community-partners/silverribbon-4.webp",
-              "alt": "SilverRibbon-4.png",
-              "mime": "image/webp",
-              "width": 300,
-              "height": 233,
-              "url": "/images/projects/silver-ribbon-community-partners/silverribbon-4.webp",
-              "alternativeText": "SilverRibbon-4.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
           }
         ],
-        "gallery": [],
+        "gallery": [
+          {
+            "src": "/images/projects/silver-ribbon-community-partners/screenshot-home.webp",
+            "alt": "Silver Ribbon Community Partners homepage and mission statement",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "/images/projects/silver-ribbon-community-partners/screenshot-details.webp",
+            "alt": "Silver Ribbon Community Partners community impact and organization overview",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "/images/projects/silver-ribbon-community-partners/screenshot-full-page.webp",
+            "alt": "Silver Ribbon Community Partners full-page website view",
+            "mime": "image/webp",
+            "width": 632,
+            "height": 1920
+          }
+        ],
         "linkToView": "https://web.archive.org/web/20180809080200/http://silverribboncommunitypartners.org/",
         "linkToCode": null
       },
@@ -2353,11 +2224,11 @@
         "title": "McAllen Year in Review 2018",
         "shortDescription": "Website developed for the City of McAllen, TX, to commemorate every relevant development and newsworthy event that took place in the year 2018. ",
         "thumbnail": {
-          "src": "/images/projects/mcallen-year-in-review-2018/mcallen-1.webp",
-          "alt": "McAllen Year in Review 2018",
+          "src": "/images/projects/mcallen-year-in-review-2018/screenshot-title-screen.webp",
+          "alt": "McAllen Year in Review 2018 title screen",
           "mime": "image/webp",
-          "width": 300,
-          "height": 173
+          "width": 1920,
+          "height": 1107
         },
         "roles": [
           "Front End",
@@ -2399,24 +2270,6 @@
           }
         ],
         "detail": [
-          {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/mcallen-year-in-review-2018/mcallen-1.webp",
-              "alt": "McAllen-1.png",
-              "mime": "image/webp",
-              "width": 300,
-              "height": 173,
-              "url": "/images/projects/mcallen-year-in-review-2018/mcallen-1.webp",
-              "alternativeText": "McAllen-1.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
-          },
           {
             "type": "paragraph",
             "children": [
@@ -2511,27 +2364,31 @@
                 ]
               }
             ]
-          },
-          {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/mcallen-year-in-review-2018/mcallen-2-768x482.webp",
-              "alt": "McAllen-2-768x482.png",
-              "mime": "image/webp",
-              "width": 300,
-              "height": 188,
-              "url": "/images/projects/mcallen-year-in-review-2018/mcallen-2-768x482.webp",
-              "alternativeText": "McAllen-2-768x482.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
           }
         ],
-        "gallery": [],
+        "gallery": [
+          {
+            "src": "/images/projects/mcallen-year-in-review-2018/screenshot-title-screen.webp",
+            "alt": "McAllen Year in Review 2018 title screen",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1107
+          },
+          {
+            "src": "/images/projects/mcallen-year-in-review-2018/screenshot-noteworthy-events.webp",
+            "alt": "McAllen Year in Review 2018 noteworthy events section",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1206
+          },
+          {
+            "src": "/images/projects/mcallen-year-in-review-2018/screenshot-community-engagement.webp",
+            "alt": "McAllen Year in Review 2018 community engagement section",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1210
+          }
+        ],
         "linkToView": null,
         "linkToCode": null
       },
@@ -2622,11 +2479,11 @@
         "title": "Valley Technical Academy",
         "shortDescription": "Worpress website for Coding Bootcamp located in Mission, TX, offering comprehensive training in Web Development, UX Design, and Cyber Security.",
         "thumbnail": {
-          "src": "/images/projects/valley-technical-academy/valleytech-thumnail.webp",
-          "alt": "Valley Technical Academy",
+          "src": "/images/projects/valley-technical-academy/screenshot-overview.webp",
+          "alt": "Valley Technical Academy academy overview",
           "mime": "image/webp",
-          "width": 750,
-          "height": 622
+          "width": 1920,
+          "height": 1080
         },
         "roles": [
           "Front End",
@@ -2680,63 +2537,24 @@
                 "text": "This website was developed using a WordPress backend with a custom-built theme utilizing Themeco’s Pro Theme builder. It features four main pages that provide detailed information about the academy's programs, instructors, and success stories. Additionally, there is an Enroll page designed to streamline the registration process for prospective students. The website's design ensures a user-friendly experience, making it easy for visitors to navigate and find the information they need."
               }
             ]
-          },
-          {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/valley-technical-academy/valleytech-1-1-768x3146.webp",
-              "alt": "ValleyTech-1-1-768x3146.png",
-              "mime": "image/webp",
-              "width": 73,
-              "height": 300,
-              "url": "/images/projects/valley-technical-academy/valleytech-1-1-768x3146.webp",
-              "alternativeText": "ValleyTech-1-1-768x3146.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
-          },
-          {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/valley-technical-academy/valleytech-2-768x2445.webp",
-              "alt": "ValleyTech-2-768x2445.png",
-              "mime": "image/webp",
-              "width": 94,
-              "height": 300,
-              "url": "/images/projects/valley-technical-academy/valleytech-2-768x2445.webp",
-              "alternativeText": "ValleyTech-2-768x2445.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
-          },
-          {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/valley-technical-academy/valleytech-3-768x1508.webp",
-              "alt": "ValleyTech-3-768x1508.png",
-              "mime": "image/webp",
-              "width": 153,
-              "height": 300,
-              "url": "/images/projects/valley-technical-academy/valleytech-3-768x1508.webp",
-              "alternativeText": "ValleyTech-3-768x1508.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
           }
         ],
-        "gallery": [],
+        "gallery": [
+          {
+            "src": "/images/projects/valley-technical-academy/screenshot-overview.webp",
+            "alt": "Valley Technical Academy academy overview",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "/images/projects/valley-technical-academy/screenshot-courses.webp",
+            "alt": "Valley Technical Academy courses page",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
         "linkToView": null,
         "linkToCode": null
       }
