@@ -1,4 +1,4 @@
-import { CodeXml } from "lucide-react";
+import { CodeXml, Gamepad2 } from "lucide-react";
 import {
   siBootstrap, siCapacitor, siCss, siExpress, siFigma, siFirebase, siHtml5,
   siJavascript, siJquery, siMysql, siNextdotjs, siNodedotjs, siPhp, siPostgresql,
@@ -15,6 +15,8 @@ const icons: Record<string, { path: string }> = {
 };
 
 export function TechnologyIcon({ name }: { name: string }) {
+  if (name === "gb-studio") return <Gamepad2 aria-hidden="true" className="size-[1em]" />;
+
   const icon = icons[name];
   if (!icon) return <CodeXml aria-hidden="true" className="size-[1em]" />;
 

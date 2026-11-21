@@ -1185,6 +1185,104 @@
         "linkToCode": null
       },
       {
+        "id": 22,
+        "slug": "verderosa",
+        "title": "VerdeRosa",
+        "shortDescription": "A Game Boy visual novel made in GB Studio for the VerdeRosa art exhibition. It follows Vero and her guide Xolotl on a journey from the green side to the pink side.",
+        "thumbnail": {
+          "src": "/images/projects/verderosa/verderosa-cover.webp",
+          "alt": "VerdeRosa title screen with a pixel-art flower and a Press Start prompt",
+          "mime": "image/webp",
+          "width": 1280,
+          "height": 720
+        },
+        "roles": [
+          "Game Development",
+          "Design"
+        ],
+        "technologies": [
+          {
+            "iconKey": "gb-studio",
+            "label": "GB Studio"
+          }
+        ],
+        "detail": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I created this Game Boy game in GB Studio for VerdeRosa, an exhibition I presented as Emmanuel Con Dos Emmes at Paper Caper Co on South Padre Island, Texas, on April 3, 2026."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The story follows Vero, who feels alone and trapped on the green side. A mysterious entity named Xolotl appears and guides her toward the pink side, where things take on their true forms."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "A playthrough takes about 10 minutes. The game uses pixel art and scene scripting to tell its story, with short gameplay sequences that ask the player to press buttons in a specific order."
+              }
+            ]
+          }
+        ],
+        "gallery": [
+          {
+            "src": "/images/projects/verderosa/artist-logo.webp",
+            "alt": "Emmanuel Con Dos Emmes logo with a smiling pixel-art flower",
+            "mime": "image/webp",
+            "width": 640,
+            "height": 576
+          },
+          {
+            "src": "/images/projects/verderosa/title-screen.webp",
+            "alt": "VerdeRosa title screen with a pixel-art flower and a Press Start prompt",
+            "mime": "image/webp",
+            "width": 640,
+            "height": 576
+          },
+          {
+            "src": "/images/projects/verderosa/xolotl.webp",
+            "alt": "Xolotl, drawn in pink and cream pixels, asks Vero her name in Spanish",
+            "mime": "image/webp",
+            "width": 963,
+            "height": 859
+          },
+          {
+            "src": "/images/projects/verderosa/pink-side-background.webp",
+            "alt": "Pixel-art mountains and forest used for the pink side background",
+            "mime": "image/webp",
+            "width": 640,
+            "height": 576
+          },
+          {
+            "src": "/images/projects/verderosa/transformation-gameplay.webp",
+            "alt": "Vero stands against a pink background during a prompt to press the down button",
+            "mime": "image/webp",
+            "width": 962,
+            "height": 862
+          },
+          {
+            "src": "/images/projects/verderosa/transformation-illustration.webp",
+            "alt": "Vero holds a glowing sphere in a pixel-art illustration of her transformation",
+            "mime": "image/webp",
+            "width": 640,
+            "height": 576
+          }
+        ],
+        "linkToView": null,
+        "linkToCode": "https://github.com/emmanuelolivo1002/VerdeRosa"
+      },
+      {
         "id": 8,
         "slug": "las-joyas",
         "title": "Las Joyas",
