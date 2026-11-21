@@ -100,12 +100,9 @@
   .site-nav a { display: block; padding-block: 0.35rem; }
   .site-nav a:hover { color: var(--primary); text-decoration: underline; text-underline-offset: 0.25em; }
 
-  .hero-panel, .about-panel, .contact-panel {
+  .hero-panel {
     border: 1px solid var(--border);
     border-radius: clamp(1.25rem, 2.4vw, 2rem);
-  }
-
-  .hero-panel {
     position: relative;
     isolation: isolate;
     display: grid;
@@ -246,31 +243,68 @@
 
   .experience-heading p { margin-top: 1.25rem; max-width: 30ch; }
 
-  .about-panel {
+  .about-layout {
     display: grid;
-    grid-template-columns: minmax(0, 0.74fr) minmax(0, 1.26fr);
+    grid-template-columns: minmax(0, 0.72fr) minmax(0, 1.28fr);
     align-items: start;
     gap: clamp(1.5rem, 5vw, 4rem);
-    padding: clamp(1.6rem, 5vw, 4rem);
-    background: radial-gradient(ellipse at 0% 0%, #26442c, transparent 65%), var(--card);
   }
 
-  .about-panel .section-heading { color: var(--primary); }
+  .about-layout .section-heading {
+    font-size: clamp(2.45rem, 4.8vw, 4.75rem);
+  }
+
+  .about-layout .section-heading::before {
+    display: block;
+    width: 2.5rem;
+    height: 0.15rem;
+    margin-bottom: 1rem;
+    background: var(--primary);
+    content: "";
+  }
 
   .about-copy {
-    border-inline-start: 1px solid var(--border);
-    padding-inline-start: clamp(1rem, 3vw, 2.5rem);
+    max-width: 62ch;
+    color: var(--muted-foreground);
     font-size: clamp(1rem, 1.6vw, 1.125rem);
   }
 
-  .contact-panel {
-    padding: clamp(1.8rem, 5vw, 4rem);
+  .contact-band {
+    position: relative;
+    isolation: isolate;
+    color: var(--primary-foreground);
+    background: linear-gradient(115deg, #a6f173, var(--primary) 67%, #70e847);
+  }
+
+  .contact-band::before {
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background: repeating-linear-gradient(132deg, transparent 0 30px, #152f1a2e 30px 31px);
+    mask-image: linear-gradient(90deg, transparent 48%, #0008);
+    pointer-events: none;
+    content: "";
+  }
+
+  .contact-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1.35fr) minmax(0, 0.65fr);
+    align-items: end;
+    gap: 1.5rem 3rem;
+    padding-block: clamp(2.75rem, 6.5vw, 5.75rem);
+  }
+
+  .contact-intro {
+    max-width: 55ch;
+    margin-top: 1rem;
+    font-size: clamp(1rem, 1.6vw, 1.125rem);
+  }
+
+  .contact-links {
     display: flex;
     flex-wrap: wrap;
-    align-items: end;
-    justify-content: space-between;
-    gap: 1.8rem 3rem;
-    background: radial-gradient(ellipse at 100% 0%, #284d32, transparent 65%), #132119;
+    justify-content: end;
+    gap: 0.65rem;
   }
 
   .contact-link {
@@ -279,14 +313,21 @@
     gap: 0.5rem;
     min-height: 2.75rem;
     padding: 0.55rem 0.95rem;
-    border: 1px solid #77927b;
+    border: 1px solid currentColor;
     border-radius: 10rem;
     font-size: 0.925rem;
     font-weight: 560;
     transition: background-color 140ms, color 140ms;
   }
 
-  .contact-link:hover { background-color: var(--primary); color: var(--primary-foreground); }
+  .contact-link[href^="mailto:"], .contact-link:hover {
+    border-color: var(--primary-foreground);
+    background-color: var(--primary-foreground);
+    color: var(--foreground);
+  }
+
+  .contact-link[href^="mailto:"]:hover { background-color: var(--secondary); }
+  .contact-link:focus-visible { outline-color: var(--primary-foreground); }
 
   .rich-text { overflow-wrap: anywhere; line-height: 1.7; }
   .rich-text > :where(p, ul, ol, figure, blockquote, h2, h3, h4) + * { margin-top: 0.85em; }
@@ -307,9 +348,9 @@
   @media (max-width: 47.99rem) {
     .site-header { grid-template-columns: 1fr; gap: 0.12rem; padding-block: 0.65rem; }
     .site-nav { gap: 0.4rem 1rem; }
-    .hero-panel, .experience-layout, .about-panel, .section-intro { grid-template-columns: 1fr; }
+    .hero-panel, .experience-layout, .about-layout, .contact-layout, .section-intro { grid-template-columns: 1fr; }
     .hero-panel { min-height: auto; gap: 1.45rem; }
     .hero-feature { gap: 0.65rem; }
-    .about-copy { border-inline-start: 0; border-block-start: 1px solid var(--border); padding: 1.1rem 0 0; }
+    .contact-links { justify-content: start; }
   }
 }

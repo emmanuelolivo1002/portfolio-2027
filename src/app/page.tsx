@@ -106,22 +106,20 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="about" className="site-container section-space">
-          <div className="about-panel">
-            <h2 className="section-heading">{about.title}</h2>
-            <div className="about-copy max-w-prose">
-              <RichText content={about.detail} />
-            </div>
+        <section id="about" aria-labelledby="about-title" className="site-container section-space about-layout">
+          <h2 id="about-title" className="section-heading">{about.title}</h2>
+          <div className="about-copy">
+            <RichText content={about.detail} />
           </div>
         </section>
 
-        <section id="contact" className="site-container pb-14 lg:pb-20">
-          <div className="contact-panel">
+        <section id="contact" aria-labelledby="contact-title" className="contact-band">
+          <div className="site-container contact-layout">
             <div>
-              <h2 className="section-heading">{contact.title}</h2>
-              <p className="mt-4 max-w-[56ch] text-muted-foreground">{contact.subtitle}</p>
+              <h2 id="contact-title" className="section-heading">{contact.title}</h2>
+              <p className="contact-intro">{contact.subtitle}</p>
             </div>
-            <div className="flex flex-wrap gap-2.5">
+            <div className="contact-links">
               {contact.links.map(({ label, href }) => {
                 const name = ({ email: "Email", linkedIn: "LinkedIn", github: "GitHub" })[label] ?? label;
                 return (
