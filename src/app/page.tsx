@@ -1,24 +1,15 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Copyright, Heart, Link as LinkIcon, Mail } from "lucide-react";
 import { siGithub } from "simple-icons";
-import { HeroHeading } from "@/components/hero-heading";
 import { ProjectCard } from "@/components/project-card";
 import { RichText } from "@/components/rich-text";
 import { Timeline } from "@/components/timeline";
 import { Button } from "@/components/ui/button";
 import { portfolio } from "@/content/portfolio";
 
-function SectionHeader({ title, subtitle }: { title: string; subtitle: string }) {
-  return (
-    <div className="mb-12 flex flex-col items-center md:mb-20">
-      <h2 className="mb-8 text-center text-5xl text-primary md:text-8xl">{title}</h2>
-      <p className="max-w-prose text-center text-muted-foreground md:text-xl">{subtitle}</p>
-    </div>
-  );
-}
-
 function ContactIcon({ name }: { name: string }) {
-  const className = "size-9 md:size-14";
+  const className = "size-4 shrink-0";
   if (name === "email") return <Mail aria-hidden="true" className={className} strokeWidth={2.4} />;
   if (name === "github") {
     return <svg aria-hidden="true" viewBox="0 0 24 24" className={className} fill="currentColor"><path d={siGithub.path} /></svg>;
@@ -35,97 +26,130 @@ function ContactIcon({ name }: { name: string }) {
 
 export default function Home() {
   const { hero, work, experience, about, contact, navigation, sourceLink } = portfolio;
+  const [featured] = work.projects;
+  const intro = hero.heading.replace(/^Hi! I'm Emmanuel Olivo, a /, "");
 
   return (
     <>
       <a href="#main" className="sr-only z-[70] rounded-md bg-primary p-3 text-primary-foreground focus:not-sr-only focus:fixed focus:left-3 focus:top-3">
         Skip to content
       </a>
-      <header className="pointer-events-none fixed inset-x-0 top-0 z-50 hidden justify-center p-2 md:flex">
-        <nav aria-label="Main navigation" className="pointer-events-auto rounded-2xl border-2 border-primary bg-background/80 px-6 backdrop-blur">
-          <ul className="flex gap-4">
+
+      <header className="site-container site-header">
+        <Link href="/" className="site-wordmark" aria-label="Emmanuel Olivo home">Emmanuel Olivo<span aria-hidden="true">.</span></Link>
+        <nav aria-label="Main navigation">
+          <ul className="site-nav">
             {navigation.map(({ href, label }) => (
-              <li key={href}><a href={href} className="block whitespace-nowrap p-2 hover:bg-primary hover:text-primary-foreground focus-visible:bg-primary focus-visible:text-primary-foreground">{label}</a></li>
+              <li key={href}><a href={href}>{label}</a></li>
             ))}
           </ul>
         </nav>
+        <Button asChild variant="outline" className="hidden h-10 rounded-full border-border bg-transparent px-5 text-sm font-semibold text-foreground hover:bg-muted md:inline-flex">
+          <a href={hero.resumeLink.href} target="_blank" rel="noopener noreferrer">{hero.resumeLink.label}</a>
+        </Button>
       </header>
-      <main id="main" className="overflow-x-clip">
-        <section className="hero-surface relative isolate overflow-hidden rounded-b-3xl border-b border-primary/40">
-          <div className="hero-lights" aria-hidden="true"><span /><span /><span /></div>
-          <div className="site-container relative flex flex-col justify-center py-10 md:h-screen md:max-h-[600px] lg:max-h-[800px]">
-            <div className="mt-6 sm:mt-0 lg:max-w-[75%] xl:max-w-[85%]">
-              <h1 className="text-2xl font-bold sm:text-4xl md:text-5xl lg:text-6xl"><HeroHeading heading={hero.heading} /></h1>
-              <div className="mt-8 flex flex-col gap-4 sm:gap-8 md:flex-row lg:mt-12">
-                <Button asChild className="h-12 w-full rounded-md px-10 text-sm shadow-xl md:w-auto md:text-lg">
+
+      <main id="main" tabIndex={-1} className="overflow-x-clip">
+        <div className="site-container">
+          <section aria-label="Introduction" className="hero-panel">
+            <div className="hero-copy">
+              <h1>Emmanuel<br />Olivo<span>.</span></h1>
+              <p className="hero-intro">{intro}</p>
+              <div className="flex flex-wrap gap-3">
+                <Button asChild className="h-11 rounded-full px-5 text-sm font-semibold sm:px-6">
                   <a href={hero.workLink.href}>{hero.workLink.label}</a>
                 </Button>
-                <Button asChild variant="outline" className="h-12 w-full rounded-md border-2 border-primary bg-background px-10 text-sm text-primary shadow-xl hover:bg-primary hover:text-primary-foreground md:w-auto md:text-lg">
+                <Button asChild variant="outline" className="h-11 rounded-full border-white/35 bg-transparent px-5 text-sm font-semibold text-white hover:bg-white hover:text-primary-foreground sm:px-6">
                   <a href={hero.resumeLink.href} target="_blank" rel="noopener noreferrer">{hero.resumeLink.label}</a>
                 </Button>
               </div>
             </div>
+            {featured?.thumbnail && (
+              <figure className="hero-feature">
+                <div className="hero-feature-frame">
+                  <Image
+                    src={featured.thumbnail.src} alt={featured.thumbnail.alt || featured.title}
+                    width={featured.thumbnail.width} height={featured.thumbnail.height} preload
+                    sizes="(min-width: 1200px) 610px, (min-width: 950px) 46vw, 88vw"
+                    className="h-auto w-full rounded-[0.55rem]"
+                  />
+                </div>
+                <figcaption className="hero-feature-caption">
+                  <span className="font-semibold">{featured.title}</span>
+                  <span className="text-sm">{featured.roles.join(" · ")}</span>
+                </figcaption>
+              </figure>
+            )}
+          </section>
+        </div>
+
+        <section id="projects" className="site-container section-space">
+          <div className="section-intro">
+            <h2 className="section-heading">{work.title}</h2>
+            <p>{work.subtitle}</p>
+          </div>
+          <div className="grid gap-5 sm:grid-cols-2 lg:gap-7">
+            {work.projects.slice(0, 2).map((project) => <ProjectCard key={project.id} project={project} featured />)}
+          </div>
+          <div className="mt-5 grid gap-5 sm:grid-cols-2 lg:mt-7 lg:grid-cols-3 lg:gap-7">
+            {work.projects.slice(2).map((project) => <ProjectCard key={project.id} project={project} />)}
           </div>
         </section>
 
-        <section id="projects" className="bg-background py-12 md:py-24 lg:py-36">
-          <div className="site-container">
-            <SectionHeader title={work.title} subtitle={work.subtitle} />
-            <div className="grid gap-14 md:grid-cols-2 xl:grid-cols-3">
-              {work.projects.map((project) => <ProjectCard key={project.id} project={project} />)}
+        <section id="experience" className="border-y border-border bg-background-alt">
+          <div className="site-container section-space experience-layout">
+            <div className="experience-heading">
+              <h2 className="section-heading">{experience.title}</h2>
+              <p>{experience.subtitle}</p>
             </div>
-          </div>
-        </section>
-
-        <section id="experience" className="bg-background-alt py-12 md:py-24 lg:py-36">
-          <div className="site-container">
-            <SectionHeader title={experience.title} subtitle={experience.subtitle} />
             <Timeline jobs={experience.jobs} />
           </div>
         </section>
 
-        <section id="about" className="flex items-center justify-center py-12 lg:min-h-screen">
-          <div className="grid w-full items-center lg:site-container lg:grid-cols-[2fr_1fr]">
-            <div className="p-6 text-foreground lg:z-10 lg:rounded-xl lg:bg-background-alt lg:p-10 lg:text-lg lg:shadow-xl">
-              <h2 className="mb-4 text-center text-5xl text-primary lg:text-left">{about.title}</h2>
-              <RichText content={about.detail} />
-            </div>
+        <section id="about" className="site-container section-space">
+          <div className="about-layout">
             {about.portrait && (
               <Image
-                src={about.portrait.src} alt={about.portrait.alt} width={about.portrait.width} height={about.portrait.height}
-                sizes="(min-width: 1024px) 33vw, 100vw"
-                className="h-auto w-full grayscale lg:rounded-xl"
+                src={about.portrait.src} alt={about.portrait.alt}
+                width={about.portrait.width} height={about.portrait.height}
+                sizes="(min-width: 1024px) 420px, (min-width: 720px) 38vw, 92vw"
+                className="about-portrait"
               />
             )}
+            <div className="max-w-prose self-center">
+              <h2 className="section-heading mb-6">{about.title}</h2>
+              <RichText content={about.detail} />
+            </div>
           </div>
         </section>
 
-        <section id="contact" className="flex min-h-screen items-center justify-center">
-          <div className="site-container relative translate-y-[60px]">
-            <div className="mb-12 flex flex-col items-center lg:mb-16">
-              <h2 className="mb-8 text-center text-5xl text-primary sm:text-8xl lg:mb-12 xl:text-9xl">{contact.title}</h2>
-              <p className="text-muted-foreground sm:max-w-prose sm:text-center md:text-xl">{contact.subtitle}</p>
+        <section id="contact" className="site-container pb-14 lg:pb-20">
+          <div className="contact-panel">
+            <div>
+              <h2 className="section-heading">{contact.title}</h2>
+              <p className="mt-4 max-w-[56ch] text-white/75">{contact.subtitle}</p>
             </div>
-            <div className="flex flex-wrap justify-center gap-4 md:gap-6">
-              {contact.links.map(({ label, href }) => (
-                <a
-                  key={label} href={href} target="_blank" rel="noopener noreferrer"
-                  aria-label={({ email: "Email", linkedIn: "LinkedIn", github: "GitHub" })[label] ?? label}
-                  className="flex items-center justify-center rounded-full bg-linear-to-br from-background-alt to-primary/10 p-2 text-muted-foreground shadow-lg transition-colors hover:from-primary hover:to-primary hover:text-primary-foreground md:p-6"
-                >
-                  <ContactIcon name={label} />
-                </a>
-              ))}
+            <div className="flex flex-wrap gap-2.5">
+              {contact.links.map(({ label, href }) => {
+                const name = ({ email: "Email", linkedIn: "LinkedIn", github: "GitHub" })[label] ?? label;
+                return (
+                  <a key={label} href={href} target="_blank" rel="noopener noreferrer" className="contact-link">
+                    <ContactIcon name={label} />
+                    {name}
+                  </a>
+                );
+              })}
             </div>
           </div>
         </section>
       </main>
-      <footer className="border-t border-primary/40 bg-background py-4 text-xs text-muted-foreground lg:text-base">
-        <div className="site-container flex flex-col items-center justify-center gap-2 md:flex-row md:justify-between">
-          <p className="flex items-center gap-1"><Copyright aria-hidden="true" className="size-4" /> Emmanuel Olivo 2024 - Present</p>
+
+      <footer className="border-t border-border py-5 text-sm text-muted-foreground">
+        <div className="site-container flex flex-wrap items-center justify-between gap-x-5 gap-y-2">
+          <p className="flex items-center gap-1"><Copyright aria-hidden="true" className="size-4" /> Emmanuel Olivo 2024 – Present</p>
           <p className="flex items-center">
-            Made with <Heart aria-label="love" className="mx-1 size-4 fill-red-500 text-red-500" /> and{" "}
-            <a href={sourceLink} target="_blank" rel="noopener noreferrer" className="ml-1 underline hover:text-primary">Next.js</a>
+            Made with <Heart aria-label="love" className="mx-1 size-4 fill-red-700 text-red-700" /> and{" "}
+            <a href={sourceLink} target="_blank" rel="noopener noreferrer" className="ml-1 underline underline-offset-3 hover:text-foreground">Next.js</a>
           </p>
         </div>
       </footer>

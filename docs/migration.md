@@ -33,3 +33,9 @@ The old frontend includes Vercel Analytics and Speed Insights. The rebuild enabl
 Capture the live content again before cutover and reconcile any changes to the homepage, projects, uploads, and résumé. Record the current Vercel deployment, domain assignments, DNS records, and redirect behavior. After Emmanuel approves the redesign and domain move, assign the live domain to the approved project and verify HTTPS, apex and www behavior, navigation, dialogs, and the résumé. If a critical problem appears, restore the previous domain assignment or DNS settings and verify the original deployment again. Keep the Phase 1 tag and deployment as the rollback baseline within the new project.
 
 Keep the Strapi service and private backups available until the new production site is verified and Emmanuel approves retirement.
+
+## Preview and rollback reference
+
+- [Phase 1 faithful rebuild](https://portfolio-2027-rebuild-c15pk2n4y-emmanuel-olivos-projects.vercel.app/) is tagged `phase-1-baseline` at `29d1b00`. Browser checks covered two viewport widths, all 19 dialogs and their keyboard focus, four section anchors, seven timeline entries, and the résumé. All 72 hosted media items matched their committed hashes. The rebuild preserves the dark green palette and desktop navigation and recreates the hero animation with CSS. The old site's entrance and portrait parallax effects were simplified.
+- Phase 2 is developed on `phase-2-redesign` from that tag. It gives the work screenshots more space, shows navigation on mobile, and keeps the project and experience content in the same order.
+- The live apex domain is assigned to the original `portfolio-frontend` project, and the www hostname redirects to the apex with HTTP 308. The recorded original deployment is [portfolio-frontend-jrkc7mzx3](https://portfolio-frontend-jrkc7mzx3-emmanuel-olivos-projects.vercel.app/). The private folder contains the DNS and original deployment inventory for rollback.
