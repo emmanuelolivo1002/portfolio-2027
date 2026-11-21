@@ -1190,8 +1190,8 @@
         "title": "VerdeRosa",
         "shortDescription": "A Game Boy visual novel made in GB Studio for the VerdeRosa art exhibition. It follows Vero and her guide Xolotl on a journey from the green side to the pink side.",
         "thumbnail": {
-          "src": "/images/projects/verderosa/verderosa-cover.webp",
-          "alt": "VerdeRosa title screen with a pixel-art flower and a Press Start prompt",
+          "src": "/images/projects/verderosa/game-boy-cover.webp",
+          "alt": "A green Game Boy Color displaying the VerdeRosa title screen",
           "mime": "image/webp",
           "width": 1280,
           "height": 720
