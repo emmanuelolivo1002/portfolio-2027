@@ -1,0 +1,2014 @@
+[
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/atlas_04_realtime_920c3bb9df.png",
+    "originalName": "atlas-04-realtime.png",
+    "mime": "image/png",
+    "width": 1920,
+    "height": 1080,
+    "alt": "ATLAS",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_atlas_04_realtime_920c3bb9df.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_atlas_04_realtime_920c3bb9df.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_atlas_04_realtime_920c3bb9df.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_atlas_04_realtime_920c3bb9df.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/atlas_04_realtime_920c3bb9df.png",
+    "recovery": "live original",
+    "sourceSha256": "a0f2e41ed775612c8f01c3d1795143ce0fd1f6af674180c468699041d287c2e4",
+    "src": "/images/projects/atlas/atlas-04-realtime.webp",
+    "sha256": "c02e401a99b637b088c44a299c58ced5848e42468e38d2068678a09416460652",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 1080
+    },
+    "references": [
+      "/#projects, ATLAS thumbnail",
+      "/#projects, ATLAS gallery"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/atlas_07_rate_shop_c57a2f4527.png",
+    "originalName": "atlas-07-rate-shop.png",
+    "mime": "image/png",
+    "width": 1920,
+    "height": 1080,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_atlas_07_rate_shop_c57a2f4527.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_atlas_07_rate_shop_c57a2f4527.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_atlas_07_rate_shop_c57a2f4527.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_atlas_07_rate_shop_c57a2f4527.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/atlas_07_rate_shop_c57a2f4527.png",
+    "recovery": "live original",
+    "sourceSha256": "68de8ea8d5e24f9d275bb011a200b882ff1fbe6f0ace9fa7263fe7464bcf33d4",
+    "src": "/images/projects/atlas/atlas-07-rate-shop.webp",
+    "sha256": "38c92d8c326452356f93ff94d6eec6ac544daa56b8605de3f73f15a49a7e0f13",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 1080
+    },
+    "references": [
+      "/#projects, ATLAS gallery"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/atlas_03_forecast_trends_60ae418864.png",
+    "originalName": "atlas-03-forecast-trends.png",
+    "mime": "image/png",
+    "width": 1920,
+    "height": 1080,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_atlas_03_forecast_trends_60ae418864.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_atlas_03_forecast_trends_60ae418864.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_atlas_03_forecast_trends_60ae418864.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_atlas_03_forecast_trends_60ae418864.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/atlas_03_forecast_trends_60ae418864.png",
+    "recovery": "live original",
+    "sourceSha256": "69639272aad2eb3ec22422eb410ac50d4cc325cbc7a19f1d1c71dbbd42ce1263",
+    "src": "/images/projects/atlas/atlas-03-forecast-trends.webp",
+    "sha256": "4fca70a4eefd47c20b1457ab7f7291fd4dc9eefaab6aa4f9a4c0f9c01a1ed237",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 1080
+    },
+    "references": [
+      "/#projects, ATLAS gallery"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/atlas_10_purchasing_2b2a44d6b8.png",
+    "originalName": "atlas-10-purchasing.png",
+    "mime": "image/png",
+    "width": 1920,
+    "height": 1080,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_atlas_10_purchasing_2b2a44d6b8.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_atlas_10_purchasing_2b2a44d6b8.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_atlas_10_purchasing_2b2a44d6b8.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_atlas_10_purchasing_2b2a44d6b8.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/atlas_10_purchasing_2b2a44d6b8.png",
+    "recovery": "live original",
+    "sourceSha256": "397b9a0ca3fe0030541ae75b8a6a6df8d19b21f2105a40ec8ad72a354e455756",
+    "src": "/images/projects/atlas/atlas-10-purchasing.webp",
+    "sha256": "0aac579cbdd2e709eef3d66b6b587566521591b0c1bc9d51f9d621a73f4f79e5",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 1080
+    },
+    "references": [
+      "/#projects, ATLAS gallery"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/atlas_11_design_requests_6b75e6dc0d.png",
+    "originalName": "atlas-11-design-requests.png",
+    "mime": "image/png",
+    "width": 1920,
+    "height": 1080,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_atlas_11_design_requests_6b75e6dc0d.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_atlas_11_design_requests_6b75e6dc0d.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_atlas_11_design_requests_6b75e6dc0d.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_atlas_11_design_requests_6b75e6dc0d.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/atlas_11_design_requests_6b75e6dc0d.png",
+    "recovery": "live original",
+    "sourceSha256": "a0971bd4c1847e4467be8a3b603102b3ee59b346a57360611f0fac54b32e1df3",
+    "src": "/images/projects/atlas/atlas-11-design-requests.webp",
+    "sha256": "f8cceb7d2e3750f6b6f910c7a6537b945031f64c3a74d5b0a82ea6beca147eb3",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 1080
+    },
+    "references": [
+      "/#projects, ATLAS gallery"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/atlas_06_food_ordering_0f9c77ebb0.png",
+    "originalName": "atlas-06-food-ordering.png",
+    "mime": "image/png",
+    "width": 1920,
+    "height": 1080,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_atlas_06_food_ordering_0f9c77ebb0.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_atlas_06_food_ordering_0f9c77ebb0.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_atlas_06_food_ordering_0f9c77ebb0.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_atlas_06_food_ordering_0f9c77ebb0.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/atlas_06_food_ordering_0f9c77ebb0.png",
+    "recovery": "live original",
+    "sourceSha256": "299b6a6a1850052f942fcce075a4a9916a503bcd66831303c8684937eb6ff7f6",
+    "src": "/images/projects/atlas/atlas-06-food-ordering.webp",
+    "sha256": "b39dcb2315cfab29baf36e2ca679a5b9aacebe547ebf7635d883055ba8910e29",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 1080
+    },
+    "references": [
+      "/#projects, ATLAS gallery"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/atlas_05_reviews_1481126e9b.png",
+    "originalName": "atlas-05-reviews.png",
+    "mime": "image/png",
+    "width": 1920,
+    "height": 1080,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_atlas_05_reviews_1481126e9b.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_atlas_05_reviews_1481126e9b.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_atlas_05_reviews_1481126e9b.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_atlas_05_reviews_1481126e9b.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/atlas_05_reviews_1481126e9b.png",
+    "recovery": "live original",
+    "sourceSha256": "7cb8c59ed6ced00737f0dca90364b1a52dd576b4f5b8192e4a94469282c32246",
+    "src": "/images/projects/atlas/atlas-05-reviews.webp",
+    "sha256": "038cc64d2efa9f4e15873f85cc5f879dd434bc4975ef4534e3655234418f5f6f",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 1080
+    },
+    "references": [
+      "/#projects, ATLAS gallery"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/atlas_02_forecast_01b7784b44.png",
+    "originalName": "atlas-02-forecast.png",
+    "mime": "image/png",
+    "width": 1920,
+    "height": 1080,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_atlas_02_forecast_01b7784b44.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_atlas_02_forecast_01b7784b44.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_atlas_02_forecast_01b7784b44.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_atlas_02_forecast_01b7784b44.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/atlas_02_forecast_01b7784b44.png",
+    "recovery": "live original",
+    "sourceSha256": "386f501d3b62e7687977c92f36266593f176310cfc082088f1185b432bab6f5e",
+    "src": "/images/projects/atlas/atlas-02-forecast.webp",
+    "sha256": "a58f043038649450238246dee0ba3b8dfc1cca13a35b7f71115f8facc43843ed",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 1080
+    },
+    "references": [
+      "/#projects, ATLAS gallery"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/atlas_09_network_uptime_0084a0ac54.png",
+    "originalName": "atlas-09-network-uptime.png",
+    "mime": "image/png",
+    "width": 1920,
+    "height": 1080,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_atlas_09_network_uptime_0084a0ac54.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_atlas_09_network_uptime_0084a0ac54.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_atlas_09_network_uptime_0084a0ac54.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_atlas_09_network_uptime_0084a0ac54.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/atlas_09_network_uptime_0084a0ac54.png",
+    "recovery": "live original",
+    "sourceSha256": "a5c24cad16de70d12fb13c94bb3b5a9624b5f80fce8c148794dcfd7d6eed3336",
+    "src": "/images/projects/atlas/atlas-09-network-uptime.webp",
+    "sha256": "db69eeef8bb32c797b574dd15bcea4342f9bf8b7b1719ead330edbe31fae0513",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 1080
+    },
+    "references": [
+      "/#projects, ATLAS gallery"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/atlas_08_maintenance_80c3fb02ea.png",
+    "originalName": "atlas-08-maintenance.png",
+    "mime": "image/png",
+    "width": 1920,
+    "height": 1080,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_atlas_08_maintenance_80c3fb02ea.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_atlas_08_maintenance_80c3fb02ea.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_atlas_08_maintenance_80c3fb02ea.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_atlas_08_maintenance_80c3fb02ea.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/atlas_08_maintenance_80c3fb02ea.png",
+    "recovery": "live original",
+    "sourceSha256": "1001942e97a666a3310754e13c1af8f83adcd59682209dac9345460960884e42",
+    "src": "/images/projects/atlas/atlas-08-maintenance.webp",
+    "sha256": "fe6aeb5a8dd0fd08ead893d419a6773e2cb86a149de302bbda10400f92abecb9",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 1080
+    },
+    "references": [
+      "/#projects, ATLAS gallery"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/stt_04_revenue_chart_2cc8173c79.png",
+    "originalName": "stt-04-revenue-chart.png",
+    "mime": "image/png",
+    "width": 1920,
+    "height": 1080,
+    "alt": "SearchTexasTax",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_stt_04_revenue_chart_2cc8173c79.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_stt_04_revenue_chart_2cc8173c79.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_stt_04_revenue_chart_2cc8173c79.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_stt_04_revenue_chart_2cc8173c79.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/stt_04_revenue_chart_2cc8173c79.png",
+    "recovery": "live original",
+    "sourceSha256": "538eafda9dcc41955fb9091e99f4c26c3a1efc703c1163fe54b583845f350cb5",
+    "src": "/images/projects/searchtexastax/stt-04-revenue-chart.webp",
+    "sha256": "c9b16662760c7c8d8b5b36c287635ae893d19c6488daf1c3d86a2194ce822207",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 1080
+    },
+    "references": [
+      "/#projects, SearchTexasTax thumbnail",
+      "/#projects, SearchTexasTax gallery"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/stt_06_portfolio_50367d5dd0.png",
+    "originalName": "stt-06-portfolio.png",
+    "mime": "image/png",
+    "width": 1920,
+    "height": 1080,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_stt_06_portfolio_50367d5dd0.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_stt_06_portfolio_50367d5dd0.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_stt_06_portfolio_50367d5dd0.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_stt_06_portfolio_50367d5dd0.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/stt_06_portfolio_50367d5dd0.png",
+    "recovery": "live original",
+    "sourceSha256": "690191cbc36b98d0ba0a6ab1016eef75d86c08b605e7e4046647a7300118a57e",
+    "src": "/images/projects/searchtexastax/stt-06-portfolio.webp",
+    "sha256": "60e2513bb7d9e8042b8b6e3aee6a0ab0332a00282c0ad2a31e936837353f145d",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 1080
+    },
+    "references": [
+      "/#projects, SearchTexasTax gallery"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/stt_05_brands_c2f15b74a7.png",
+    "originalName": "stt-05-brands.png",
+    "mime": "image/png",
+    "width": 1920,
+    "height": 1080,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_stt_05_brands_c2f15b74a7.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_stt_05_brands_c2f15b74a7.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_stt_05_brands_c2f15b74a7.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_stt_05_brands_c2f15b74a7.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/stt_05_brands_c2f15b74a7.png",
+    "recovery": "live original",
+    "sourceSha256": "614365e922c7bc28cfa2f61cf0908a834cb647877ade10b3e2e57e36ed3d264d",
+    "src": "/images/projects/searchtexastax/stt-05-brands.webp",
+    "sha256": "2f89d14e03d98fabac3c63facab2db8b718735763badaaa4251c0b2d36b5a9df",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 1080
+    },
+    "references": [
+      "/#projects, SearchTexasTax gallery"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/stt_02_speedsearch_b0d6d94640.png",
+    "originalName": "stt-02-speedsearch.png",
+    "mime": "image/png",
+    "width": 1920,
+    "height": 1080,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_stt_02_speedsearch_b0d6d94640.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_stt_02_speedsearch_b0d6d94640.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_stt_02_speedsearch_b0d6d94640.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_stt_02_speedsearch_b0d6d94640.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/stt_02_speedsearch_b0d6d94640.png",
+    "recovery": "live original",
+    "sourceSha256": "aefde7e3f76b25f1493afe58efcde72c92430f5703c8f7ae0d8af2593109927f",
+    "src": "/images/projects/searchtexastax/stt-02-speedsearch.webp",
+    "sha256": "8874ec9a1a13e0cd7c5d8f0a33d6eb43d91623aac17fb2bdccc06c9b6b0fa196",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 1080
+    },
+    "references": [
+      "/#projects, SearchTexasTax gallery"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/stt_03_hotel_page_c32673babb.png",
+    "originalName": "stt-03-hotel-page.png",
+    "mime": "image/png",
+    "width": 1920,
+    "height": 1080,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_stt_03_hotel_page_c32673babb.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_stt_03_hotel_page_c32673babb.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_stt_03_hotel_page_c32673babb.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_stt_03_hotel_page_c32673babb.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/stt_03_hotel_page_c32673babb.png",
+    "recovery": "live original",
+    "sourceSha256": "38bc102cb31b476070bf7dbd5a62f05fce795ba4ad6f1c6d01dd262e4bd09d5a",
+    "src": "/images/projects/searchtexastax/stt-03-hotel-page.webp",
+    "sha256": "0db25c29a20f69982607e80e265f46cbcebe01011a677f786ba6e00a42ec8414",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 1080
+    },
+    "references": [
+      "/#projects, SearchTexasTax gallery"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/stt_01_search_cfa956cca2.png",
+    "originalName": "stt-01-search.png",
+    "mime": "image/png",
+    "width": 1920,
+    "height": 1080,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_stt_01_search_cfa956cca2.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_stt_01_search_cfa956cca2.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_stt_01_search_cfa956cca2.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_stt_01_search_cfa956cca2.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/stt_01_search_cfa956cca2.png",
+    "recovery": "live original",
+    "sourceSha256": "56d2c54f1a2587f84e6fa5ee4ada804f13413a1dce968fa5329d930ac9cd0868",
+    "src": "/images/projects/searchtexastax/stt-01-search.webp",
+    "sha256": "6438c3a94befebfd9857a369e647f5923a8f6d2a537af9932c91470955388d64",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 1080
+    },
+    "references": [
+      "/#projects, SearchTexasTax gallery"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/Options_Trading_1_10454ce492_bc6d49e1eb.png",
+    "originalName": "WC-Web_Options_Trading.png",
+    "mime": "image/png",
+    "width": 1920,
+    "height": 944,
+    "alt": "Options Trading Components",
+    "caption": "Options Trading Components",
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_Options_Trading_1_10454ce492_bc6d49e1eb.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_Options_Trading_1_10454ce492_bc6d49e1eb.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_Options_Trading_1_10454ce492_bc6d49e1eb.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_Options_Trading_1_10454ce492_bc6d49e1eb.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/medium_Options_Trading_1_10454ce492_bc6d49e1eb.png",
+    "recovery": "live variant",
+    "sourceSha256": "f148727633b73cc7c46882739bb9ea8a8ef2d0f7e6d17a46894eae8785cd9153",
+    "src": "/images/projects/wealthcharts/wc-web-options-trading.webp",
+    "sha256": "655fc11c3cbe76ff2d97f2f52efd44d22a9c69559e45b1fd698245542cc66a85",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 750,
+      "height": 369
+    },
+    "references": [
+      "/#projects, WealthCharts thumbnail"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/wealthcharts_options_trading_a3c0ef22e7.png",
+    "originalName": "wealthcharts-options-trading.png",
+    "mime": "image/png",
+    "width": 1920,
+    "height": 944,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_wealthcharts_options_trading_a3c0ef22e7.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_wealthcharts_options_trading_a3c0ef22e7.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_wealthcharts_options_trading_a3c0ef22e7.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_wealthcharts_options_trading_a3c0ef22e7.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/wealthcharts_options_trading_a3c0ef22e7.png",
+    "recovery": "live original",
+    "sourceSha256": "30ba9ea626e996c8fd516b5be51ffc66062a94e79342234e8eaac334fef9433e",
+    "src": "/images/projects/wealthcharts/wealthcharts-options-trading.webp",
+    "sha256": "257d2190f89ae52ab59dc975ef9f9b3a75e9a36f99e18bafe6fd2b7e6124b41b",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 944
+    },
+    "references": [
+      "/#projects, WealthCharts dialog"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/wealthcharts_dashboard_a39e7c7d67.png",
+    "originalName": "wealthcharts-dashboard.png",
+    "mime": "image/png",
+    "width": 1600,
+    "height": 1300,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_wealthcharts_dashboard_a39e7c7d67.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_wealthcharts_dashboard_a39e7c7d67.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_wealthcharts_dashboard_a39e7c7d67.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_wealthcharts_dashboard_a39e7c7d67.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/wealthcharts_dashboard_a39e7c7d67.png",
+    "recovery": "live original",
+    "sourceSha256": "544df7937f08371432859b2e1ce251fc1c61f4872a8fa318ef2ba0f28324520c",
+    "src": "/images/projects/wealthcharts/wealthcharts-dashboard.webp",
+    "sha256": "0a1a02ef8bd5a8a95d18b7b1ce68eb5e940a35157d06a36692492ba62fe8f500",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 1600,
+      "height": 1300
+    },
+    "references": [
+      "/#projects, WealthCharts dialog"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/wealthcharts_wealththoughts_fcd0b31b95.png",
+    "originalName": "wealthcharts-wealththoughts.png",
+    "mime": "image/png",
+    "width": 1917,
+    "height": 942,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_wealthcharts_wealththoughts_fcd0b31b95.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_wealthcharts_wealththoughts_fcd0b31b95.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_wealthcharts_wealththoughts_fcd0b31b95.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_wealthcharts_wealththoughts_fcd0b31b95.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/wealthcharts_wealththoughts_fcd0b31b95.png",
+    "recovery": "live original",
+    "sourceSha256": "f906fcb741ca3310225598cf5ba20e14f4365bb5d00728013a84342609bd25e6",
+    "src": "/images/projects/wealthcharts/wealthcharts-wealththoughts.webp",
+    "sha256": "aa842263567e060f4426c258d74725c08ae8f20ae6dde988b9a1c00222accb72",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 1917,
+      "height": 942
+    },
+    "references": [
+      "/#projects, WealthCharts dialog"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/wealthcharts_tv_4ec975a434.png",
+    "originalName": "wealthcharts-tv.png",
+    "mime": "image/png",
+    "width": 1918,
+    "height": 938,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_wealthcharts_tv_4ec975a434.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_wealthcharts_tv_4ec975a434.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_wealthcharts_tv_4ec975a434.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_wealthcharts_tv_4ec975a434.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/wealthcharts_tv_4ec975a434.png",
+    "recovery": "live original",
+    "sourceSha256": "096b49c9cc01a299736df21fc976ba7e067af0e83b3baca3017aee51bdbbb22b",
+    "src": "/images/projects/wealthcharts/wealthcharts-tv.webp",
+    "sha256": "88e100355898d9c7d62d264b17855df85691352a2c5c90e185f9496bc1411c61",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 1918,
+      "height": 938
+    },
+    "references": [
+      "/#projects, WealthCharts dialog"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/WC_Mobile_Thumbnail_8db9e4ad65.png",
+    "originalName": "WC_Mobile-Thumbnail.png",
+    "mime": "image/png",
+    "width": 592,
+    "height": 333,
+    "alt": "WealthCharts Mobile",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_WC_Mobile_Thumbnail_8db9e4ad65.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_WC_Mobile_Thumbnail_8db9e4ad65.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/small_WC_Mobile_Thumbnail_8db9e4ad65.png",
+    "recovery": "live variant",
+    "sourceSha256": "f65f4d04fc03e30a6edc3bdcec8180a5d420d626bac3b7bb15b822807bca7697",
+    "src": "/images/projects/wealthcharts-mobile/wc-mobile-thumbnail.webp",
+    "sha256": "4af5c1e359b7c68740eac4829dac34ea6809e85835e6981aa41bb8cb138ca083",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 500,
+      "height": 281
+    },
+    "references": [
+      "/#projects, WealthCharts Mobile thumbnail"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/m_wealthcharts_com_watchlist_i_Phone_14_Pro_Max_3_4b4434bc3a_8bec7d77b0.png",
+    "originalName": "m_wealthcharts_com_watchlist_i_Phone_14_Pro_Max_3_4b4434bc3a.png",
+    "mime": "image/png",
+    "width": 1290,
+    "height": 2796,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_m_wealthcharts_com_watchlist_i_Phone_14_Pro_Max_3_4b4434bc3a_8bec7d77b0.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_m_wealthcharts_com_watchlist_i_Phone_14_Pro_Max_3_4b4434bc3a_8bec7d77b0.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_m_wealthcharts_com_watchlist_i_Phone_14_Pro_Max_3_4b4434bc3a_8bec7d77b0.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_m_wealthcharts_com_watchlist_i_Phone_14_Pro_Max_3_4b4434bc3a_8bec7d77b0.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/m_wealthcharts_com_watchlist_i_Phone_14_Pro_Max_3_4b4434bc3a_8bec7d77b0.png",
+    "recovery": "live original",
+    "sourceSha256": "5df6f0e4e13069ac0c0787df5aebdbb484856817b29d64af8d5b6c9d5c42df18",
+    "src": "/images/projects/wealthcharts-mobile/m-wealthcharts-com-watchlist-i-phone-14-pro-max-3-4b4434bc3a.webp",
+    "sha256": "59c2a428e403418bb5ed9c4b0f8d9b97d42ed6725bf243bf833b912e4a2272e4",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 1290,
+      "height": 2796
+    },
+    "references": [
+      "/#projects, WealthCharts Mobile dialog"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/m_wealthcharts_com_watchlist_i_Phone_14_Pro_Max_b7357ca25a_3a7ae0be35.png",
+    "originalName": "m_wealthcharts_com_watchlist_i_Phone_14_Pro_Max_b7357ca25a.png",
+    "mime": "image/png",
+    "width": 720,
+    "height": 1561,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_m_wealthcharts_com_watchlist_i_Phone_14_Pro_Max_b7357ca25a_3a7ae0be35.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_m_wealthcharts_com_watchlist_i_Phone_14_Pro_Max_b7357ca25a_3a7ae0be35.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_m_wealthcharts_com_watchlist_i_Phone_14_Pro_Max_b7357ca25a_3a7ae0be35.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_m_wealthcharts_com_watchlist_i_Phone_14_Pro_Max_b7357ca25a_3a7ae0be35.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/m_wealthcharts_com_watchlist_i_Phone_14_Pro_Max_b7357ca25a_3a7ae0be35.png",
+    "recovery": "live original",
+    "sourceSha256": "972bccd4dd43134a0b650ad414fc636f31e6814f7c2018eb531c0581ffbfb00e",
+    "src": "/images/projects/wealthcharts-mobile/m-wealthcharts-com-watchlist-i-phone-14-pro-max-b7357ca25a.webp",
+    "sha256": "6f9e436fba08e77916a62b350eec85325066d2e14ade9b2132f2f801725de3ea",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 720,
+      "height": 1561
+    },
+    "references": [
+      "/#projects, WealthCharts Mobile dialog"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/m_wealthcharts_com_watchlist_i_Phone_14_Pro_Max_2_b7153c16cc_7095ea37b8.png",
+    "originalName": "m_wealthcharts_com_watchlist_i_Phone_14_Pro_Max_2_b7153c16cc.png",
+    "mime": "image/png",
+    "width": 720,
+    "height": 1233,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_m_wealthcharts_com_watchlist_i_Phone_14_Pro_Max_2_b7153c16cc_7095ea37b8.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_m_wealthcharts_com_watchlist_i_Phone_14_Pro_Max_2_b7153c16cc_7095ea37b8.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_m_wealthcharts_com_watchlist_i_Phone_14_Pro_Max_2_b7153c16cc_7095ea37b8.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_m_wealthcharts_com_watchlist_i_Phone_14_Pro_Max_2_b7153c16cc_7095ea37b8.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/m_wealthcharts_com_watchlist_i_Phone_14_Pro_Max_2_b7153c16cc_7095ea37b8.png",
+    "recovery": "live original",
+    "sourceSha256": "8d8c9cc8722aede50d96f1d88f2e7cae5f2f1de9affb963a02a7865ef182a6fb",
+    "src": "/images/projects/wealthcharts-mobile/m-wealthcharts-com-watchlist-i-phone-14-pro-max-2-b7153c16cc.webp",
+    "sha256": "40219b0d50c2d540cca539887cd60456caf7235fe844dc8a4e0a37b01e4f2db1",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 720,
+      "height": 1233
+    },
+    "references": [
+      "/#projects, WealthCharts Mobile dialog"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/enjoyspi_home_e157cb11b6.jpg",
+    "originalName": "enjoyspi-home.jpg",
+    "mime": "image/jpeg",
+    "width": 1265,
+    "height": 712,
+    "alt": "EnjoySPI",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_enjoyspi_home_e157cb11b6.jpg",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_enjoyspi_home_e157cb11b6.jpg",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_enjoyspi_home_e157cb11b6.jpg",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_enjoyspi_home_e157cb11b6.jpg"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/enjoyspi_home_e157cb11b6.jpg",
+    "recovery": "live original",
+    "sourceSha256": "aff317e6a7ed23adee4050d864d3fe70f88597cb3f579faaa9e5ba7f3989ceb9",
+    "src": "/images/projects/enjoyspi/enjoyspi-home.webp",
+    "sha256": "c2c20156a77ddd496e7733b8656dcb9051b7587191699a091258bea21407a26a",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 1265,
+      "height": 712
+    },
+    "references": [
+      "/#projects, EnjoySPI thumbnail"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/enjoyspi_hotel_detail_957ce5fde6.jpg",
+    "originalName": "enjoyspi-hotel-detail.jpg",
+    "mime": "image/jpeg",
+    "width": 1265,
+    "height": 8453,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_enjoyspi_hotel_detail_957ce5fde6.jpg",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_enjoyspi_hotel_detail_957ce5fde6.jpg",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_enjoyspi_hotel_detail_957ce5fde6.jpg",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_enjoyspi_hotel_detail_957ce5fde6.jpg"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/enjoyspi_hotel_detail_957ce5fde6.jpg",
+    "recovery": "live original",
+    "sourceSha256": "637d930ec0b5fd325c6225b579036c62f2f6e1ddfbfdf8badf076b2eb296e85c",
+    "src": "/images/projects/enjoyspi/enjoyspi-hotel-detail.webp",
+    "sha256": "372e4ae53631b3b29518e71747dce6069f15538ac2542e81a0ec180de3bae143",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 1265,
+      "height": 8453
+    },
+    "references": [
+      "/#projects, EnjoySPI dialog"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/enjoyspi_package_selection_7eaf5a4834.jpg",
+    "originalName": "enjoyspi-package-selection.jpg",
+    "mime": "image/jpeg",
+    "width": 1265,
+    "height": 712,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_enjoyspi_package_selection_7eaf5a4834.jpg",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_enjoyspi_package_selection_7eaf5a4834.jpg",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_enjoyspi_package_selection_7eaf5a4834.jpg",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_enjoyspi_package_selection_7eaf5a4834.jpg"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/enjoyspi_package_selection_7eaf5a4834.jpg",
+    "recovery": "live original",
+    "sourceSha256": "4a0d33ca3766fe2594444463aaee9bbe8432e094f740c5fe0149a1a8a384a48f",
+    "src": "/images/projects/enjoyspi/enjoyspi-package-selection.webp",
+    "sha256": "74d2ba20c0ab6005a10d8e005157c837c9f85894e8a660eba02c816465b9ff75",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 1265,
+      "height": 712
+    },
+    "references": [
+      "/#projects, EnjoySPI dialog"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/enjoyspi_hotel_selection_526c72c6c5.jpg",
+    "originalName": "enjoyspi-hotel-selection.jpg",
+    "mime": "image/jpeg",
+    "width": 1265,
+    "height": 712,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_enjoyspi_hotel_selection_526c72c6c5.jpg",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_enjoyspi_hotel_selection_526c72c6c5.jpg",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_enjoyspi_hotel_selection_526c72c6c5.jpg",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_enjoyspi_hotel_selection_526c72c6c5.jpg"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/enjoyspi_hotel_selection_526c72c6c5.jpg",
+    "recovery": "live original",
+    "sourceSha256": "4244dc8ba40489756d40f07e5380315b486f633d540269c91fb0682dff749414",
+    "src": "/images/projects/enjoyspi/enjoyspi-hotel-selection.webp",
+    "sha256": "140202c27a4bec1c3e78a86746efe8314fbd270a4a2466ba3b0e004c67d61bf0",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 1265,
+      "height": 712
+    },
+    "references": [
+      "/#projects, EnjoySPI dialog"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/enjoyspi_room_selection_9e698075f5.jpg",
+    "originalName": "enjoyspi-room-selection.jpg",
+    "mime": "image/jpeg",
+    "width": 1265,
+    "height": 712,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_enjoyspi_room_selection_9e698075f5.jpg",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_enjoyspi_room_selection_9e698075f5.jpg",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_enjoyspi_room_selection_9e698075f5.jpg",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_enjoyspi_room_selection_9e698075f5.jpg"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/enjoyspi_room_selection_9e698075f5.jpg",
+    "recovery": "live original",
+    "sourceSha256": "31ffcbbe94974c7bf67093cc83435cfa57010afa16d970d7afddb666dbac71fb",
+    "src": "/images/projects/enjoyspi/enjoyspi-room-selection.webp",
+    "sha256": "86ecd1657e5e56cc4d131c75bc2ffbf8d008b10e29b5ba18fa92c2be36eebe90",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 1265,
+      "height": 712
+    },
+    "references": [
+      "/#projects, EnjoySPI dialog"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/screencapture_enjoyspi_checkout_2026_11_18_19_43_00_3ceaa104be.png",
+    "originalName": "screencapture-enjoyspi-checkout-2026-11-18-19_43_00.png",
+    "mime": "image/png",
+    "width": 4450,
+    "height": 2590,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_screencapture_enjoyspi_checkout_2026_11_18_19_43_00_3ceaa104be.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_screencapture_enjoyspi_checkout_2026_11_18_19_43_00_3ceaa104be.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_screencapture_enjoyspi_checkout_2026_11_18_19_43_00_3ceaa104be.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_screencapture_enjoyspi_checkout_2026_11_18_19_43_00_3ceaa104be.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/screencapture_enjoyspi_checkout_2026_11_18_19_43_00_3ceaa104be.png",
+    "recovery": "live original",
+    "sourceSha256": "e594126c3a9c7a10756ea8d5d50817bf7821c9b5fb1c3f1ffaf99ad67c69dce9",
+    "src": "/images/projects/enjoyspi/screencapture-enjoyspi-checkout-2026-11-18-19-43-00.webp",
+    "sha256": "a488cb4947fbaef1ef35295265f926859363768c47b6df8fcb888368bf63793f",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 1117
+    },
+    "references": [
+      "/#projects, EnjoySPI dialog"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/console_02_performance_11c8bd93e2.png",
+    "originalName": "console-02-performance.png",
+    "mime": "image/png",
+    "width": 1920,
+    "height": 1080,
+    "alt": "All Inclusive Dashboard",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_console_02_performance_11c8bd93e2.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_console_02_performance_11c8bd93e2.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_console_02_performance_11c8bd93e2.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_console_02_performance_11c8bd93e2.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/console_02_performance_11c8bd93e2.png",
+    "recovery": "live original",
+    "sourceSha256": "1c703c46d0cdd44a0e363f2955ed7b018c4816e356943538a797a4ea556ac558",
+    "src": "/images/projects/all-inclusive-dashboard/console-02-performance.webp",
+    "sha256": "7d8c864c3d9e112c3a1ac44343a0b9424df7074e205023a5a8fdfbc9588cd265",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 1080
+    },
+    "references": [
+      "/#projects, All Inclusive Dashboard thumbnail",
+      "/#projects, All Inclusive Dashboard gallery"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/console_04_orders_d5761d877a.png",
+    "originalName": "console-04-orders.png",
+    "mime": "image/png",
+    "width": 1920,
+    "height": 1080,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_console_04_orders_d5761d877a.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_console_04_orders_d5761d877a.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_console_04_orders_d5761d877a.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_console_04_orders_d5761d877a.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/console_04_orders_d5761d877a.png",
+    "recovery": "live original",
+    "sourceSha256": "31dcf196cfe370537cc66ea316e1a8a42cde6b4e177fd282b935054547b4f0aa",
+    "src": "/images/projects/all-inclusive-dashboard/console-04-orders.webp",
+    "sha256": "5d70817b1159fc323c69e430c58ab34af82d2ec12bf4d9a8b3a120d22ffd355e",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 1080
+    },
+    "references": [
+      "/#projects, All Inclusive Dashboard gallery"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/console_07_woocommerce_payout_60957e6743.png",
+    "originalName": "console-07-woocommerce-payout.png",
+    "mime": "image/png",
+    "width": 1920,
+    "height": 1080,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_console_07_woocommerce_payout_60957e6743.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_console_07_woocommerce_payout_60957e6743.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_console_07_woocommerce_payout_60957e6743.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_console_07_woocommerce_payout_60957e6743.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/console_07_woocommerce_payout_60957e6743.png",
+    "recovery": "live original",
+    "sourceSha256": "eac98fc1cd90aa434a5b61720bdfed71e1b3257cb932035dd85f3bbc136a570f",
+    "src": "/images/projects/all-inclusive-dashboard/console-07-woocommerce-payout.webp",
+    "sha256": "357a469753d70c436f69da8fe885d73baa87b3d70793619f5c108a73f5574adb",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 1080
+    },
+    "references": [
+      "/#projects, All Inclusive Dashboard gallery"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/console_05_packages_ef0ff83e78.png",
+    "originalName": "console-05-packages.png",
+    "mime": "image/png",
+    "width": 1920,
+    "height": 1080,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_console_05_packages_ef0ff83e78.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_console_05_packages_ef0ff83e78.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_console_05_packages_ef0ff83e78.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_console_05_packages_ef0ff83e78.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/console_05_packages_ef0ff83e78.png",
+    "recovery": "live original",
+    "sourceSha256": "28953427b78f9f1e5067ad17a4634468f5ac16118f87cff1bb379be588d87274",
+    "src": "/images/projects/all-inclusive-dashboard/console-05-packages.webp",
+    "sha256": "9c6419e2ca504118d6069b3ac68d2fac2f9f27de15f30f5127acb00e1241efde",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 1080
+    },
+    "references": [
+      "/#projects, All Inclusive Dashboard gallery"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/console_06_rate_calendar_c2bead7274.png",
+    "originalName": "console-06-rate-calendar.png",
+    "mime": "image/png",
+    "width": 1920,
+    "height": 1080,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_console_06_rate_calendar_c2bead7274.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_console_06_rate_calendar_c2bead7274.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_console_06_rate_calendar_c2bead7274.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_console_06_rate_calendar_c2bead7274.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/console_06_rate_calendar_c2bead7274.png",
+    "recovery": "live original",
+    "sourceSha256": "d30c9bce09cb658dbe7ec82b2b9543eec2e1863da06531f50727e58951a15771",
+    "src": "/images/projects/all-inclusive-dashboard/console-06-rate-calendar.webp",
+    "sha256": "08d170eedd127f0fbc9ac5080fc2df3536925558fe2b31672ca6ea0f0565dd83",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 1080
+    },
+    "references": [
+      "/#projects, All Inclusive Dashboard gallery"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/console_03_hotel_payout_0b54a9d331.png",
+    "originalName": "console-03-hotel-payout.png",
+    "mime": "image/png",
+    "width": 1920,
+    "height": 1080,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_console_03_hotel_payout_0b54a9d331.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_console_03_hotel_payout_0b54a9d331.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_console_03_hotel_payout_0b54a9d331.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_console_03_hotel_payout_0b54a9d331.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/console_03_hotel_payout_0b54a9d331.png",
+    "recovery": "live original",
+    "sourceSha256": "4afac2599270f6b73cef6db580c5b97d4937a698a13f50f17ebb8fa3a8bd10b3",
+    "src": "/images/projects/all-inclusive-dashboard/console-03-hotel-payout.webp",
+    "sha256": "face64219f1c2f39738225359ae193f63dc8a0248e5a9f64a824b4c95a7651c3",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 1080
+    },
+    "references": [
+      "/#projects, All Inclusive Dashboard gallery"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/console_01_dashboard_14238461db.png",
+    "originalName": "console-01-dashboard.png",
+    "mime": "image/png",
+    "width": 1920,
+    "height": 1080,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_console_01_dashboard_14238461db.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_console_01_dashboard_14238461db.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_console_01_dashboard_14238461db.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_console_01_dashboard_14238461db.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/console_01_dashboard_14238461db.png",
+    "recovery": "live original",
+    "sourceSha256": "4899254581b3f11e051ed416b24ba90b2a8e1ca3618001971789a40b63f11d8f",
+    "src": "/images/projects/all-inclusive-dashboard/console-01-dashboard.webp",
+    "sha256": "04ca4395ac66bd0206a2abf4f9122ba04f87ca7e3346ea2d350bf5ce2bc5ee86",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 1080
+    },
+    "references": [
+      "/#projects, All Inclusive Dashboard gallery"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/Unfolded_Poetry_Project_029a1a3578.png",
+    "originalName": "UnfoldedPoetryProject.png",
+    "mime": "image/png",
+    "width": 4418,
+    "height": 2205,
+    "alt": "Unfolded: Poetry Project",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_Unfolded_Poetry_Project_029a1a3578.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_Unfolded_Poetry_Project_029a1a3578.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_Unfolded_Poetry_Project_029a1a3578.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_Unfolded_Poetry_Project_029a1a3578.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/Unfolded_Poetry_Project_029a1a3578.png",
+    "recovery": "live original",
+    "sourceSha256": "4a6d0bb2917c3b58b3e26643f3d99f277114616e9f11b25e92e2bb3ae325c644",
+    "src": "/images/projects/unfolded-poetry-project/unfoldedpoetryproject.webp",
+    "sha256": "87644250904d27d7e5670749d19b071b163e521e89f5db3c904ddb4df5f6879c",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 958
+    },
+    "references": [
+      "/#projects, Unfolded: Poetry Project thumbnail"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/MEF_a661c0958a.png",
+    "originalName": "MEF.png",
+    "mime": "image/png",
+    "width": 4405,
+    "height": 2216,
+    "alt": "McAllen Education Foundation",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_MEF_a661c0958a.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_MEF_a661c0958a.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_MEF_a661c0958a.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_MEF_a661c0958a.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/MEF_a661c0958a.png",
+    "recovery": "live original",
+    "sourceSha256": "9ac9d0715ffbb7f90a3376ff9b0813bc18a94f165b48835c9d7c2b8e16a388eb",
+    "src": "/images/projects/mcallen-education-foundation/mef.webp",
+    "sha256": "57937b3f4e0a6983bf7218541f94ae423260608ec606a5585e77b5e31ba64aa8",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 1920,
+      "height": 966
+    },
+    "references": [
+      "/#projects, McAllen Education Foundation thumbnail"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/lasjoyas_1_b6ac8257ff.png",
+    "originalName": "lasjoyas-1.png",
+    "mime": "image/png",
+    "width": 2464,
+    "height": 1348,
+    "alt": "Las Joyas",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_lasjoyas_1_b6ac8257ff.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_lasjoyas_1_b6ac8257ff.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_lasjoyas_1_b6ac8257ff.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_lasjoyas_1_b6ac8257ff.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/medium_lasjoyas_1_b6ac8257ff.png",
+    "recovery": "live variant",
+    "sourceSha256": "abd3254b15b39052d6521676e0b18acd6ac085444e739ceaf041b1689908075b",
+    "src": "/images/projects/las-joyas/lasjoyas-1.webp",
+    "sha256": "2921eda5663e85d410f66e2f5bcb2e55039fbb391c11af092930ad4041b7ee41",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 750,
+      "height": 410
+    },
+    "references": [
+      "/#projects, Las Joyas thumbnail"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/lasvelas_1_edd6a86ac8.png",
+    "originalName": "lasvelas-1.png",
+    "mime": "image/png",
+    "width": 2612,
+    "height": 1403,
+    "alt": "Las Velas Village",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_lasvelas_1_edd6a86ac8.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_lasvelas_1_edd6a86ac8.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_lasvelas_1_edd6a86ac8.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_lasvelas_1_edd6a86ac8.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/medium_lasvelas_1_edd6a86ac8.png",
+    "recovery": "live variant",
+    "sourceSha256": "1e61ab6ffe647f04c94237dcc7c684546b93da632c7d72cc9c5bcf4a83d41680",
+    "src": "/images/projects/las-velas-village/lasvelas-1.webp",
+    "sha256": "3f2ece49bafe29408f075b9e482969934d011accd48574eb5c9b6f0b088e30f7",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 750,
+      "height": 403
+    },
+    "references": [
+      "/#projects, Las Velas Village thumbnail"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/Paez_Development_1_9bd1e2dfbb.png",
+    "originalName": "PaezDevelopment-1.png",
+    "mime": "image/png",
+    "width": 2367,
+    "height": 2135,
+    "alt": "Paez Development",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_Paez_Development_1_9bd1e2dfbb.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_Paez_Development_1_9bd1e2dfbb.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_Paez_Development_1_9bd1e2dfbb.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_Paez_Development_1_9bd1e2dfbb.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/medium_Paez_Development_1_9bd1e2dfbb.png",
+    "recovery": "live variant",
+    "sourceSha256": "0968fc800a5fc50abe8c3ec05fbdd40319aed1566e29897bfb346b7320173294",
+    "src": "/images/projects/paez-development/paezdevelopment-1.webp",
+    "sha256": "a2a924c5e773ebc8d5709a3540c00224fde1ddf1606be6c5b496e328e77039b9",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 750,
+      "height": 676
+    },
+    "references": [
+      "/#projects, Paez Development thumbnail"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/Paez_Development_3_640x2353_f16e9b2abd.png",
+    "originalName": "PaezDevelopment-3-640x2353.png",
+    "mime": "image/png",
+    "width": 640,
+    "height": 2353,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_Paez_Development_3_640x2353_f16e9b2abd.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_Paez_Development_3_640x2353_f16e9b2abd.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_Paez_Development_3_640x2353_f16e9b2abd.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_Paez_Development_3_640x2353_f16e9b2abd.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/Paez_Development_3_640x2353_f16e9b2abd.png",
+    "recovery": "live original",
+    "sourceSha256": "08854d2048d1d8b88730f558450bf71f64ce65d00f0302a57ef31302c620f844",
+    "src": "/images/projects/paez-development/paezdevelopment-3-640x2353.webp",
+    "sha256": "029d9a66a53d538ffcea913cb895577e7e730736848e93500545f4efc93d7d1e",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 82,
+      "height": 300
+    },
+    "references": [
+      "/#projects, Paez Development dialog"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/Paez_Development_4_640x1400_bf39c2d411.png",
+    "originalName": "PaezDevelopment-4-640x1400.png",
+    "mime": "image/png",
+    "width": 640,
+    "height": 1400,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_Paez_Development_4_640x1400_bf39c2d411.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_Paez_Development_4_640x1400_bf39c2d411.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_Paez_Development_4_640x1400_bf39c2d411.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_Paez_Development_4_640x1400_bf39c2d411.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/Paez_Development_4_640x1400_bf39c2d411.png",
+    "recovery": "live original",
+    "sourceSha256": "d5d23490ef3fe17b2e8a61391e3db3517c11974e1d80459cf0f03867c8095c4d",
+    "src": "/images/projects/paez-development/paezdevelopment-4-640x1400.webp",
+    "sha256": "4c474430f2adfccaa3c3b76e385e88311ba5e896740ca99784238397a82ec2d8",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 137,
+      "height": 300
+    },
+    "references": [
+      "/#projects, Paez Development dialog"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/VAH_1_56d695085b.png",
+    "originalName": "VAH-1.png",
+    "mime": "image/png",
+    "width": 2612,
+    "height": 1887,
+    "alt": "Valley Animal Hospital",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_VAH_1_56d695085b.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_VAH_1_56d695085b.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_VAH_1_56d695085b.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_VAH_1_56d695085b.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/medium_VAH_1_56d695085b.png",
+    "recovery": "live variant",
+    "sourceSha256": "fa9ed10fc6b6adde7146fb4dbd9b53a5314cc7d4ef9326c920ce9caa9ac1e8f0",
+    "src": "/images/projects/valley-animal-hospital/vah-1.webp",
+    "sha256": "0320d44330e38c4e238211f48d0dfa61b062a0c522f8678686acd62bf46c816d",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 750,
+      "height": 542
+    },
+    "references": [
+      "/#projects, Valley Animal Hospital thumbnail"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/Webp_net_resizeimage_768x2565_a90ad2de44.png",
+    "originalName": "Webp.net-resizeimage-768x2565.png",
+    "mime": "image/png",
+    "width": 768,
+    "height": 2565,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_Webp_net_resizeimage_768x2565_a90ad2de44.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_Webp_net_resizeimage_768x2565_a90ad2de44.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_Webp_net_resizeimage_768x2565_a90ad2de44.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_Webp_net_resizeimage_768x2565_a90ad2de44.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/Webp_net_resizeimage_768x2565_a90ad2de44.png",
+    "recovery": "live original",
+    "sourceSha256": "c2eaac6ab435230930a4b7c1c213e19948c9f70eb9f093597b82fa0f23ab54ee",
+    "src": "/images/projects/valley-animal-hospital/webp-net-resizeimage-768x2565.webp",
+    "sha256": "027cf33c95f974a825edbabdd0f2a23885531f63941b087e0d13a44656927a75",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 90,
+      "height": 300
+    },
+    "references": [
+      "/#projects, Valley Animal Hospital dialog"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/VAH_3_768x1718_5a3f8a1622.png",
+    "originalName": "VAH-3-768x1718.png",
+    "mime": "image/png",
+    "width": 768,
+    "height": 1718,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_VAH_3_768x1718_5a3f8a1622.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_VAH_3_768x1718_5a3f8a1622.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_VAH_3_768x1718_5a3f8a1622.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_VAH_3_768x1718_5a3f8a1622.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/VAH_3_768x1718_5a3f8a1622.png",
+    "recovery": "live original",
+    "sourceSha256": "a4d2ca8768858a7b22ecbfed23ab6f436aa5e4ea67afc0cddabd1bd7a1c640e3",
+    "src": "/images/projects/valley-animal-hospital/vah-3-768x1718.webp",
+    "sha256": "485916d771f44577fc6b9cf0dd3409c43b9128b26424629c5f0fc10d5309359e",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 134,
+      "height": 300
+    },
+    "references": [
+      "/#projects, Valley Animal Hospital dialog"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/AHR_1_d3d9fc681f.png",
+    "originalName": "AHR-1.png",
+    "mime": "image/png",
+    "width": 2423,
+    "height": 1545,
+    "alt": "Atlas Hall Rodriguez",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_AHR_1_d3d9fc681f.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_AHR_1_d3d9fc681f.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_AHR_1_d3d9fc681f.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_AHR_1_d3d9fc681f.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/AHR_1_d3d9fc681f.png",
+    "recovery": "live original",
+    "sourceSha256": "6ee0131c03d03a4e963a7001ea70ede026a6993208659d420f01022234bf3537",
+    "src": "/images/projects/atlas-hall-rodriguez/ahr-1.webp",
+    "sha256": "ec9bc78d7ac413f4c6f5ecce2dd64dcd789faf745b6389dbcfe28724080d53d8",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 300,
+      "height": 191
+    },
+    "references": [
+      "/#projects, Atlas Hall Rodriguez thumbnail",
+      "/#projects, Atlas Hall Rodriguez dialog"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/AHR_2_640x1366_e58d7ebfff.png",
+    "originalName": "AHR-2-640x1366.png",
+    "mime": "image/png",
+    "width": 640,
+    "height": 1366,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_AHR_2_640x1366_e58d7ebfff.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_AHR_2_640x1366_e58d7ebfff.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_AHR_2_640x1366_e58d7ebfff.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_AHR_2_640x1366_e58d7ebfff.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/AHR_2_640x1366_e58d7ebfff.png",
+    "recovery": "live original",
+    "sourceSha256": "2aafccfd714d8f8109aa0de364642be0f1620311483659afb3bb0c6658f385eb",
+    "src": "/images/projects/atlas-hall-rodriguez/ahr-2-640x1366.webp",
+    "sha256": "00942aaceec5a71934adfc313a214c200f755d6f5f8b1427495ebaf1edb41288",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 141,
+      "height": 300
+    },
+    "references": [
+      "/#projects, Atlas Hall Rodriguez dialog"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/AHR_3_640x1284_ad005f2ee9.png",
+    "originalName": "AHR-3-640x1284.png",
+    "mime": "image/png",
+    "width": 640,
+    "height": 1284,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_AHR_3_640x1284_ad005f2ee9.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_AHR_3_640x1284_ad005f2ee9.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_AHR_3_640x1284_ad005f2ee9.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_AHR_3_640x1284_ad005f2ee9.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/AHR_3_640x1284_ad005f2ee9.png",
+    "recovery": "live original",
+    "sourceSha256": "8a5014f3e978d6bb307c552fa63b4fc400fd216138e66260fdcdc49cb04844fa",
+    "src": "/images/projects/atlas-hall-rodriguez/ahr-3-640x1284.webp",
+    "sha256": "d6084c7f9b6c9fadc8f6ab9395403432a7d758cf87ea7f41106b3c3ee7d273c8",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 150,
+      "height": 300
+    },
+    "references": [
+      "/#projects, Atlas Hall Rodriguez dialog"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/chorizo_1_956x1024_94dcbc4ce3.png",
+    "originalName": "chorizo-1-956x1024.png",
+    "mime": "image/png",
+    "width": 1096,
+    "height": 540,
+    "alt": "Chorizo de San Manuel",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_chorizo_1_956x1024_94dcbc4ce3.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_chorizo_1_956x1024_94dcbc4ce3.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_chorizo_1_956x1024_94dcbc4ce3.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_chorizo_1_956x1024_94dcbc4ce3.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/medium_chorizo_1_956x1024_94dcbc4ce3.png",
+    "recovery": "live variant",
+    "sourceSha256": "1dd12113a38d9aaae76c368910f1c6f7d90b8c3aef1199ef0b42864c097b7a0d",
+    "src": "/images/projects/chorizo-de-san-manuel/chorizo-1-956x1024.webp",
+    "sha256": "64eccc810ed31394b619436c18f507149838c6ff4af939cfb191f29a2745f69a",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 750,
+      "height": 370
+    },
+    "references": [
+      "/#projects, Chorizo de San Manuel thumbnail"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/chorizo_5_768x2018_c154841a9f.png",
+    "originalName": "chorizo-5-768x2018.png",
+    "mime": "image/png",
+    "width": 768,
+    "height": 2018,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_chorizo_5_768x2018_c154841a9f.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_chorizo_5_768x2018_c154841a9f.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_chorizo_5_768x2018_c154841a9f.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_chorizo_5_768x2018_c154841a9f.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/chorizo_5_768x2018_c154841a9f.png",
+    "recovery": "live original",
+    "sourceSha256": "ffa720138d51dec9df0eb353346bfd2d131b3688aa4e06160b59d8486afd2397",
+    "src": "/images/projects/chorizo-de-san-manuel/chorizo-5-768x2018.webp",
+    "sha256": "0bad23767ff372a6159ab2f468c79856df48ddbc7c1bc8d9aa21163aaef75e87",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 114,
+      "height": 300
+    },
+    "references": [
+      "/#projects, Chorizo de San Manuel dialog"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/chorizo_6_768x1620_1d6f018f9b.png",
+    "originalName": "chorizo-6-768x1620.png",
+    "mime": "image/png",
+    "width": 768,
+    "height": 1620,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_chorizo_6_768x1620_1d6f018f9b.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_chorizo_6_768x1620_1d6f018f9b.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_chorizo_6_768x1620_1d6f018f9b.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_chorizo_6_768x1620_1d6f018f9b.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/chorizo_6_768x1620_1d6f018f9b.png",
+    "recovery": "live original",
+    "sourceSha256": "42735bc8bfa2d7fd295a5187b1496bced626fcd0b0f9288315c3db4fcea86cc4",
+    "src": "/images/projects/chorizo-de-san-manuel/chorizo-6-768x1620.webp",
+    "sha256": "0acac8825a083014c5b8556c893420894822711cc5162f8150c55b3e9613608f",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 142,
+      "height": 300
+    },
+    "references": [
+      "/#projects, Chorizo de San Manuel dialog"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/chorizo_4_768x1625_b9a734b797.png",
+    "originalName": "chorizo-4-768x1625.png",
+    "mime": "image/png",
+    "width": 768,
+    "height": 1625,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_chorizo_4_768x1625_b9a734b797.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_chorizo_4_768x1625_b9a734b797.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_chorizo_4_768x1625_b9a734b797.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_chorizo_4_768x1625_b9a734b797.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/chorizo_4_768x1625_b9a734b797.png",
+    "recovery": "live original",
+    "sourceSha256": "3e4f6e6ebfba8e50f6cccc5b2708170a99442a2d1571d95a05908c8148b8d5b8",
+    "src": "/images/projects/chorizo-de-san-manuel/chorizo-4-768x1625.webp",
+    "sha256": "4fffb88256085c168244d97ca9c7526f4965601a377f68cdcd30f4f7f8181bb5",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 142,
+      "height": 300
+    },
+    "references": [
+      "/#projects, Chorizo de San Manuel dialog"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/chorizo_3_768x1108_f2ac2f9849.png",
+    "originalName": "chorizo-3-768x1108.png",
+    "mime": "image/png",
+    "width": 768,
+    "height": 1108,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_chorizo_3_768x1108_f2ac2f9849.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_chorizo_3_768x1108_f2ac2f9849.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_chorizo_3_768x1108_f2ac2f9849.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_chorizo_3_768x1108_f2ac2f9849.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/chorizo_3_768x1108_f2ac2f9849.png",
+    "recovery": "live original",
+    "sourceSha256": "81886d53ae8b0078a2a4b8c78affa3717f93741a15e2743940f72af7674a8a94",
+    "src": "/images/projects/chorizo-de-san-manuel/chorizo-3-768x1108.webp",
+    "sha256": "86e1a7030362c19364d14d439049d8e15b2f85599b7647fe6c10dffcb5ae113f",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 208,
+      "height": 300
+    },
+    "references": [
+      "/#projects, Chorizo de San Manuel dialog"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/Kapal_Thumbnail_bf29c62ebe.png",
+    "originalName": "Kapal-Thumbnail.png",
+    "mime": "image/png",
+    "width": 3116,
+    "height": 1628,
+    "alt": "Kapal Industries",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_Kapal_Thumbnail_bf29c62ebe.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_Kapal_Thumbnail_bf29c62ebe.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_Kapal_Thumbnail_bf29c62ebe.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_Kapal_Thumbnail_bf29c62ebe.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/medium_Kapal_Thumbnail_bf29c62ebe.png",
+    "recovery": "live variant",
+    "sourceSha256": "5adaa93576b83e9188ca3061020af887d145a6ea519dbb6ec8324a07e46656da",
+    "src": "/images/projects/kapal-industries/kapal-thumbnail.webp",
+    "sha256": "b84d9c84f2807173af5cdc1edba3c95c1ab08bc480ea08e46216f640cd9b2734",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 750,
+      "height": 392
+    },
+    "references": [
+      "/#projects, Kapal Industries thumbnail"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/Silver_Ribbon_4_878e20f257.png",
+    "originalName": "SilverRibbon-4.png",
+    "mime": "image/png",
+    "width": 2374,
+    "height": 1842,
+    "alt": "Silver Ribbon Community Partners",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_Silver_Ribbon_4_878e20f257.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_Silver_Ribbon_4_878e20f257.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_Silver_Ribbon_4_878e20f257.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_Silver_Ribbon_4_878e20f257.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/Silver_Ribbon_4_878e20f257.png",
+    "recovery": "live original",
+    "sourceSha256": "ca378e1c7fccde1e92cf5896aa47a426fd3317109a0e699d8e738a3d3aeb5835",
+    "src": "/images/projects/silver-ribbon-community-partners/silverribbon-4.webp",
+    "sha256": "f7d33c7d3116fcbeb79baee7d7eb224877afdb6dfe27c7d00c7cf0b8d697eed6",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 300,
+      "height": 233
+    },
+    "references": [
+      "/#projects, Silver Ribbon Community Partners thumbnail",
+      "/#projects, Silver Ribbon Community Partners dialog"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/Silver_Ribbon_1_72392c8e8c.png",
+    "originalName": "SilverRibbon-1.png",
+    "mime": "image/png",
+    "width": 2344,
+    "height": 1401,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_Silver_Ribbon_1_72392c8e8c.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_Silver_Ribbon_1_72392c8e8c.png",
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_Silver_Ribbon_1_72392c8e8c.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_Silver_Ribbon_1_72392c8e8c.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/Silver_Ribbon_1_72392c8e8c.png",
+    "recovery": "live original",
+    "sourceSha256": "7d58cc226d642520cb650ed1ae6f957196524ca792cd7386f1e1ac01e360686c",
+    "src": "/images/projects/silver-ribbon-community-partners/silverribbon-1.webp",
+    "sha256": "ff1204f54f809e16ddee9e96462db80de364098317741e0522f0dbb1df1670e8",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 300,
+      "height": 179
+    },
+    "references": [
+      "/#projects, Silver Ribbon Community Partners dialog"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/Silver_Ribbon_2_640x1944_36c075d843.png",
+    "originalName": "SilverRibbon-2-640x1944.png",
+    "mime": "image/png",
+    "width": 640,
+    "height": 1944,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_Silver_Ribbon_2_640x1944_36c075d843.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_Silver_Ribbon_2_640x1944_36c075d843.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_Silver_Ribbon_2_640x1944_36c075d843.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_Silver_Ribbon_2_640x1944_36c075d843.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/Silver_Ribbon_2_640x1944_36c075d843.png",
+    "recovery": "live original",
+    "sourceSha256": "71dda7fe9d8a990d2d9fc9eb249265325462337b520881675700387d0d6e4a3b",
+    "src": "/images/projects/silver-ribbon-community-partners/silverribbon-2-640x1944.webp",
+    "sha256": "46b673b50a46824b27e55f2d308012b6d4035d1d6a4f457f39ea60c62f2b8106",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 99,
+      "height": 300
+    },
+    "references": [
+      "/#projects, Silver Ribbon Community Partners dialog"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/Silver_Ribbon_3_252c215c45.png",
+    "originalName": "SilverRibbon-3.png",
+    "mime": "image/png",
+    "width": 2374,
+    "height": 3090,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_Silver_Ribbon_3_252c215c45.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_Silver_Ribbon_3_252c215c45.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_Silver_Ribbon_3_252c215c45.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_Silver_Ribbon_3_252c215c45.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/Silver_Ribbon_3_252c215c45.png",
+    "recovery": "live original",
+    "sourceSha256": "36e37a3a58b0b2311cae75d5a6c5f8ab6ec5645deeb03d9f01b86bbe488b9a1b",
+    "src": "/images/projects/silver-ribbon-community-partners/silverribbon-3.webp",
+    "sha256": "7720002f701787a82bfa1a4810299b4522599edbab5bdf89bab9c4c688af4830",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 230,
+      "height": 300
+    },
+    "references": [
+      "/#projects, Silver Ribbon Community Partners dialog"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/Mc_Allen_1_78e974bffb.png",
+    "originalName": "McAllen-1.png",
+    "mime": "image/png",
+    "width": 2542,
+    "height": 1466,
+    "alt": "McAllen Year in Review 2018",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_Mc_Allen_1_78e974bffb.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_Mc_Allen_1_78e974bffb.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_Mc_Allen_1_78e974bffb.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_Mc_Allen_1_78e974bffb.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/Mc_Allen_1_78e974bffb.png",
+    "recovery": "live original",
+    "sourceSha256": "c676444aded59532b35fd80fc15a32bcee672d07f894610ea27069bcf6739162",
+    "src": "/images/projects/mcallen-year-in-review-2018/mcallen-1.webp",
+    "sha256": "754002dd4b7b1670e64eeb2165fd82238990234f93b8a7494b5cb685de8ee8a8",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 300,
+      "height": 173
+    },
+    "references": [
+      "/#projects, McAllen Year in Review 2018 thumbnail",
+      "/#projects, McAllen Year in Review 2018 dialog"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/Mc_Allen_2_768x482_370a34d12c.png",
+    "originalName": "McAllen-2-768x482.png",
+    "mime": "image/png",
+    "width": 768,
+    "height": 482,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_Mc_Allen_2_768x482_370a34d12c.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_Mc_Allen_2_768x482_370a34d12c.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_Mc_Allen_2_768x482_370a34d12c.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/Mc_Allen_2_768x482_370a34d12c.png",
+    "recovery": "live original",
+    "sourceSha256": "1077aba74f24fd089208cf5e7291420f161c25debfbfdb284a10afccb5da5bcd",
+    "src": "/images/projects/mcallen-year-in-review-2018/mcallen-2-768x482.webp",
+    "sha256": "f6874fabdb4688be98d24cddcaceeac99f4de5e7b55830c862c591b33c220291",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 300,
+      "height": 188
+    },
+    "references": [
+      "/#projects, McAllen Year in Review 2018 dialog"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/URI_1_2fb8138d9a.png",
+    "originalName": "URI-1.png",
+    "mime": "image/png",
+    "width": 1184,
+    "height": 715,
+    "alt": "UR Invited",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_URI_1_2fb8138d9a.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_URI_1_2fb8138d9a.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_URI_1_2fb8138d9a.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_URI_1_2fb8138d9a.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/medium_URI_1_2fb8138d9a.png",
+    "recovery": "live variant",
+    "sourceSha256": "5d6c3bdab2daa18c068a25ab2a80bdd7d69ab3e8134248c3b7c7110c7487541c",
+    "src": "/images/projects/ur-invited/uri-1.webp",
+    "sha256": "9f465ea17cc725a1f8d6e053de5ecae0385dc41ff4702fce2da517675f0ba5e4",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 750,
+      "height": 453
+    },
+    "references": [
+      "/#projects, UR Invited thumbnail"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/URI_2_7b498d99cf.png",
+    "originalName": "URI-2.png",
+    "mime": "image/png",
+    "width": 750,
+    "height": 1334,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_URI_2_7b498d99cf.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_URI_2_7b498d99cf.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_URI_2_7b498d99cf.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_URI_2_7b498d99cf.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/URI_2_7b498d99cf.png",
+    "recovery": "live original",
+    "sourceSha256": "dfa202c65d82dd058aae274debe5a1bdddfad1c612a0f709f3379fbd52009c45",
+    "src": "/images/projects/ur-invited/uri-2.webp",
+    "sha256": "308f8608bed904b06043041a5387bec6254342e1608778f4049cd94a7e3a4b27",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 169,
+      "height": 300
+    },
+    "references": [
+      "/#projects, UR Invited dialog"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/URI_4_2214efb5ee.png",
+    "originalName": "URI-4.png",
+    "mime": "image/png",
+    "width": 750,
+    "height": 1334,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_URI_4_2214efb5ee.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_URI_4_2214efb5ee.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_URI_4_2214efb5ee.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_URI_4_2214efb5ee.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/URI_4_2214efb5ee.png",
+    "recovery": "live original",
+    "sourceSha256": "b84dafd2804f4b31ddccda633ff900bccb590b22fbb7f0342371e3c98e5be762",
+    "src": "/images/projects/ur-invited/uri-4.webp",
+    "sha256": "b14915663caf86445f8df531c1e9705340b3b2e45a85ada0295e663e959fff15",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 169,
+      "height": 300
+    },
+    "references": [
+      "/#projects, UR Invited dialog"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/Valley_Tech_Thumnail_5de079f40e.png",
+    "originalName": "ValleyTech-Thumnail.png",
+    "mime": "image/png",
+    "width": 2563,
+    "height": 2124,
+    "alt": "Valley Technical Academy",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_Valley_Tech_Thumnail_5de079f40e.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_Valley_Tech_Thumnail_5de079f40e.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_Valley_Tech_Thumnail_5de079f40e.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_Valley_Tech_Thumnail_5de079f40e.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/medium_Valley_Tech_Thumnail_5de079f40e.png",
+    "recovery": "live variant",
+    "sourceSha256": "d4330b5af2363d672f49e6fc9f22e60838b9d225c9e2dc765a0a0392cd3e0315",
+    "src": "/images/projects/valley-technical-academy/valleytech-thumnail.webp",
+    "sha256": "f8ae3a3bba7dcc5b4c30947ec030ace5715c5e50ccd6edae0b69fb1ab95d88b1",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 750,
+      "height": 622
+    },
+    "references": [
+      "/#projects, Valley Technical Academy thumbnail"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/Valley_Tech_1_1_768x3146_985aac4fe0.png",
+    "originalName": "ValleyTech-1-1-768x3146.png",
+    "mime": "image/png",
+    "width": 768,
+    "height": 3146,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_Valley_Tech_1_1_768x3146_985aac4fe0.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_Valley_Tech_1_1_768x3146_985aac4fe0.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_Valley_Tech_1_1_768x3146_985aac4fe0.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_Valley_Tech_1_1_768x3146_985aac4fe0.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/Valley_Tech_1_1_768x3146_985aac4fe0.png",
+    "recovery": "live original",
+    "sourceSha256": "828991c7ae75a9dc241fd77ee988d5db835168be8f0cdc2b8d94be6eea51b129",
+    "src": "/images/projects/valley-technical-academy/valleytech-1-1-768x3146.webp",
+    "sha256": "fb6852dcc3a392991990e2dce6944aa7049c361ffb2f1a07fab7d9a202d67235",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 73,
+      "height": 300
+    },
+    "references": [
+      "/#projects, Valley Technical Academy dialog"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/Valley_Tech_2_768x2445_e78bec99b5.png",
+    "originalName": "ValleyTech-2-768x2445.png",
+    "mime": "image/png",
+    "width": 768,
+    "height": 2445,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_Valley_Tech_2_768x2445_e78bec99b5.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_Valley_Tech_2_768x2445_e78bec99b5.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_Valley_Tech_2_768x2445_e78bec99b5.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_Valley_Tech_2_768x2445_e78bec99b5.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/Valley_Tech_2_768x2445_e78bec99b5.png",
+    "recovery": "live original",
+    "sourceSha256": "65da8d4d8b62eca1037e0f52b9bd90f791e999d6c439cc1a812c702c8f53448e",
+    "src": "/images/projects/valley-technical-academy/valleytech-2-768x2445.webp",
+    "sha256": "45c8596cf2b4b08e756e1809814dfb53d38d7d96b004a49c7be0d324294b5bb5",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 94,
+      "height": 300
+    },
+    "references": [
+      "/#projects, Valley Technical Academy dialog"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/Valley_Tech_3_768x1508_c8fea8aeed.png",
+    "originalName": "ValleyTech-3-768x1508.png",
+    "mime": "image/png",
+    "width": 768,
+    "height": 1508,
+    "alt": "",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_Valley_Tech_3_768x1508_c8fea8aeed.png",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_Valley_Tech_3_768x1508_c8fea8aeed.png",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_Valley_Tech_3_768x1508_c8fea8aeed.png",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_Valley_Tech_3_768x1508_c8fea8aeed.png"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/Valley_Tech_3_768x1508_c8fea8aeed.png",
+    "recovery": "live original",
+    "sourceSha256": "fbb057fc0f38940f912e0a9d8f9ae59f27d90f1fa950365ac4fc554c2d2cacc0",
+    "src": "/images/projects/valley-technical-academy/valleytech-3-768x1508.webp",
+    "sha256": "c01da8d6d03581a31bfa7fb20d1d0e9855042b394217dbcea329cc0d60c20062",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 153,
+      "height": 300
+    },
+    "references": [
+      "/#projects, Valley Technical Academy dialog"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/Emmanuel_Olivo_Resume_3d7714c515.pdf",
+    "originalName": "Emmanuel_Olivo_Resume.pdf",
+    "mime": "application/pdf",
+    "width": null,
+    "height": null,
+    "alt": "",
+    "caption": null,
+    "variants": {},
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/Emmanuel_Olivo_Resume_3d7714c515.pdf",
+    "recovery": "live original",
+    "sourceSha256": "4d13d34a2192d669bb930996ff48e35a72d51a04219a8e4d95fb861a6c944cac",
+    "src": "/downloads/emmanuel-olivo-resume.pdf",
+    "sha256": "4d13d34a2192d669bb930996ff48e35a72d51a04219a8e4d95fb861a6c944cac",
+    "optimized": {
+      "mime": "application/pdf"
+    },
+    "references": [
+      "/ résumé"
+    ]
+  },
+  {
+    "url": "https://adminv2.emmanuelolivo.com/uploads/IMG_7516_38bf422347.JPG",
+    "originalName": "IMG_7516.JPG",
+    "mime": "image/jpeg",
+    "width": 1200,
+    "height": 1600,
+    "alt": "Emmanuel Olivo",
+    "caption": null,
+    "variants": {
+      "thumbnail": "https://adminv2.emmanuelolivo.com/uploads/thumbnail_IMG_7516_38bf422347.JPG",
+      "small": "https://adminv2.emmanuelolivo.com/uploads/small_IMG_7516_38bf422347.JPG",
+      "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_IMG_7516_38bf422347.JPG",
+      "large": "https://adminv2.emmanuelolivo.com/uploads/large_IMG_7516_38bf422347.JPG"
+    },
+    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/large_IMG_7516_38bf422347.JPG",
+    "recovery": "live variant",
+    "sourceSha256": "ec02f43c001539b87eff671fbf9f49f850ab24198126b8a19a1f62e50802d82b",
+    "src": "/images/about/img-7516.webp",
+    "sha256": "856a9d9e76be744e7a2fafa6dbed72b475b5a88c096edde27dc438c4b553de62",
+    "optimized": {
+      "mime": "image/webp",
+      "width": 750,
+      "height": 1000
+    },
+    "references": [
+      "/#about portrait"
+    ]
+  }
+]

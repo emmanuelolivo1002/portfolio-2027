@@ -1,0 +1,3049 @@
+{
+  "title": "Emmanuel Olivo - Software Engineer",
+  "description": "Front-End software engineer specializing in web and mobile development with React. Based in Texas, I create responsive, user-centric applications that combine exceptional design and functionality. Explore my projects and learn how my expertise can benefit your next project.",
+  "navigation": [
+    {
+      "label": "Projects",
+      "href": "#projects"
+    },
+    {
+      "label": "Experience",
+      "href": "#experience"
+    },
+    {
+      "label": "About Me",
+      "href": "#about"
+    },
+    {
+      "label": "Contact",
+      "href": "#contact"
+    }
+  ],
+  "sourceLink": "https://github.com/emmanuelolivo1002/portfolio-frontend",
+  "hero": {
+    "heading": "Hi! I'm Emmanuel Olivo, a Software Engineer that specializes in Web and Mobile Front-End Development",
+    "workLink": {
+      "label": "See my Work",
+      "href": "#projects"
+    },
+    "resumeLink": {
+      "label": "View Resume",
+      "href": "/downloads/emmanuel-olivo-resume.pdf"
+    }
+  },
+  "work": {
+    "title": "Projects",
+    "subtitle": "Discover my recent and ongoing work, showcasing creativity and technical expertise. Explore the projects that highlight my journey and skills.",
+    "projects": [
+      {
+        "id": 18,
+        "slug": "atlas",
+        "title": "ATLAS",
+        "shortDescription": "ATLAS is an internal operations platform for Ruby Red Hospitality’s hotels and restaurants. It brings occupancy forecasts, revenue reporting, guest reviews, food ordering, purchasing, and maintenance into one app with access tailored to each user’s role and property.",
+        "thumbnail": {
+          "src": "/images/projects/atlas/atlas-04-realtime.webp",
+          "alt": "ATLAS",
+          "mime": "image/webp",
+          "width": 1920,
+          "height": 1080
+        },
+        "roles": [
+          "Back End",
+          "Front End",
+          "UX/UI",
+          "Design"
+        ],
+        "technologies": [
+          {
+            "iconKey": "nextjs",
+            "label": "Next.js"
+          },
+          {
+            "iconKey": "html",
+            "label": "HTML"
+          },
+          {
+            "iconKey": "tailwind",
+            "label": "TailwindCSS"
+          },
+          {
+            "iconKey": "typescript",
+            "label": "TypeScript"
+          }
+        ],
+        "detail": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I worked across the full stack on ATLAS, Ruby Red Hospitality’s internal platform for running hotel and restaurant operations across multiple properties. Managers can review occupancy forecasts and daily revenue, monitor guest feedback, order food from a standardized vendor catalog, and track purchase requests and maintenance tasks. Teams can access the app on desktop or install it on their phones."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "ATLAS uses Next.js, TypeScript, and Tailwind CSS, with Supabase for PostgreSQL, authentication, and access controls by role and property. The platform processes nightly reports from hotel property management systems to show changes in bookings and year-over-year trends. It also brings sales data from Toast, Square, and Stripe into a shared revenue dashboard and pulls reviews from multiple sites into one place, where teams can review AI-drafted replies."
+              }
+            ]
+          }
+        ],
+        "gallery": [
+          {
+            "src": "/images/projects/atlas/atlas-07-rate-shop.webp",
+            "alt": "",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "/images/projects/atlas/atlas-03-forecast-trends.webp",
+            "alt": "",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "/images/projects/atlas/atlas-04-realtime.webp",
+            "alt": "ATLAS",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "/images/projects/atlas/atlas-10-purchasing.webp",
+            "alt": "",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "/images/projects/atlas/atlas-11-design-requests.webp",
+            "alt": "",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "/images/projects/atlas/atlas-06-food-ordering.webp",
+            "alt": "",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "/images/projects/atlas/atlas-05-reviews.webp",
+            "alt": "",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "/images/projects/atlas/atlas-02-forecast.webp",
+            "alt": "",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "/images/projects/atlas/atlas-09-network-uptime.webp",
+            "alt": "",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "/images/projects/atlas/atlas-08-maintenance.webp",
+            "alt": "",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
+        "linkToView": null,
+        "linkToCode": null
+      },
+      {
+        "id": 19,
+        "slug": "searchtexastax",
+        "title": "SearchTexasTax",
+        "shortDescription": "SearchTexasTax is a web app for researching Texas hotel and bar revenue. Built with Next.js, TypeScript, and Supabase, it makes public tax filings searchable by business name, city, county, or ZIP code.",
+        "thumbnail": {
+          "src": "/images/projects/searchtexastax/stt-04-revenue-chart.webp",
+          "alt": "SearchTexasTax",
+          "mime": "image/webp",
+          "width": 1920,
+          "height": 1080
+        },
+        "roles": [
+          "UX/UI",
+          "Design",
+          "Back End",
+          "Front End"
+        ],
+        "technologies": [
+          {
+            "iconKey": "nextjs",
+            "label": "Next.js"
+          },
+          {
+            "iconKey": "react",
+            "label": "React"
+          },
+          {
+            "iconKey": "typescript",
+            "label": "TypeScript"
+          },
+          {
+            "iconKey": "tailwind",
+            "label": "TailwindCSS"
+          }
+        ],
+        "detail": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I worked across the full stack on the new version of SearchTexasTax, a platform that turns public tax filings into a tool for researching Texas hospitality revenue. Users can look up a specific hotel or bar, view its revenue history, or explore trends across a city, county, or ZIP code."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I built the application with Next.js and TypeScript, used Supabase for the database, and set up the data pipelines that retrieve Hotel Occupancy Tax and Mixed Beverage Tax records from the Texas Comptroller. Those pipelines bring the state’s filings into the database that powers the app’s search, property profiles, and revenue charts."
+              }
+            ]
+          }
+        ],
+        "gallery": [
+          {
+            "src": "/images/projects/searchtexastax/stt-06-portfolio.webp",
+            "alt": "",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "/images/projects/searchtexastax/stt-05-brands.webp",
+            "alt": "",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "/images/projects/searchtexastax/stt-04-revenue-chart.webp",
+            "alt": "SearchTexasTax",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "/images/projects/searchtexastax/stt-02-speedsearch.webp",
+            "alt": "",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "/images/projects/searchtexastax/stt-03-hotel-page.webp",
+            "alt": "",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "/images/projects/searchtexastax/stt-01-search.webp",
+            "alt": "",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
+        "linkToView": "https://searchtexastax.com/",
+        "linkToCode": null
+      },
+      {
+        "id": 1,
+        "slug": "wealthcharts",
+        "title": "WealthCharts",
+        "shortDescription": "WealthCharts is an award-winning trading platform that provides technical and fundamental analysis for day traders, swing traders, and long-term investors.",
+        "thumbnail": {
+          "src": "/images/projects/wealthcharts/wc-web-options-trading.webp",
+          "alt": "Options Trading Components",
+          "caption": "Options Trading Components",
+          "mime": "image/webp",
+          "width": 750,
+          "height": 369
+        },
+        "roles": [
+          "Front End",
+          "UX/UI"
+        ],
+        "technologies": [
+          {
+            "iconKey": "html",
+            "label": "HTML"
+          },
+          {
+            "iconKey": "css",
+            "label": "CSS"
+          },
+          {
+            "iconKey": "bootstrap",
+            "label": "Bootstrap"
+          },
+          {
+            "iconKey": "javascript",
+            "label": "JavaScript"
+          },
+          {
+            "iconKey": "typescript",
+            "label": "TypeScript"
+          },
+          {
+            "iconKey": "react",
+            "label": "React"
+          },
+          {
+            "iconKey": "jquery",
+            "label": "jQuery"
+          },
+          {
+            "iconKey": "figma",
+            "label": "Figma"
+          }
+        ],
+        "detail": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "WealthCharts is an award-winning trading platform designed to offer both technical and fundamental analysis for day traders, swing traders, and long-term investors."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "With over 20 scanners, WealthCharts enables users to sift through thousands of symbols in seconds, quickly generating trade ideas. The platform boasts over 200 technical indicators and provides the capability to create custom ones. Additionally, WealthCharts features more than 25 research tools, allowing you to enhance your research and stay informed about market developments anytime, anywhere."
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "/images/projects/wealthcharts/wealthcharts-options-trading.webp",
+              "alt": "wealthcharts-options-trading.png",
+              "mime": "image/webp",
+              "width": 1920,
+              "height": 944,
+              "url": "/images/projects/wealthcharts/wealthcharts-options-trading.webp",
+              "alternativeText": "wealthcharts-options-trading.png"
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "/images/projects/wealthcharts/wealthcharts-dashboard.webp",
+              "alt": "wealthcharts-dashboard.png",
+              "mime": "image/webp",
+              "width": 1600,
+              "height": 1300,
+              "url": "/images/projects/wealthcharts/wealthcharts-dashboard.webp",
+              "alternativeText": "wealthcharts-dashboard.png"
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "/images/projects/wealthcharts/wealthcharts-wealththoughts.webp",
+              "alt": "wealthcharts-wealththoughts.png",
+              "mime": "image/webp",
+              "width": 1917,
+              "height": 942,
+              "url": "/images/projects/wealthcharts/wealthcharts-wealththoughts.webp",
+              "alternativeText": "wealthcharts-wealththoughts.png"
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "/images/projects/wealthcharts/wealthcharts-tv.webp",
+              "alt": "wealthcharts-tv.png",
+              "mime": "image/webp",
+              "width": 1918,
+              "height": 938,
+              "url": "/images/projects/wealthcharts/wealthcharts-tv.webp",
+              "alternativeText": "wealthcharts-tv.png"
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "gallery": [],
+        "linkToView": "https://www.wealthcharts.com/",
+        "linkToCode": null
+      },
+      {
+        "id": 3,
+        "slug": "wealthcharts-mobile",
+        "title": "WealthCharts Mobile",
+        "shortDescription": "WealthCharts mobile app, available on iOS and Android platforms. Utilizing Next.js and Capacitor, I helped transform the comprehensive trading functionalities of the web platform into a seamless mobile experience.",
+        "thumbnail": {
+          "src": "/images/projects/wealthcharts-mobile/wc-mobile-thumbnail.webp",
+          "alt": "WealthCharts Mobile",
+          "mime": "image/webp",
+          "width": 500,
+          "height": 281
+        },
+        "roles": [
+          "Front End",
+          "UX/UI",
+          "Design"
+        ],
+        "technologies": [
+          {
+            "iconKey": "html",
+            "label": "HTML"
+          },
+          {
+            "iconKey": "css",
+            "label": "CSS"
+          },
+          {
+            "iconKey": "javascript",
+            "label": "JavaScript"
+          },
+          {
+            "iconKey": "typescript",
+            "label": "TypeScript"
+          },
+          {
+            "iconKey": "react",
+            "label": "React"
+          },
+          {
+            "iconKey": "figma",
+            "label": "Figma"
+          },
+          {
+            "iconKey": "tailwind",
+            "label": "TailwindCSS"
+          },
+          {
+            "iconKey": "capacitor",
+            "label": "Capacitor"
+          },
+          {
+            "iconKey": "nextjs",
+            "label": "Next.js"
+          },
+          {
+            "iconKey": "react-native",
+            "label": "React Native"
+          }
+        ],
+        "detail": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I played a pivotal role in the development of the WealthCharts mobile app, available on iOS and Android platforms. Utilizing Next.js and React Native, I helped transform the comprehensive trading functionalities of the web platform into a seamless mobile experience. My contributions extended to the UI/UX design, ensuring that the app not only matched but enhanced the intuitive navigation and personalized layout customization of its desktop counterpart."
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "/images/projects/wealthcharts-mobile/m-wealthcharts-com-watchlist-i-phone-14-pro-max-3-4b4434bc3a.webp",
+              "alt": "m_wealthcharts_com_watchlist_i_Phone_14_Pro_Max_3_4b4434bc3a.png",
+              "mime": "image/webp",
+              "width": 1290,
+              "height": 2796,
+              "url": "/images/projects/wealthcharts-mobile/m-wealthcharts-com-watchlist-i-phone-14-pro-max-3-4b4434bc3a.webp",
+              "alternativeText": "m_wealthcharts_com_watchlist_i_Phone_14_Pro_Max_3_4b4434bc3a.png"
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "/images/projects/wealthcharts-mobile/m-wealthcharts-com-watchlist-i-phone-14-pro-max-b7357ca25a.webp",
+              "alt": "m_wealthcharts_com_watchlist_i_Phone_14_Pro_Max_b7357ca25a.png",
+              "mime": "image/webp",
+              "width": 720,
+              "height": 1561,
+              "url": "/images/projects/wealthcharts-mobile/m-wealthcharts-com-watchlist-i-phone-14-pro-max-b7357ca25a.webp",
+              "alternativeText": "m_wealthcharts_com_watchlist_i_Phone_14_Pro_Max_b7357ca25a.png"
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "/images/projects/wealthcharts-mobile/m-wealthcharts-com-watchlist-i-phone-14-pro-max-2-b7153c16cc.webp",
+              "alt": "m_wealthcharts_com_watchlist_i_Phone_14_Pro_Max_2_b7153c16cc.png",
+              "mime": "image/webp",
+              "width": 720,
+              "height": 1233,
+              "url": "/images/projects/wealthcharts-mobile/m-wealthcharts-com-watchlist-i-phone-14-pro-max-2-b7153c16cc.webp",
+              "alternativeText": "m_wealthcharts_com_watchlist_i_Phone_14_Pro_Max_2_b7153c16cc.png"
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "gallery": [],
+        "linkToView": "https://apps.apple.com/us/app/wealthcharts/id6446364712",
+        "linkToCode": null
+      },
+      {
+        "id": 2,
+        "slug": "enjoyspi",
+        "title": "EnjoySPI",
+        "shortDescription": "React web application that enhances user experience in room bookings and event reservations, featuring an intuitive user interface integrated with Stripe for secure payments. This application is actively used by major hotel brands such as Hilton, Wyndham, and Marriott.",
+        "thumbnail": {
+          "src": "/images/projects/enjoyspi/enjoyspi-home.webp",
+          "alt": "EnjoySPI",
+          "mime": "image/webp",
+          "width": 1265,
+          "height": 712
+        },
+        "roles": [
+          "Front End",
+          "UX/UI"
+        ],
+        "technologies": [
+          {
+            "iconKey": "html",
+            "label": "HTML"
+          },
+          {
+            "iconKey": "css",
+            "label": "CSS"
+          },
+          {
+            "iconKey": "bootstrap",
+            "label": "Bootstrap"
+          },
+          {
+            "iconKey": "javascript",
+            "label": "JavaScript"
+          },
+          {
+            "iconKey": "typescript",
+            "label": "TypeScript"
+          },
+          {
+            "iconKey": "react",
+            "label": "React"
+          },
+          {
+            "iconKey": "jquery",
+            "label": "jQuery"
+          },
+          {
+            "iconKey": "nextjs",
+            "label": "Next.js"
+          }
+        ],
+        "detail": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "EnjoySPI is a dedicated service for vacationers selecting top-tier accommodations on South Padre Island. Built using Next.js and Redux, this React web application significantly enhances the user experience in room bookings and event reservations, featuring an intuitive user interface integrated with Stripe for secure payments. The application is actively used by major hotel brands such as Hilton, Wyndham, and Marriott. EnjoySPI is designed to streamline the vacation booking process, offering users an easy and enjoyable way to book all-inclusive hotel and condo packages. With a focus on user-centric design, the platform ensures that guests can effortlessly navigate through the site, select their preferred accommodation, and complete their booking securely. The integration of modern technologies like Next.js and Redux allows for a seamless and responsive experience across all devices."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "As the lead front-end engineer, I developed the EnjoySPI booking platform, focusing on creating an optimal UX/UI. My role involved designing a user-friendly interface, implementing the secure Stripe payment portal, and developing multiple marketing pages to enhance user engagement."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "children": [
+              {
+                "type": "text",
+                "text": "Hotel Information Page"
+              }
+            ],
+            "level": 2
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "One of the standout features of EnjoySPI is the detailed hotel information pages. Guests can browse through a curated selection of top-rated beachfront hotels on South Padre Island, each offering exclusive packages only available through our platform. The hotel pages provide comprehensive information about the amenities, room types, and on-site services such as bars, restaurants, and concierge services. High-quality images and user reviews from TripAdvisor are incorporated to help guests make informed decisions. Additionally, the hotel page includes a list of available packages at this location, each with detailed descriptions to assist users in making the best choice for their stay."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The page also features a form where users can select their booking dates and the number of guests, ensuring a seamless and personalized booking experience. This interactive form simplifies the reservation process, guiding users step-by-step through selecting the ideal package for their vacation."
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "/images/projects/enjoyspi/enjoyspi-hotel-detail.webp",
+              "alt": "enjoyspi-hotel-detail.jpg",
+              "mime": "image/webp",
+              "width": 1265,
+              "height": 8453,
+              "url": "/images/projects/enjoyspi/enjoyspi-hotel-detail.webp",
+              "alternativeText": "enjoyspi-hotel-detail.jpg"
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "children": [
+              {
+                "type": "text",
+                "text": "Step-by-Step Booking Selection"
+              }
+            ],
+            "level": 2
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The booking process on EnjoySPI is designed to be as straightforward as possible. Users start by selecting the number of guests and the duration of their stay. They are then guided through a step-by-step process where they can choose their desired package, select a hotel, and pick a room that suits their needs. Each step is clearly outlined, with helpful prompts and suggestions to ensure that users can complete their booking with ease."
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "/images/projects/enjoyspi/enjoyspi-package-selection.webp",
+              "alt": "enjoyspi-package-selection.jpg",
+              "mime": "image/webp",
+              "width": 1265,
+              "height": 712,
+              "url": "/images/projects/enjoyspi/enjoyspi-package-selection.webp",
+              "alternativeText": "enjoyspi-package-selection.jpg"
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "/images/projects/enjoyspi/enjoyspi-hotel-selection.webp",
+              "alt": "enjoyspi-hotel-selection.jpg",
+              "mime": "image/webp",
+              "width": 1265,
+              "height": 712,
+              "url": "/images/projects/enjoyspi/enjoyspi-hotel-selection.webp",
+              "alternativeText": "enjoyspi-hotel-selection.jpg"
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "/images/projects/enjoyspi/enjoyspi-room-selection.webp",
+              "alt": "enjoyspi-room-selection.jpg",
+              "mime": "image/webp",
+              "width": 1265,
+              "height": 712,
+              "url": "/images/projects/enjoyspi/enjoyspi-room-selection.webp",
+              "alternativeText": "enjoyspi-room-selection.jpg"
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "children": [
+              {
+                "type": "text",
+                "text": "Checkout Form"
+              }
+            ],
+            "level": 2
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The checkout process is a critical component of the EnjoySPI platform. Developed using Stripe Elements, our secure payment integration ensures that users can make payments with confidence. The checkout form supports multiple payment methods, including credit or debit cards, Apple Pay, and Google Pay, providing flexibility and convenience for users. Additionally, the form allows guests to split payments across multiple cards or payment methods if needed, making it particularly beneficial for group bookings where costs can be shared among multiple travelers. The form is designed to be user-friendly, with clear fields for all necessary information and integrated error handling to ensure a smooth transaction experience."
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "/images/projects/enjoyspi/screencapture-enjoyspi-checkout-2026-11-18-19-43-00.webp",
+              "alt": "screencapture-enjoyspi-checkout-2026-11-18-19_43_00.png",
+              "mime": "image/webp",
+              "width": 1920,
+              "height": 1117,
+              "url": "/images/projects/enjoyspi/screencapture-enjoyspi-checkout-2026-11-18-19-43-00.webp",
+              "alternativeText": "screencapture-enjoyspi-checkout-2026-11-18-19_43_00.png"
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "children": [
+              {
+                "type": "text",
+                "text": "Event Hosting"
+              }
+            ],
+            "level": 2
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In addition to booking vacations, EnjoySPI also offers options for hosting events at specific hotels. Users can book meeting spaces and event venues at top-rated beachfront hotels, such as the Courtyard by Marriott. These venues are perfect for various events, providing detailed information about amenities and services available to ensure a successful event. The event hosting feature includes options for selecting dates, choosing specific amenities, and contacting the hotel directly for further arrangements. This added functionality makes EnjoySPI a versatile platform for both vacationers and event planners."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "gallery": [],
+        "linkToView": "https://enjoyspi.com/",
+        "linkToCode": null
+      },
+      {
+        "id": 4,
+        "slug": "all-inclusive-dashboard",
+        "title": "All Inclusive Dashboard",
+        "shortDescription": "Admin management system built with React.js and Next.js, utilizing Material UI. It enables the management of vacation packages, hotels, condos, reservations, payments, and content, along with a powerful rate-setting tool and media library management.",
+        "thumbnail": {
+          "src": "/images/projects/all-inclusive-dashboard/console-02-performance.webp",
+          "alt": "All Inclusive Dashboard",
+          "mime": "image/webp",
+          "width": 1920,
+          "height": 1080
+        },
+        "roles": [
+          "Front End",
+          "Back End",
+          "UX/UI"
+        ],
+        "technologies": [
+          {
+            "iconKey": "bootstrap",
+            "label": "Bootstrap"
+          },
+          {
+            "iconKey": "react",
+            "label": "React"
+          },
+          {
+            "iconKey": "nextjs",
+            "label": "Next.js"
+          },
+          {
+            "iconKey": "html",
+            "label": "HTML"
+          },
+          {
+            "iconKey": "css",
+            "label": "CSS"
+          },
+          {
+            "iconKey": "javascript",
+            "label": "JavaScript"
+          },
+          {
+            "iconKey": "mysql",
+            "label": "MySQL"
+          }
+        ],
+        "detail": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The All Inclusive Dashboard is a comprehensive management admin system designed for the All Inclusive projects, such as EnjoySPI. Developed using React.js and Next.js, and leveraging Material UI as a component library, this dashboard provides robust capabilities to manage and streamline various administrative tasks associated with vacation packages."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The All Inclusive Dashboard serves as the backbone for managing all aspects of vacation packages, hotel and condo information, and booking details. It offers an intuitive and powerful interface for administrators to oversee and configure every element required to run a successful vacation booking platform."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "children": [
+              {
+                "type": "text",
+                "text": "Package and Hotel Management"
+              }
+            ],
+            "level": 2
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The dashboard allows users to create and manage different vacation packages and associate them with specific hotels and condos. Administrators can easily set up new packages, edit existing ones, and assign accommodations to these packages, ensuring a seamless booking experience for end-users."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "children": [
+              {
+                "type": "text",
+                "text": "Content Management System (CMS)"
+              }
+            ],
+            "level": 2
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Featuring a WYSIWYG (What You See Is What You Get) editor, the CMS system within the dashboard empowers users to create and manage single pages on the site effortlessly. This tool ensures that content can be updated quickly and easily without requiring extensive technical knowledge."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "children": [
+              {
+                "type": "text",
+                "text": "Media Library Management"
+              }
+            ],
+            "level": 2
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The dashboard includes an in-depth media library management system. Administrators can upload, organize, and manage images, videos, and other media assets. This feature is crucial for maintaining a visually appealing and up-to-date website."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "children": [
+              {
+                "type": "text",
+                "text": "Order and Payment Management"
+              }
+            ],
+            "level": 2
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Handling order and payment information is streamlined within the dashboard. Users can view and manage all reservations, track payment statuses, and ensure that all transactions are processed correctly. The system integrates with payment gateways to provide a smooth transaction experience."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "children": [
+              {
+                "type": "text",
+                "text": "Reservation Management"
+              }
+            ],
+            "level": 2
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Administrators can access detailed information about hotel reservations, including dates and package details. This feature ensures that all booking information is readily available and can be managed efficiently."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "children": [
+              {
+                "type": "text",
+                "text": "Rate Setting Tool"
+              }
+            ],
+            "level": 2
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "One of the standout features is the powerful rate setting tool. This tool allows administrators to set different prices for hotel rooms based on various criteria such as nights, weekdays, weeks, or months. It provides extensive options to adjust rates in bulk, ensuring flexibility and efficiency in pricing management."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "children": [
+              {
+                "type": "text",
+                "text": "Coupon Management"
+              }
+            ],
+            "level": 2
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The dashboard also includes a feature to create and manage special coupon codes. These coupons can be used on the EnjoySPI website, providing discounts and special offers to users, which can help drive sales and customer engagement."
+              }
+            ]
+          }
+        ],
+        "gallery": [
+          {
+            "src": "/images/projects/all-inclusive-dashboard/console-04-orders.webp",
+            "alt": "",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "/images/projects/all-inclusive-dashboard/console-07-woocommerce-payout.webp",
+            "alt": "",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "/images/projects/all-inclusive-dashboard/console-05-packages.webp",
+            "alt": "",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "/images/projects/all-inclusive-dashboard/console-06-rate-calendar.webp",
+            "alt": "",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "/images/projects/all-inclusive-dashboard/console-03-hotel-payout.webp",
+            "alt": "",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "/images/projects/all-inclusive-dashboard/console-02-performance.webp",
+            "alt": "All Inclusive Dashboard",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "/images/projects/all-inclusive-dashboard/console-01-dashboard.webp",
+            "alt": "",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
+        "linkToView": null,
+        "linkToCode": null
+      },
+      {
+        "id": 21,
+        "slug": "unfolded-poetry-project",
+        "title": "Unfolded: Poetry Project",
+        "shortDescription": "WordPress website and digital infrastructure for Unfolded Poetry Project. The site introduces the organization’s work and accepts online donations through Givebutter.",
+        "thumbnail": {
+          "src": "/images/projects/unfolded-poetry-project/unfoldedpoetryproject.webp",
+          "alt": "Unfolded: Poetry Project",
+          "mime": "image/webp",
+          "width": 1920,
+          "height": 958
+        },
+        "roles": [
+          "Back End",
+          "Front End",
+          "Design",
+          "UX/UI"
+        ],
+        "technologies": [
+          {
+            "iconKey": "wordpress",
+            "label": "Wordpress"
+          }
+        ],
+        "detail": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "As Director of Technology and Culture for Unfolded Poetry Project, I developed the organization’s WordPress website and set up its online donation workflow. I configured Givebutter and connected it to the website so visitors could learn about the project and contribute online."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I also helped set up Slack for team communication and Trello for project management. These tools gave the team a shared place to plan projects, track responsibilities, and stay coordinated as work moved forward."
+              }
+            ]
+          }
+        ],
+        "gallery": [],
+        "linkToView": "As Director of Technology and Culture for Unfolded Poetry Project, I developed the organization’s WordPress website and set up its online donation workflow. I configured Givebutter and connected it to the website so visitors could learn about the project and contribute online.  I also helped set up Slack for team communication and Trello for project management. These tools gave the team a shared place to plan projects, track responsibilities, and stay coordinated as work moved forward.",
+        "linkToCode": null
+      },
+      {
+        "id": 20,
+        "slug": "mcallen-education-foundation",
+        "title": "McAllen Education Foundation",
+        "shortDescription": "WordPress website and grant management tools for the McAllen Education Foundation, a nonprofit that funds classroom projects in McAllen ISD. Educators can apply for grants online, donors can contribute through the site, and the grant committee uses an AI-assisted tool to review proposals.",
+        "thumbnail": {
+          "src": "/images/projects/mcallen-education-foundation/mef.webp",
+          "alt": "McAllen Education Foundation",
+          "mime": "image/webp",
+          "width": 1920,
+          "height": 966
+        },
+        "roles": [
+          "Design",
+          "Back End",
+          "Front End"
+        ],
+        "technologies": [
+          {
+            "iconKey": "wordpress",
+            "label": "Wordpress"
+          }
+        ],
+        "detail": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I worked on the McAllen Education Foundation’s public website and the systems behind its Innovative Teaching Grants for McAllen ISD educators. Using WordPress and Elementor, I reorganized the site, built pages for grant applications, board members, sponsors, and the annual bowling tournament, and integrated Givebutter for online donations."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "For the grant program, I built a Python pipeline that imports Jotform submissions, collects budget attachments, and runs checks against the foundation’s grant rules. I set up the AI review workflow to extract evidence from each proposal, apply the official scoring rubric, and produce preliminary scores and summaries. The pipeline processed 254 applications and flagged cases that needed a closer look. The committee retained responsibility for final funding decisions."
+              }
+            ]
+          }
+        ],
+        "gallery": [],
+        "linkToView": "https://mcallenef.org/",
+        "linkToCode": null
+      },
+      {
+        "id": 8,
+        "slug": "las-joyas",
+        "title": "Las Joyas",
+        "shortDescription": "Developed a custom WordPress website for Las Joyas Residencies featuring detailed property listings, image galleries, and a blog.",
+        "thumbnail": {
+          "src": "/images/projects/las-joyas/lasjoyas-1.webp",
+          "alt": "Las Joyas",
+          "mime": "image/webp",
+          "width": 750,
+          "height": 410
+        },
+        "roles": [
+          "Front End",
+          "Back End"
+        ],
+        "technologies": [
+          {
+            "iconKey": "css",
+            "label": "CSS"
+          },
+          {
+            "iconKey": "html",
+            "label": "HTML"
+          },
+          {
+            "iconKey": "javascript",
+            "label": "JavaScript"
+          },
+          {
+            "iconKey": "foundation",
+            "label": "Foundation CSS"
+          },
+          {
+            "iconKey": "jquery",
+            "label": "jQuery"
+          },
+          {
+            "iconKey": "mysql",
+            "label": "MySQL"
+          },
+          {
+            "iconKey": "php",
+            "label": "PHP"
+          },
+          {
+            "iconKey": "wordpress",
+            "label": "Wordpress"
+          }
+        ],
+        "detail": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Las Joyas, located in the pristine and tropical locale of South Padre Island, TX, offers detailed information about the various types of houses available. With over 15 years of experience, Las Joyas has built a reputation for providing high-quality, attractive, and affordable residences. The residency page highlights the unique living possibilities and secure investment opportunities, ensuring that clients find not just a house, but a home. Las Joyas is committed to delivering impeccable homes that cater to the comfort and satisfaction of all residents."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "children": [
+              {
+                "type": "text",
+                "text": "Individual Unit Details Page"
+              }
+            ],
+            "level": 2
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The individual unit details page provides comprehensive information about each type of residence available at Las Joyas. Each unit is presented with detailed dimensions, floor plans, and high-quality images to give potential buyers a clear view of what to expect. The page includes expandable sections for construction details, kitchen specifications, living and dining areas, bedroom layouts, bathroom features, laundry options, exterior color choices, and amenities. This thorough breakdown ensures that prospective homeowners have all the necessary information to make an informed decision about their future home in this desirable community."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "children": [
+              {
+                "type": "text",
+                "text": "Gallery"
+              }
+            ],
+            "level": 2
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The gallery page showcases the beautiful residences of Las Joyas, giving potential buyers a glimpse of the high standards of craftsmanship and design. With a focus on contemporary designs and innovative concepts, the gallery captures the essence of comfortable living that Las Joyas is synonymous with. This visual representation reinforces the company’s dedication to creating unforgettable homes in a highly sought-after location."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "children": [
+              {
+                "type": "text",
+                "text": "Blog Page"
+              }
+            ],
+            "level": 2
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The blog section of the Las Joyas website provides updates and insights on urban development, community values, and residential housing solutions. It serves as a platform to share the latest news, tips for homeowners, and the benefits of living in South Padre Island. Through the blog, Las Joyas aims to create a positive impact by keeping clients informed and engaged, further enhancing their commitment to quality and customer satisfaction."
+              }
+            ]
+          }
+        ],
+        "gallery": [],
+        "linkToView": "https://lasjoyaspi.com/",
+        "linkToCode": null
+      },
+      {
+        "id": 9,
+        "slug": "las-velas-village",
+        "title": "Las Velas Village",
+        "shortDescription": "Developed a custom WordPress website for Las Velas Village, a premier condo complex located in South Padre Island, TX. ",
+        "thumbnail": {
+          "src": "/images/projects/las-velas-village/lasvelas-1.webp",
+          "alt": "Las Velas Village",
+          "mime": "image/webp",
+          "width": 750,
+          "height": 403
+        },
+        "roles": [
+          "Front End",
+          "Back End"
+        ],
+        "technologies": [
+          {
+            "iconKey": "css",
+            "label": "CSS"
+          },
+          {
+            "iconKey": "foundation",
+            "label": "Foundation CSS"
+          },
+          {
+            "iconKey": "html",
+            "label": "HTML"
+          },
+          {
+            "iconKey": "javascript",
+            "label": "JavaScript"
+          },
+          {
+            "iconKey": "jquery",
+            "label": "jQuery"
+          },
+          {
+            "iconKey": "mysql",
+            "label": "MySQL"
+          },
+          {
+            "iconKey": "php",
+            "label": "PHP"
+          },
+          {
+            "iconKey": "wordpress",
+            "label": "Wordpress"
+          }
+        ],
+        "detail": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Developed a custom WordPress website for Las Velas Village, a premier condo complex located in South Padre Island, TX. The website features a custom theme built using the Foundation CSS framework, ensuring a responsive and user-friendly experience across all devices."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Las Velas Village offers waterfront luxury condos with breathtaking views of the Laguna Madre. The condos are perfect for those who enjoy fishing, boating, windsurfing, and observing the unique bird species of South Padre Island. The location features a deep-water launch for open sea activities and a shallow water launch for water sports like kiteboarding, jet-skiing, paddleboarding, and kayaking."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "children": [
+              {
+                "type": "text",
+                "text": "Gallery"
+              }
+            ],
+            "level": 2
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "A comprehensive image gallery to provide potential buyers with a visual tour of the condos and the stunning views they offer."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "children": [
+              {
+                "type": "text",
+                "text": "Blog"
+              }
+            ],
+            "level": 2
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Regular updates and posts about the community, events, and the unique lifestyle at Las Velas Village."
+              }
+            ]
+          }
+        ],
+        "gallery": [],
+        "linkToView": "https://lasvelasvillage.com/",
+        "linkToCode": null
+      },
+      {
+        "id": 12,
+        "slug": "paez-development",
+        "title": "Paez Development",
+        "shortDescription": "WordPress website with custom theme for Paez Development, showcasing their unique and high-standard tropical living properties.",
+        "thumbnail": {
+          "src": "/images/projects/paez-development/paezdevelopment-1.webp",
+          "alt": "Paez Development",
+          "mime": "image/webp",
+          "width": 750,
+          "height": 676
+        },
+        "roles": [
+          "Design",
+          "Front End",
+          "Back End"
+        ],
+        "technologies": [
+          {
+            "iconKey": "css",
+            "label": "CSS"
+          },
+          {
+            "iconKey": "foundation",
+            "label": "Foundation CSS"
+          },
+          {
+            "iconKey": "html",
+            "label": "HTML"
+          },
+          {
+            "iconKey": "javascript",
+            "label": "JavaScript"
+          },
+          {
+            "iconKey": "jquery",
+            "label": "jQuery"
+          },
+          {
+            "iconKey": "php",
+            "label": "PHP"
+          },
+          {
+            "iconKey": "mysql",
+            "label": "MySQL"
+          },
+          {
+            "iconKey": "wordpress",
+            "label": "Wordpress"
+          }
+        ],
+        "detail": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Paez Development, established in March 2001, has been creating countless opportunities for unique and higher-standard living. Their properties are conveniently located in areas that offer the best of tropical living. With extensive knowledge in interior design and a strong background in construction and engineering, Paez Development creates some of the most beautiful living locations."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "This website was developed using WordPress with a custom-built theme based on the Foundation front-end framework. It features three main pages that highlight the company’s offerings and additional pages for detailed property listings and information."
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "/images/projects/paez-development/paezdevelopment-3-640x2353.webp",
+              "alt": "PaezDevelopment-3-640x2353.png",
+              "mime": "image/webp",
+              "width": 82,
+              "height": 300,
+              "url": "/images/projects/paez-development/paezdevelopment-3-640x2353.webp",
+              "alternativeText": "PaezDevelopment-3-640x2353.png"
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "/images/projects/paez-development/paezdevelopment-4-640x1400.webp",
+              "alt": "PaezDevelopment-4-640x1400.png",
+              "mime": "image/webp",
+              "width": 137,
+              "height": 300,
+              "url": "/images/projects/paez-development/paezdevelopment-4-640x1400.webp",
+              "alternativeText": "PaezDevelopment-4-640x1400.png"
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "gallery": [],
+        "linkToView": "https://paezdevelopment.com/",
+        "linkToCode": null
+      },
+      {
+        "id": 15,
+        "slug": "valley-animal-hospital",
+        "title": "Valley Animal Hospital",
+        "shortDescription": "WordPress website with a custom theme for a veterinary hospital in Pharr, TX, featuring detailed service information, doctor profiles, a newsletter, and a blog",
+        "thumbnail": {
+          "src": "/images/projects/valley-animal-hospital/vah-1.webp",
+          "alt": "Valley Animal Hospital",
+          "mime": "image/webp",
+          "width": 750,
+          "height": 542
+        },
+        "roles": [
+          "Front End",
+          "Back End"
+        ],
+        "technologies": [
+          {
+            "iconKey": "wordpress",
+            "label": "Wordpress"
+          },
+          {
+            "iconKey": "html",
+            "label": "HTML"
+          },
+          {
+            "iconKey": "css",
+            "label": "CSS"
+          },
+          {
+            "iconKey": "javascript",
+            "label": "JavaScript"
+          },
+          {
+            "iconKey": "jquery",
+            "label": "jQuery"
+          },
+          {
+            "iconKey": "php",
+            "label": "PHP"
+          },
+          {
+            "iconKey": "mysql",
+            "label": "MySQL"
+          }
+        ],
+        "detail": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Valley Animal Hospital, located in Pharr, TX, provides exceptional veterinary care and services for pets in the community. Originally opened in San Juan in March 1946 by Dr. Robert E. Norton, a recent graduate of Iowa State Veterinary College, the hospital quickly outgrew its original facility and moved to its current location in Pharr in 1950. The hospital has a rich history, including enduring partnerships and expansions to better serve the community’s pets."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "This website was developed using WordPress with a custom-built theme based on the Foundation framework. It features regular marketing pages detailing the hospital’s wide range of services and the experienced doctors who provide them. Additionally, the site includes a newsletter subscription page and a blog to keep pet owners informed about the latest news, tips, and updates in pet care. The website is designed to be user-friendly, ensuring that visitors can easily access the information they need to care for their pets."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "children": [
+              {
+                "type": "text",
+                "text": "Key Features:"
+              }
+            ],
+            "level": 2
+          },
+          {
+            "type": "list",
+            "format": "unordered",
+            "children": [
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Services Page: Detailed information about the veterinary services offered, including modern surgical equipment, laboratory and examination facilities."
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Doctors Page: Profiles of the dedicated team of veterinarians, highlighting their expertise and commitment to quality care."
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Newsletter: A subscription page to keep pet owners updated with the latest news and health tips."
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Blog: Regular posts about pet care, health tips, and updates from the hospital."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "/images/projects/valley-animal-hospital/webp-net-resizeimage-768x2565.webp",
+              "alt": "Webp.net-resizeimage-768x2565.png",
+              "mime": "image/webp",
+              "width": 90,
+              "height": 300,
+              "url": "/images/projects/valley-animal-hospital/webp-net-resizeimage-768x2565.webp",
+              "alternativeText": "Webp.net-resizeimage-768x2565.png"
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "/images/projects/valley-animal-hospital/vah-3-768x1718.webp",
+              "alt": "VAH-3-768x1718.png",
+              "mime": "image/webp",
+              "width": 134,
+              "height": 300,
+              "url": "/images/projects/valley-animal-hospital/vah-3-768x1718.webp",
+              "alternativeText": "VAH-3-768x1718.png"
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "gallery": [],
+        "linkToView": "https://valleyanimal.net/",
+        "linkToCode": null
+      },
+      {
+        "id": 5,
+        "slug": "atlas-hall-rodriguez",
+        "title": "Atlas Hall Rodriguez",
+        "shortDescription": "Website is a comprehensive marketing platform for a leading full-service law firm in South Texas. Built using a fully custom WordPress theme and Foundation as the CSS framework.",
+        "thumbnail": {
+          "src": "/images/projects/atlas-hall-rodriguez/ahr-1.webp",
+          "alt": "Atlas Hall Rodriguez",
+          "mime": "image/webp",
+          "width": 300,
+          "height": 191
+        },
+        "roles": [
+          "Front End",
+          "Back End"
+        ],
+        "technologies": [
+          {
+            "iconKey": "wordpress",
+            "label": "Wordpress"
+          },
+          {
+            "iconKey": "html",
+            "label": "HTML"
+          },
+          {
+            "iconKey": "css",
+            "label": "CSS"
+          },
+          {
+            "iconKey": "javascript",
+            "label": "JavaScript"
+          },
+          {
+            "iconKey": "jquery",
+            "label": "jQuery"
+          },
+          {
+            "iconKey": "php",
+            "label": "PHP"
+          },
+          {
+            "iconKey": "mysql",
+            "label": "MySQL"
+          }
+        ],
+        "detail": [
+          {
+            "type": "image",
+            "image": {
+              "src": "/images/projects/atlas-hall-rodriguez/ahr-1.webp",
+              "alt": "AHR-1.png",
+              "mime": "image/webp",
+              "width": 300,
+              "height": 191,
+              "url": "/images/projects/atlas-hall-rodriguez/ahr-1.webp",
+              "alternativeText": "AHR-1.png"
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The Atlas Hall Rodriguez website is a comprehensive marketing platform for a leading full-service law firm in South Texas. Built using a fully custom WordPress theme and Foundation as the CSS framework, this site showcases the firm's extensive range of legal services and their commitment to professionalism and public service."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Atlas Hall Rodriguez offers a user-friendly interface featuring profile pages for all attorneys, allowing visitors to filter and view attorneys based on their specific practice areas. This functionality ensures that potential clients can easily find the right attorney for their needs, whether it’s litigation, business law, real estate, or other specialized areas."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "With offices in McAllen and Brownsville, Atlas Hall Rodriguez provides legal representation in various fields, including litigation, corporate law, real estate, insurance, employment, and more. The website highlights the firm’s dedication to serving a diverse clientele, from individuals to large corporations and governmental entities, across the Rio Grande Valley and beyond."
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "/images/projects/atlas-hall-rodriguez/ahr-2-640x1366.webp",
+              "alt": "AHR-2-640x1366.png",
+              "mime": "image/webp",
+              "width": 141,
+              "height": 300,
+              "url": "/images/projects/atlas-hall-rodriguez/ahr-2-640x1366.webp",
+              "alternativeText": "AHR-2-640x1366.png"
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "/images/projects/atlas-hall-rodriguez/ahr-3-640x1284.webp",
+              "alt": "AHR-3-640x1284.png",
+              "mime": "image/webp",
+              "width": 150,
+              "height": 300,
+              "url": "/images/projects/atlas-hall-rodriguez/ahr-3-640x1284.webp",
+              "alternativeText": "AHR-3-640x1284.png"
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "gallery": [],
+        "linkToView": "https://atlashall.com/",
+        "linkToCode": null
+      },
+      {
+        "id": 6,
+        "slug": "chorizo-de-san-manuel",
+        "title": "Chorizo de San Manuel",
+        "shortDescription": "Website is a dynamic marketing and e-commerce platform developed with WordPress, utilizing a custom theme built on the Foundation CSS framework. Specializing in selling high-quality chorizo and meats across Texas, this site provides a seamless shopping experience for customers.",
+        "thumbnail": {
+          "src": "/images/projects/chorizo-de-san-manuel/chorizo-1-956x1024.webp",
+          "alt": "Chorizo de San Manuel",
+          "mime": "image/webp",
+          "width": 750,
+          "height": 370
+        },
+        "roles": [
+          "Design",
+          "Front End",
+          "Back End"
+        ],
+        "technologies": [
+          {
+            "iconKey": "foundation",
+            "label": "Foundation CSS"
+          },
+          {
+            "iconKey": "css",
+            "label": "CSS"
+          },
+          {
+            "iconKey": "html",
+            "label": "HTML"
+          },
+          {
+            "iconKey": "javascript",
+            "label": "JavaScript"
+          },
+          {
+            "iconKey": "jquery",
+            "label": "jQuery"
+          },
+          {
+            "iconKey": "mysql",
+            "label": "MySQL"
+          },
+          {
+            "iconKey": "php",
+            "label": "PHP"
+          },
+          {
+            "iconKey": "wordpress",
+            "label": "Wordpress"
+          },
+          {
+            "iconKey": "figma",
+            "label": "Figma"
+          }
+        ],
+        "detail": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The "
+              },
+              {
+                "type": "text",
+                "text": "Chorizo de San Manuel ",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "website is a dynamic marketing and e-commerce platform developed with WordPress, utilizing a custom theme built on the Foundation CSS framework. Specializing in selling high-quality chorizo and meats across Texas, this site provides a seamless shopping experience for customers."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The website features dedicated e-commerce pages where users can browse and purchase various meat products. Additionally, it includes a recipe section showcasing different dishes that can be made using Chorizo de San Manuel's products, enhancing customer engagement and providing culinary inspiration."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I was responsible for both the UX and UI design, which I crafted using Figma, ensuring a user-friendly and visually appealing interface. The design focuses on providing an intuitive shopping experience while highlighting the rich culinary heritage and quality of the products offered by Chorizo de San Manuel."
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "/images/projects/chorizo-de-san-manuel/chorizo-5-768x2018.webp",
+              "alt": "chorizo-5-768x2018.png",
+              "mime": "image/webp",
+              "width": 114,
+              "height": 300,
+              "url": "/images/projects/chorizo-de-san-manuel/chorizo-5-768x2018.webp",
+              "alternativeText": "chorizo-5-768x2018.png"
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "/images/projects/chorizo-de-san-manuel/chorizo-6-768x1620.webp",
+              "alt": "chorizo-6-768x1620.png",
+              "mime": "image/webp",
+              "width": 142,
+              "height": 300,
+              "url": "/images/projects/chorizo-de-san-manuel/chorizo-6-768x1620.webp",
+              "alternativeText": "chorizo-6-768x1620.png"
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "/images/projects/chorizo-de-san-manuel/chorizo-4-768x1625.webp",
+              "alt": "chorizo-4-768x1625.png",
+              "mime": "image/webp",
+              "width": 142,
+              "height": 300,
+              "url": "/images/projects/chorizo-de-san-manuel/chorizo-4-768x1625.webp",
+              "alternativeText": "chorizo-4-768x1625.png"
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "/images/projects/chorizo-de-san-manuel/chorizo-3-768x1108.webp",
+              "alt": "chorizo-3-768x1108.png",
+              "mime": "image/webp",
+              "width": 208,
+              "height": 300,
+              "url": "/images/projects/chorizo-de-san-manuel/chorizo-3-768x1108.webp",
+              "alternativeText": "chorizo-3-768x1108.png"
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "gallery": [],
+        "linkToView": "https://www.chorizodesanmanuel.com/",
+        "linkToCode": null
+      },
+      {
+        "id": 7,
+        "slug": "kapal-industries",
+        "title": "Kapal Industries",
+        "shortDescription": "E-commerce website, built with a custom WordPress theme and Foundation framework, offers a streamlined catalog and filter functionality. It specializes in granite, quartz, and solid surface countertops, ensuring seamless product browsing and professional installation.",
+        "thumbnail": {
+          "src": "/images/projects/kapal-industries/kapal-thumbnail.webp",
+          "alt": "Kapal Industries",
+          "mime": "image/webp",
+          "width": 750,
+          "height": 392
+        },
+        "roles": [
+          "Front End",
+          "Back End"
+        ],
+        "technologies": [
+          {
+            "iconKey": "css",
+            "label": "CSS"
+          },
+          {
+            "iconKey": "foundation",
+            "label": "Foundation CSS"
+          },
+          {
+            "iconKey": "html",
+            "label": "HTML"
+          },
+          {
+            "iconKey": "javascript",
+            "label": "JavaScript"
+          },
+          {
+            "iconKey": "jquery",
+            "label": "jQuery"
+          },
+          {
+            "iconKey": "mysql",
+            "label": "MySQL"
+          },
+          {
+            "iconKey": "php",
+            "label": "PHP"
+          },
+          {
+            "iconKey": "wordpress",
+            "label": "Wordpress"
+          }
+        ],
+        "detail": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The "
+              },
+              {
+                "type": "text",
+                "text": "Kapal Industries",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": " website is an e-commerce platform developed with WordPress, utilizing a custom theme built on the Foundation CSS framework. The website showcases a sophisticated catalog and filter functionality, allowing users to easily browse and select products."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Kapal Industries specializes in fabricating stone countertops in granite, quartz, and solid surfaces. As one of the first turnkey manufacturers, they provide both cabinets and countertops with a short lead time, often installing on the same day with their professional installation crew. The website is designed to reflect this high level of craftsmanship and efficiency, ensuring users can confidently navigate from conception to completion of their projects."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The custom theme and intuitive design make it easy for customers to find and purchase products, enhancing the overall user experience."
+              }
+            ]
+          }
+        ],
+        "gallery": [],
+        "linkToView": "https://kapalindustries.com/",
+        "linkToCode": null
+      },
+      {
+        "id": 11,
+        "slug": "silver-ribbon-community-partners",
+        "title": "Silver Ribbon Community Partners",
+        "shortDescription": "Wordpress website for an organization dedicated to providing advocacy, education, and resources to prevent the elderly or disabled from becoming victims of abuse, neglect, and financial exploitation. ",
+        "thumbnail": {
+          "src": "/images/projects/silver-ribbon-community-partners/silverribbon-4.webp",
+          "alt": "Silver Ribbon Community Partners",
+          "mime": "image/webp",
+          "width": 300,
+          "height": 233
+        },
+        "roles": [
+          "Back End",
+          "Front End",
+          "Design"
+        ],
+        "technologies": [
+          {
+            "iconKey": "css",
+            "label": "CSS"
+          },
+          {
+            "iconKey": "html",
+            "label": "HTML"
+          },
+          {
+            "iconKey": "javascript",
+            "label": "JavaScript"
+          },
+          {
+            "iconKey": "jquery",
+            "label": "jQuery"
+          },
+          {
+            "iconKey": "php",
+            "label": "PHP"
+          },
+          {
+            "iconKey": "mysql",
+            "label": "MySQL"
+          },
+          {
+            "iconKey": "wordpress",
+            "label": "Wordpress"
+          }
+        ],
+        "detail": [
+          {
+            "type": "image",
+            "image": {
+              "src": "/images/projects/silver-ribbon-community-partners/silverribbon-1.webp",
+              "alt": "SilverRibbon-1.png",
+              "mime": "image/webp",
+              "width": 300,
+              "height": 179,
+              "url": "/images/projects/silver-ribbon-community-partners/silverribbon-1.webp",
+              "alternativeText": "SilverRibbon-1.png"
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Silver Ribbon Community Partners is an organization dedicated to providing advocacy, education, and resources to prevent the elderly or disabled from becoming victims of abuse, neglect, and financial exploitation. They also raise community awareness through yearly events in May and June to ensure these individuals are not forgotten."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "This website was developed during the 24-hour Do_action WordPress Hackathon organized by CodeRGV, where it won 1st place in the competition against other teams of developers and designers. The site was built using a WordPress backend and a custom theme developed with Themeco’s Pro Theme builder."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The website features five main pages, including a dedicated Donation page that handles contributions through a PayPal plugin, ensuring secure and seamless transactions."
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "/images/projects/silver-ribbon-community-partners/silverribbon-2-640x1944.webp",
+              "alt": "SilverRibbon-2-640x1944.png",
+              "mime": "image/webp",
+              "width": 99,
+              "height": 300,
+              "url": "/images/projects/silver-ribbon-community-partners/silverribbon-2-640x1944.webp",
+              "alternativeText": "SilverRibbon-2-640x1944.png"
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "/images/projects/silver-ribbon-community-partners/silverribbon-3.webp",
+              "alt": "SilverRibbon-3.png",
+              "mime": "image/webp",
+              "width": 230,
+              "height": 300,
+              "url": "/images/projects/silver-ribbon-community-partners/silverribbon-3.webp",
+              "alternativeText": "SilverRibbon-3.png"
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "/images/projects/silver-ribbon-community-partners/silverribbon-4.webp",
+              "alt": "SilverRibbon-4.png",
+              "mime": "image/webp",
+              "width": 300,
+              "height": 233,
+              "url": "/images/projects/silver-ribbon-community-partners/silverribbon-4.webp",
+              "alternativeText": "SilverRibbon-4.png"
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "gallery": [],
+        "linkToView": "https://web.archive.org/web/20180809080200/http://silverribboncommunitypartners.org/",
+        "linkToCode": null
+      },
+      {
+        "id": 10,
+        "slug": "mcallen-year-in-review-2018",
+        "title": "McAllen Year in Review 2018",
+        "shortDescription": "Website developed for the City of McAllen, TX, to commemorate every relevant development and newsworthy event that took place in the year 2018. ",
+        "thumbnail": {
+          "src": "/images/projects/mcallen-year-in-review-2018/mcallen-1.webp",
+          "alt": "McAllen Year in Review 2018",
+          "mime": "image/webp",
+          "width": 300,
+          "height": 173
+        },
+        "roles": [
+          "Front End",
+          "Design",
+          "Back End"
+        ],
+        "technologies": [
+          {
+            "iconKey": "css",
+            "label": "CSS"
+          },
+          {
+            "iconKey": "foundation",
+            "label": "Foundation CSS"
+          },
+          {
+            "iconKey": "html",
+            "label": "HTML"
+          },
+          {
+            "iconKey": "jquery",
+            "label": "jQuery"
+          },
+          {
+            "iconKey": "javascript",
+            "label": "JavaScript"
+          },
+          {
+            "iconKey": "mysql",
+            "label": "MySQL"
+          },
+          {
+            "iconKey": "php",
+            "label": "PHP"
+          },
+          {
+            "iconKey": "wordpress",
+            "label": "Wordpress"
+          }
+        ],
+        "detail": [
+          {
+            "type": "image",
+            "image": {
+              "src": "/images/projects/mcallen-year-in-review-2018/mcallen-1.webp",
+              "alt": "McAllen-1.png",
+              "mime": "image/webp",
+              "width": 300,
+              "height": 173,
+              "url": "/images/projects/mcallen-year-in-review-2018/mcallen-1.webp",
+              "alternativeText": "McAllen-1.png"
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Website developed for the City of McAllen, TX, to commemorate every relevant development and newsworthy event that took place in the year 2018. This website was developed using a WordPress backend with a custom-built theme based on the Foundation front-end framework, ensuring a responsive and engaging user experience."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "children": [
+              {
+                "type": "text",
+                "text": "Key Features:"
+              }
+            ],
+            "level": 3
+          },
+          {
+            "type": "list",
+            "format": "unordered",
+            "children": [
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "City in Action",
+                    "bold": true
+                  },
+                  {
+                    "type": "text",
+                    "text": ": Showcasing various initiatives, projects, and activities undertaken by the city throughout the year, highlighting the community's development and engagement."
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Your Money Matters",
+                    "bold": true
+                  },
+                  {
+                    "type": "text",
+                    "text": ": Providing transparent insights into the city's financial management, budget allocations, and fiscal achievements, ensuring residents are well-informed about how public funds are utilized."
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Newsworthy Events",
+                    "bold": true
+                  },
+                  {
+                    "type": "text",
+                    "text": ": Covering significant events, milestones, and occurrences that shaped the year for McAllen, capturing the essence of the city's vibrant community and its achievements."
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Accolades",
+                    "bold": true
+                  },
+                  {
+                    "type": "text",
+                    "text": ": Celebrating the awards, recognitions, and honors received by the city, its departments, and its citizens, showcasing McAllen's excellence and accomplishments."
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "City Apps",
+                    "bold": true
+                  },
+                  {
+                    "type": "text",
+                    "text": ": Featuring various digital tools and applications developed to enhance the residents' experience, improve city services, and promote civic engagement."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "/images/projects/mcallen-year-in-review-2018/mcallen-2-768x482.webp",
+              "alt": "McAllen-2-768x482.png",
+              "mime": "image/webp",
+              "width": 300,
+              "height": 188,
+              "url": "/images/projects/mcallen-year-in-review-2018/mcallen-2-768x482.webp",
+              "alternativeText": "McAllen-2-768x482.png"
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "gallery": [],
+        "linkToView": null,
+        "linkToCode": null
+      },
+      {
+        "id": 16,
+        "slug": "ur-invited",
+        "title": "UR Invited",
+        "shortDescription": "Swift-developed iOS group messaging app for live events, using Firebase, AWS Auth Core, and OneSignal SDK for database, authentication, and notifications.",
+        "thumbnail": {
+          "src": "/images/projects/ur-invited/uri-1.webp",
+          "alt": "UR Invited",
+          "mime": "image/webp",
+          "width": 750,
+          "height": 453
+        },
+        "roles": [
+          "Front End",
+          "Back End"
+        ],
+        "technologies": [
+          {
+            "iconKey": "swift",
+            "label": "Swift"
+          },
+          {
+            "iconKey": "firebase",
+            "label": "Firebase"
+          },
+          {
+            "iconKey": "oneSignal",
+            "label": "One Signal"
+          }
+        ],
+        "detail": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "UR Invited is an iOS group messaging app that revolves around live events such as sports, concerts, and conventions. Developed with Swift, it enables users to join group chats based on specific events, inviting friends and engaging in real-time conversations. The app features integration with Firebase for its database and AWS Auth Core for authentication purposes, ensuring secure user access. Additionally, OneSignal SDK is used for messaging and notifications, allowing seamless communication and timely updates. Users can also invite Sponsored Users, including brands, sports teams, and professional players, to send special deals and behind-the-scenes information."
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "/images/projects/ur-invited/uri-2.webp",
+              "alt": "URI-2.png",
+              "mime": "image/webp",
+              "width": 169,
+              "height": 300,
+              "url": "/images/projects/ur-invited/uri-2.webp",
+              "alternativeText": "URI-2.png"
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "/images/projects/ur-invited/uri-4.webp",
+              "alt": "URI-4.png",
+              "mime": "image/webp",
+              "width": 169,
+              "height": 300,
+              "url": "/images/projects/ur-invited/uri-4.webp",
+              "alternativeText": "URI-4.png"
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "gallery": [],
+        "linkToView": null,
+        "linkToCode": "https://github.com/emmanuelolivo1002/UR-Invited"
+      },
+      {
+        "id": 14,
+        "slug": "valley-technical-academy",
+        "title": "Valley Technical Academy",
+        "shortDescription": "Worpress website for Coding Bootcamp located in Mission, TX, offering comprehensive training in Web Development, UX Design, and Cyber Security.",
+        "thumbnail": {
+          "src": "/images/projects/valley-technical-academy/valleytech-thumnail.webp",
+          "alt": "Valley Technical Academy",
+          "mime": "image/webp",
+          "width": 750,
+          "height": 622
+        },
+        "roles": [
+          "Front End",
+          "Back End"
+        ],
+        "technologies": [
+          {
+            "iconKey": "wordpress",
+            "label": "Wordpress"
+          },
+          {
+            "iconKey": "html",
+            "label": "HTML"
+          },
+          {
+            "iconKey": "css",
+            "label": "CSS"
+          },
+          {
+            "iconKey": "javascript",
+            "label": "JavaScript"
+          },
+          {
+            "iconKey": "jquery",
+            "label": "jQuery"
+          },
+          {
+            "iconKey": "php",
+            "label": "PHP"
+          },
+          {
+            "iconKey": "mysql",
+            "label": "MySQL"
+          }
+        ],
+        "detail": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Valley Technical Academy is a Coding Bootcamp located in Mission, TX, offering comprehensive training in Web Development, UX Design, and Cyber Security. The academy is dedicated to equipping students with the skills needed to excel in the fast-paced tech industry."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "This website was developed using a WordPress backend with a custom-built theme utilizing Themeco’s Pro Theme builder. It features four main pages that provide detailed information about the academy's programs, instructors, and success stories. Additionally, there is an Enroll page designed to streamline the registration process for prospective students. The website's design ensures a user-friendly experience, making it easy for visitors to navigate and find the information they need."
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "/images/projects/valley-technical-academy/valleytech-1-1-768x3146.webp",
+              "alt": "ValleyTech-1-1-768x3146.png",
+              "mime": "image/webp",
+              "width": 73,
+              "height": 300,
+              "url": "/images/projects/valley-technical-academy/valleytech-1-1-768x3146.webp",
+              "alternativeText": "ValleyTech-1-1-768x3146.png"
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "/images/projects/valley-technical-academy/valleytech-2-768x2445.webp",
+              "alt": "ValleyTech-2-768x2445.png",
+              "mime": "image/webp",
+              "width": 94,
+              "height": 300,
+              "url": "/images/projects/valley-technical-academy/valleytech-2-768x2445.webp",
+              "alternativeText": "ValleyTech-2-768x2445.png"
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "/images/projects/valley-technical-academy/valleytech-3-768x1508.webp",
+              "alt": "ValleyTech-3-768x1508.png",
+              "mime": "image/webp",
+              "width": 153,
+              "height": 300,
+              "url": "/images/projects/valley-technical-academy/valleytech-3-768x1508.webp",
+              "alternativeText": "ValleyTech-3-768x1508.png"
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "gallery": [],
+        "linkToView": null,
+        "linkToCode": null
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "subtitle": "I've had the chance to work with some really awesome companies over the years. Each one brought unique challenges and learning experiences that helped shape my career.",
+    "jobs": [
+      {
+        "id": 7,
+        "title": "Software Engineer",
+        "company": "Ruby Red Hospitality",
+        "location": "McAllen, TX",
+        "startDate": "2024-02-01",
+        "endDate": null,
+        "detail": [
+          {
+            "type": "list",
+            "format": "unordered",
+            "children": [
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": " Developed ATLAS, an internal operations platform built with Next.js, TypeScript, and Supabase that brings occupancy forecasts, revenue reporting, guest reviews, purchasing, and maintenance into one place across hotels and restaurants."
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Built data pipelines that turn nightly hotel reports into occupancy forecasts and combine sales from Toast, Square, and Stripe into a shared revenue dashboard."
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Integrated AI-assisted review tools into ATLAS so hospitality teams can monitor guest feedback across multiple platforms and review draft responses."
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Developed and maintained the EnjoySPI booking platform and WordPress websites for hospitality brands, supporting direct bookings, Stripe payments, and marketing campaigns."
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Rebuilt SearchTexasTax with Next.js, TypeScript, and Supabase and set up pipelines to import hotel occupancy and mixed beverage tax records from the Texas Comptroller. "
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Supported on-site technology across properties, including UniFi networks, cameras, and AV systems, and brought network and camera monitoring into ATLAS."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Director of Technology and Culture",
+        "company": "Unfolded: Poetry Project",
+        "location": "McAllen, TX",
+        "startDate": "2022-01-01",
+        "endDate": null,
+        "detail": [
+          {
+            "type": "list",
+            "format": "unordered",
+            "children": [
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Directed the nonprofit’s technology strategy, aligning tools and systems with organizational goals."
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Designed and managed a custom WordPress-based website to improve accessibility and user experience."
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Established communication, data management, and project management systems to streamline team collaboration and operations."
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Implemented analytics tools for tracking website performance and social media engagement."
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Integrated donation services into the website, supporting fundraising efforts."
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Ensured secure and up-to-date systems, prioritizing data protection and operational efficiency."
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Taught bilingual English and Spanish classes, fostering inclusivity and community engagement."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "title": "Senior Front-End Software Engineer",
+        "company": "WealthCharts",
+        "location": "Remote",
+        "startDate": "2021-02-01",
+        "endDate": "2024-03-15",
+        "detail": [
+          {
+            "type": "list",
+            "format": "unordered",
+            "children": [
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Spearheaded the redesign and debugging of an award-winning Stock Market Analysis/Trading Platform, fully refactoring the company's flagship web application using the React framework."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "format": "unordered",
+            "children": [
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Led the development of the company's flagship web platform into a mobile app for iOS and Android using React, NextJS, and Capacitor. Supervised mobile-specific feature adaptation with Tailwind CSS and managed the app's release on both the App Store and Google Play."
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Developed and managed multiple single-page applications for internal administrative functions utilizing React, JavaScript, TypeScript, jQuery, and PHP."
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Oversaw source control processes, including code review and pipeline management, and coordinated branch merges for various projects."
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Administered and upgraded 10+ marketing websites featuring a WordPress/PHP backend and a JavaScript/TypeScript/jQuery front end."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Front End Web Developer",
+        "company": "Perspective HMS",
+        "location": "McAllen, TX / Remote",
+        "startDate": "2019-11-01",
+        "endDate": "2020-12-01",
+        "detail": [
+          {
+            "type": "list",
+            "format": "unordered",
+            "children": [
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Developed a React and NextJS-based order/stock management dashboard for Hospitality accounts, focusing on UI design and UX, featuring data display, payment processing, and database management functionalities."
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Engineered a React web application that enhances user experience in room bookings and event reservations, featuring an intuitive user interface integrated with Stripe for secure payments. This application is actively used by major hotel brands such as Hilton, Wyndham, and Marriott."
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": " Implemented CI/CD pipelines across multiple projects, enhancing the user experience by ensuring continuous integration and deployment with Amazon Web Services and Azure."
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Conducted comprehensive end-to-end testing and integration, focusing on UI consistency and UX to guarantee robust application performance and reliability."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Developer/Tech Department",
+        "company": "Imagine It Studios",
+        "location": "McAllen, TX",
+        "startDate": "2018-07-01",
+        "endDate": "2019-03-01",
+        "detail": [
+          {
+            "type": "list",
+            "format": "unordered",
+            "children": [
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Developed and maintained a diverse range of client websites, from blogs to e-commerce platforms, utilizing React for Single Page Applications and integrating jQuery and PHP with platforms such as WordPress, Magento, and Squarespace."
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Delivered Search Engine Optimization services and ongoing maintenance for approximately 20 clients, enhancing online visibility and website performance."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Web Developer / Workshop Instructor",
+        "company": "Valley Technical Academy",
+        "location": "Mission, TX",
+        "startDate": "2017-09-13",
+        "endDate": "2018-04-12",
+        "detail": [
+          {
+            "type": "list",
+            "format": "unordered",
+            "children": [
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Provided assistance and tutoring services to students enrolled in a 12-week intensive course in Full Stack Web Development and User Experience Design."
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Taught a series of intensive workshops in Web Development; covering HTML5, CSS3, JavaScript and Bootstrap 4."
+                  }
+                ]
+              },
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Taught a series of 3-hour workshops in iOS Development covering the XCode interface, Introduction/Advanced Swift 4, Interface Builder and Auto Layout."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Lead Developer & Computer Technician",
+        "company": "TechCtrl",
+        "location": "Mission, TX",
+        "startDate": "2017-03-01",
+        "endDate": "2018-06-01",
+        "detail": [
+          {
+            "type": "list",
+            "format": "unordered",
+            "children": [
+              {
+                "type": "list-item",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Developed and managed WordPress websites for multiple local businesses, incorporating jQuery, PHP, and MySQL to enhance functionality and user experience."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "about": {
+    "title": "About Me",
+    "detail": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Hi there! I'm a Software Engineer specializing in front-end web and mobile development since 2017. Originally from Veracruz, Mexico, I've been calling Texas home since 2012. I graduated with a degree in Computer Engineering from The University of Texas Rio Grande Valley in 2016."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "I've always loved video games and computers. I started making my first text adventure games in high school with Pascal, and later, I created my first apps with Visual Basic for school projects. These days, I work mainly with React, building responsive, user-friendly applications that look great and work even better."
+          }
+        ]
+      }
+    ],
+    "portrait": {
+      "src": "/images/about/img-7516.webp",
+      "alt": "Emmanuel Olivo",
+      "mime": "image/webp",
+      "width": 750,
+      "height": 1000
+    }
+  },
+  "contact": {
+    "title": "Stay Connected",
+    "subtitle": "Feel free to reach out and connect with me through any of the platforms below. Whether you want to discuss potential projects, collaborate on exciting ideas, or simply chat about tech and design, I'm always open to engaging conversations. Let's stay connected and create something amazing together!",
+    "links": [
+      {
+        "label": "email",
+        "href": "mailto:emmanuelo1002@gmail.com"
+      },
+      {
+        "label": "linkedIn",
+        "href": "https://www.linkedin.com/in/emmanuel-olivo/"
+      },
+      {
+        "label": "github",
+        "href": "https://github.com/emmanuelolivo1002"
+      }
+    ]
+  }
+}
