@@ -257,20 +257,11 @@
     box-shadow: 0 1.15rem 2rem #07150caf;
   }
 
-  .hero-feature-footer {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 0.55rem 0.75rem;
-    padding-top: 0.85rem;
-    border-top: 1px solid #c3e6b43d;
-  }
-
   .hero-feature-caption {
     display: grid;
-    flex: 1 1 12rem;
     min-width: 0;
+    padding-top: 0.85rem;
+    border-top: 1px solid #c3e6b43d;
   }
 
   .hero-feature-caption > div {
@@ -278,7 +269,14 @@
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
+    justify-content: space-between;
     gap: 0.15rem 0.65rem;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .hero-feature-image, .hero-feature-caption > [aria-hidden="false"] {
+      animation: hero-project-fade-in 450ms ease-out both;
+    }
   }
 
   .section-space { padding-block: clamp(3.25rem, 7.5vw, 7rem); }
@@ -489,4 +487,9 @@
 @keyframes hero-drift {
   from { transform: translate3d(-8%, -10%, 0) scale(0.92); }
   to { transform: translate3d(27%, 18%, 0) scale(1.14); }
+}
+
+@keyframes hero-project-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
