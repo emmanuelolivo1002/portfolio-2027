@@ -3,6 +3,7 @@ import { siGithub } from "simple-icons";
 import { HeroProjects } from "@/components/hero-projects";
 import { ProjectCard } from "@/components/project-card";
 import { RichText } from "@/components/rich-text";
+import { ScrollEntrances } from "@/components/scroll-entrances";
 import { SiteHeader } from "@/components/site-header";
 import { Timeline } from "@/components/timeline";
 import { Button } from "@/components/ui/button";
@@ -73,7 +74,7 @@ export default function Home() {
         </div>
 
         <section id="projects" className="site-container section-space">
-          <div className="section-intro">
+          <div className="section-intro" data-scroll-enter="">
             <h2 className="section-heading">{work.title}</h2>
             <p>{work.subtitle}</p>
           </div>
@@ -87,7 +88,7 @@ export default function Home() {
 
         <section id="experience" className="border-y border-border bg-background-alt">
           <div className="site-container section-space experience-layout">
-            <div className="experience-heading">
+            <div className="experience-heading" data-scroll-enter="">
               <h2 className="section-heading">{experience.title}</h2>
               <p>{experience.subtitle}</p>
             </div>
@@ -96,19 +97,19 @@ export default function Home() {
         </section>
 
         <section id="about" aria-labelledby="about-title" className="site-container section-space about-layout">
-          <h2 id="about-title" className="section-heading">{about.title}</h2>
-          <div className="about-copy">
+          <h2 id="about-title" className="section-heading" data-scroll-enter="">{about.title}</h2>
+          <div className="about-copy" data-scroll-enter="">
             <RichText content={about.detail} />
           </div>
         </section>
 
         <section id="contact" aria-labelledby="contact-title" className="contact-band">
           <div className="site-container contact-layout">
-            <div>
+            <div data-scroll-enter="">
               <h2 id="contact-title" className="section-heading">{contact.title}</h2>
               <p className="contact-intro">{contact.subtitle}</p>
             </div>
-            <div className="contact-links">
+            <div className="contact-links" data-scroll-enter="">
               {contact.links.map(({ label, href }) => {
                 const name = ({ email: "Email", linkedIn: "LinkedIn", github: "GitHub" })[label] ?? label;
                 return (
@@ -121,6 +122,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <ScrollEntrances />
       </main>
 
       <footer className="border-t border-border py-5 text-sm text-muted-foreground">

@@ -1,11 +1,11 @@
 "use client";
 
-import Image from "next/image";
 import { ArrowLeft, ArrowUpRight, CodeXml, Search } from "lucide-react";
 import { motion, useReducedMotion, useScroll, useSpring } from "motion/react";
 import { useRef } from "react";
 import type { Project } from "@/content/portfolio";
 import { cn } from "@/lib/utils";
+import { LoadingImage } from "./loading-image";
 import { ProjectGallery } from "./project-gallery";
 import { RichText } from "./rich-text";
 import { TechnologyIcon } from "./technology-icon";
@@ -133,10 +133,10 @@ export function ProjectCard({ project, featured = false }: { project: Project; f
 
   return (
     <Dialog>
-      <Card className={cn("project-card group relative gap-0 overflow-hidden rounded-[1.25rem] border border-border p-0 text-foreground ring-0", featured && "border-t-primary/60")}>
+      <Card data-scroll-enter="" className={cn("project-card group relative gap-0 overflow-hidden rounded-[1.25rem] border border-border p-0 text-foreground ring-0", featured && "border-t-primary/60")}>
         <div className="relative aspect-video w-full overflow-hidden bg-background-alt">
           {thumbnail && (
-            <Image
+            <LoadingImage
               src={thumbnail.src} alt={thumbnail.alt || title} width={thumbnail.width} height={thumbnail.height}
               sizes={featured ? "(min-width: 1280px) 610px, (min-width: 640px) 47vw, 94vw" : "(min-width: 1280px) 400px, (min-width: 1024px) 30vw, (min-width: 640px) 47vw, 94vw"}
               className="h-full w-full object-cover transition-transform duration-300 motion-safe:group-hover:scale-105"

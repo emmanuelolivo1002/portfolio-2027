@@ -21,7 +21,7 @@ export function Timeline({ jobs }: { jobs: Experience[] }) {
         {jobs.map((job) => {
           const years = `${job.startDate.slice(0, 4)} – ${job.endDate?.slice(0, 4) ?? "Present"}`;
           return (
-            <li key={job.id} className="experience-card relative rounded-xl border border-border bg-card p-5 sm:p-7">
+            <li key={job.id} data-scroll-enter="" className="experience-card relative rounded-xl border border-border bg-card p-5 sm:p-7">
               <span aria-hidden="true" className="experience-marker size-2.5 rounded-full bg-primary" />
               <p className="text-sm font-semibold text-primary">{years}</p>
               <h3 className="mt-1 font-heading text-xl font-bold tracking-tight sm:text-[1.55rem]">{job.title}</h3>

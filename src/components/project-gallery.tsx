@@ -4,6 +4,7 @@ import Image from "next/image";
 import { ChevronLeft, ChevronRight, Maximize, Minimize, X } from "lucide-react";
 import { useRef, useState } from "react";
 import type { PortfolioImage } from "@/content/portfolio";
+import { LoadingImage } from "./loading-image";
 import { Button } from "./ui/button";
 import { Dialog, DialogClose, DialogContent, DialogDescription, DialogTitle } from "./ui/dialog";
 
@@ -46,7 +47,7 @@ export function ProjectGallery({ title, images }: { title: string; images: Portf
                   setOpen(true);
                 }}
               >
-                <Image
+                <LoadingImage
                   src={item.src}
                   alt=""
                   fill
@@ -137,7 +138,7 @@ export function ProjectGallery({ title, images }: { title: string; images: Portf
               onPointerCancel={() => { touchStart.current = null; }}
             >
               <div className="relative h-full">
-                <Image
+                <LoadingImage
                   key={image.src}
                   src={image.src}
                   alt={image.alt}

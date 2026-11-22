@@ -1,9 +1,9 @@
 "use client";
 
-import Image from "next/image";
 import { useInView, useReducedMotion } from "motion/react";
 import { useEffect, useRef, useState } from "react";
 import type { PortfolioImage, Project } from "@/content/portfolio";
+import { LoadingImage } from "./loading-image";
 
 type HeroProject = Pick<Project, "id" | "title" | "roles"> & { thumbnail: PortfolioImage };
 
@@ -45,8 +45,8 @@ export function HeroProjects({ projects }: { projects: HeroProject[] }) {
       onBlur={() => setFocused(false)}
     >
       <div className="hero-feature-frame">
-        <div className="aspect-video">
-          <Image
+        <div className="relative aspect-video overflow-hidden rounded-[0.55rem]">
+          <LoadingImage
             key={project.id}
             src={project.thumbnail.src}
             alt={project.thumbnail.alt || project.title}
@@ -54,7 +54,7 @@ export function HeroProjects({ projects }: { projects: HeroProject[] }) {
             height={project.thumbnail.height}
             preload={index === 0}
             sizes="(min-width: 1200px) 560px, (min-width: 768px) 42vw, 80vw"
-            className="hero-feature-image h-full w-full rounded-[0.55rem] object-contain"
+            className="h-full w-full object-contain"
           />
         </div>
       </div>
