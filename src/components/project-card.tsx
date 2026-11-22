@@ -1,19 +1,18 @@
 "use client";
 
 import Image from "next/image";
-import { ArrowUpRight, CodeXml, Search } from "lucide-react";
+import { ArrowLeft, ArrowUpRight, CodeXml, Search } from "lucide-react";
 import { motion, useReducedMotion, useScroll, useSpring } from "motion/react";
 import { useRef } from "react";
 import type { Project } from "@/content/portfolio";
 import { cn } from "@/lib/utils";
+import { ProjectGallery } from "./project-gallery";
 import { RichText } from "./rich-text";
 import { TechnologyIcon } from "./technology-icon";
 import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
 import { Card } from "./ui/card";
-import { Dialog, DialogContent, DialogDescription, DialogTitle, DialogTrigger } from "./ui/dialog";
-
-const projectDetailImageSizes = "(min-width: 64rem) 40rem, calc(90vw - 3rem)";
+import { Dialog, DialogClose, DialogContent, DialogDescription, DialogTitle, DialogTrigger } from "./ui/dialog";
 
 function Roles({ roles, className = "" }: { roles: string[]; className?: string }) {
   return (
@@ -32,64 +31,82 @@ function ProjectDetails({ project }: { project: Project }) {
   const reducedMotion = useReducedMotion();
   const { scrollYProgress } = useScroll({ container });
   const progress = useSpring(scrollYProgress, { stiffness: 100, damping: 30 });
+  const inlineImages = project.detail.filter((block) => block.type === "image").map(({ image }) => ({
+    src: image.url,
+    alt: image.alternativeText ?? "",
+    width: image.width,
+    height: image.height,
+    caption: image.caption ?? undefined,
+  }));
+  const leadImages = project.gallery.length ? project.gallery : project.thumbnail ? [project.thumbnail] : [];
+  const images = [...new Map([...leadImages, ...inlineImages].map((image) => [image.src, image])).values()]
+    .map((image, index) => ({ ...image, alt: image.alt || `${project.title} screenshot ${index + 1}` }));
+  const description = project.detail.filter((block) => block.type !== "image");
 
   return (
     <>
-      {!reducedMotion && <motion.div aria-hidden="true" className="absolute inset-x-0 top-0 h-1 origin-left bg-primary" style={{ scaleX: progress }} />}
+      <div className="relative border-b border-border bg-background-alt">
+        <div className="site-container flex min-h-16 items-center py-2">
+          <DialogClose asChild>
+            <Button type="button" variant="ghost" className="h-11 gap-2 px-2.5 text-foreground">
+              <ArrowLeft aria-hidden="true" /> Back to projects
+            </Button>
+          </DialogClose>
+        </div>
+        {!reducedMotion && (
+          <motion.div aria-hidden="true" className="absolute inset-x-0 bottom-0 h-0.5 origin-left bg-primary" style={{ scaleX: progress }} />
+        )}
+      </div>
       <div
         ref={container} tabIndex={0} role="region" aria-label={`${project.title} details`}
-        className="overflow-y-auto overscroll-contain px-6 focus-visible:-outline-offset-2"
+        className="overflow-y-auto overscroll-contain focus-visible:-outline-offset-2"
       >
-        <div className="grid gap-6 pb-1 lg:grid-cols-[minmax(0,65ch)_minmax(15rem,1fr)]">
-          <Roles roles={project.roles} className="lg:hidden" />
-          <article className="min-w-0">
-            <RichText content={project.detail} imageSizes={projectDetailImageSizes} />
-            {project.gallery.length > 0 && (
-              <section className="rich-text mt-6" aria-label="Screenshots">
-                <h3>Screenshots</h3>
-                {project.gallery.map((image, index) => (
-                  <figure key={image.src}>
-                    <Image
-                      src={image.src}
-                      alt={image.alt || `${project.title} screenshot ${index + 1}`}
-                      width={image.width}
-                      height={image.height}
-                      sizes={projectDetailImageSizes}
-                    />
-                    {image.caption && <figcaption>{image.caption}</figcaption>}
-                  </figure>
-                ))}
-              </section>
-            )}
-          </article>
-          <aside className="flex min-w-0 flex-col gap-4 self-start lg:sticky lg:top-0">
-            <Roles roles={project.roles} className="hidden lg:flex" />
-            {project.technologies.length > 0 && (
-              <Card className="grid gap-2 gap-x-5 rounded-xl bg-muted p-4 text-muted-foreground ring-0 sm:grid-cols-2 lg:p-6">
-                <h3 className="col-span-full mb-2 text-xl">Technologies Used:</h3>
-                {project.technologies.map(({ iconKey, label }) => (
-                  <div key={label} className="flex items-center gap-2">
-                    <TechnologyIcon name={iconKey} />
-                    {label}
-                  </div>
-                ))}
-              </Card>
-            )}
-            {project.linkToView && (
-              <Button asChild size="lg" variant="outline" className="h-auto min-h-11 w-full rounded-lg px-3 text-foreground">
-                <a href={project.linkToView} target="_blank" rel="noopener noreferrer">
-                  <ArrowUpRight aria-hidden="true" /> Go To Live Project
-                </a>
-              </Button>
-            )}
-            {project.linkToCode && (
-              <Button asChild size="lg" variant="outline" className="h-auto min-h-11 w-full rounded-lg px-3 text-foreground">
-                <a href={project.linkToCode} target="_blank" rel="noopener noreferrer">
-                  <CodeXml aria-hidden="true" /> View Source Code
-                </a>
-              </Button>
-            )}
-          </aside>
+        <div className="site-container pt-7 pb-12 sm:pt-10 sm:pb-16">
+          <div className="mb-7 border-b border-border pb-6 sm:mb-9 sm:pb-8">
+            <DialogTitle className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl lg:text-6xl">{project.title}</DialogTitle>
+            <DialogDescription className="sr-only">{project.shortDescription}</DialogDescription>
+            <div className="mt-4 flex flex-wrap items-center justify-between gap-4">
+              <Roles roles={project.roles} className="gap-2" />
+              {(project.linkToView || project.linkToCode) && (
+                <div className="flex flex-wrap gap-2.5">
+                  {project.linkToView && (
+                    <Button asChild variant="outline" className="h-11 px-3 text-foreground">
+                      <a href={project.linkToView} target="_blank" rel="noopener noreferrer">
+                        <ArrowUpRight aria-hidden="true" /> Go To Live Project
+                      </a>
+                    </Button>
+                  )}
+                  {project.linkToCode && (
+                    <Button asChild variant="outline" className="h-11 px-3 text-foreground">
+                      <a href={project.linkToCode} target="_blank" rel="noopener noreferrer">
+                        <CodeXml aria-hidden="true" /> View Source Code
+                      </a>
+                    </Button>
+                  )}
+                </div>
+              )}
+            </div>
+          </div>
+          <div className={cn("grid gap-8 lg:gap-12", images.length > 0 && "lg:grid-cols-[minmax(0,1.2fr)_minmax(0,1fr)]")}>
+            <ProjectGallery title={project.title} images={images} />
+            <article className="max-w-[65ch] min-w-0 text-base text-muted-foreground">
+              <h3 className="mb-4 font-heading text-xl font-semibold tracking-tight text-foreground">Overview</h3>
+              <RichText content={description} />
+              {project.technologies.length > 0 && (
+                <div className="mt-7 border-t border-border pt-6">
+                  <h3 className="mb-3 font-heading text-xl font-semibold tracking-tight text-foreground">Technologies</h3>
+                  <ul className="flex flex-wrap gap-2">
+                    {project.technologies.map(({ iconKey, label }) => (
+                      <li key={label} className="flex items-center gap-2 rounded-lg border border-border bg-card px-3 py-1.5 text-sm">
+                        <TechnologyIcon name={iconKey} />
+                        {label}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </article>
+          </div>
         </div>
       </div>
     </>
@@ -136,9 +153,7 @@ export function ProjectCard({ project, featured = false }: { project: Project; f
           </div>
         </div>
       </Card>
-      <DialogContent className="flex max-h-[90dvh] w-[90vw] max-w-[90vw] flex-col gap-6 overflow-hidden rounded-xl border-border bg-card px-0 py-6 sm:max-w-[90vw] lg:w-[min(76rem,90vw)]">
-        <DialogTitle className="px-6 pr-14 text-2xl font-bold tracking-tight text-foreground">{title}</DialogTitle>
-        <DialogDescription className="sr-only">{shortDescription}</DialogDescription>
+      <DialogContent fullScreen showCloseButton={false} className="grid-rows-[auto_minmax(0,1fr)]">
         <ProjectDetails project={project} />
       </DialogContent>
     </Dialog>
