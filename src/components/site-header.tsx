@@ -13,7 +13,7 @@ export function SiteHeader({ navigation, resumeLink }: { navigation: SiteLink[];
   const scrolled = useSyncExternalStore(subscribeToScroll, () => window.scrollY > 4, () => false);
 
   return (
-    <header className="site-container site-header" data-scrolled={scrolled}>
+    <header className="site-header" data-scrolled={scrolled}>
       <a href="#top" className="site-wordmark" aria-label="Emmanuel Olivo home">Emmanuel Olivo<span aria-hidden="true">.</span></a>
       <nav aria-label="Main navigation">
         <ul className="site-nav">
