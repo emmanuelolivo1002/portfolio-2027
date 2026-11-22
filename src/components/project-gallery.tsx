@@ -28,7 +28,7 @@ export function ProjectGallery({ title, images }: { title: string; images: Portf
 
   return (
     <section aria-label="Project gallery" className="min-w-0 self-start">
-      <h3 className="mb-4 font-heading text-xl font-semibold tracking-tight">Project gallery</h3>
+      <h3 className="project-section-title mb-4">Project gallery</h3>
       <Dialog open={open} onOpenChange={setOpen}>
         <div className="grid grid-cols-3 gap-2.5 sm:gap-3">
           {images.map((item, position) => {

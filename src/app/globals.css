@@ -464,6 +464,39 @@
   .rich-text img { width: 100%; height: auto; border-radius: 0.6rem; }
   .rich-text figcaption { margin-top: 0.4em; color: var(--muted-foreground); font-size: 0.875em; }
 
+  .project-section-title {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+    color: var(--foreground);
+    font-family: var(--font-heading);
+    font-size: clamp(1.4rem, 2vw, 1.65rem);
+    font-weight: 720;
+    line-height: 1.2;
+    letter-spacing: -0.035em;
+  }
+
+  .project-section-title::before {
+    flex: none;
+    inline-size: 0.1875rem;
+    block-size: 0.85em;
+    border-radius: 999px;
+    background: var(--primary);
+    content: "";
+  }
+
+  .project-overview .rich-text > :is(h4, h5, h6) {
+    color: var(--foreground);
+    font-family: var(--font-heading);
+    font-size: 1.125rem;
+    font-weight: 660;
+    line-height: 1.3;
+  }
+
+  .project-overview .rich-text > :is(h5, h6) { font-size: 1rem; }
+  .project-overview .rich-text > * + :is(h4, h5, h6) { margin-top: 1.6rem; }
+  .project-overview .rich-text > :is(h4, h5, h6) + * { margin-top: 0.45rem; }
+
   @media (max-width: 64rem) {
     .hero-panel { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 2rem; }
   }

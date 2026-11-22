@@ -42,6 +42,14 @@ function ProjectDetails({ project }: { project: Project }) {
   const images = [...new Map([...leadImages, ...inlineImages].map((image) => [image.src, image])).values()]
     .map((image, index) => ({ ...image, alt: image.alt || `${project.title} screenshot ${index + 1}` }));
   const description = project.detail.filter((block) => block.type !== "image");
+  const baseHeadingLevel = description.reduce(
+    (level, block) => block.type === "heading" ? Math.min(level, block.level) : level,
+    6,
+  );
+  const subsectionLevels = [4, 5, 6] as const;
+  const overview = description.map((block) => block.type === "heading"
+    ? { ...block, level: subsectionLevels[Math.min(block.level - baseHeadingLevel, subsectionLevels.length - 1)] }
+    : block);
 
   return (
     <>
@@ -89,12 +97,12 @@ function ProjectDetails({ project }: { project: Project }) {
           </div>
           <div className={cn("grid gap-8 lg:gap-12", images.length > 0 && "lg:grid-cols-[minmax(0,1.2fr)_minmax(0,1fr)]")}>
             <ProjectGallery title={project.title} images={images} />
-            <article className="max-w-[65ch] min-w-0 text-base text-muted-foreground">
-              <h3 className="mb-4 font-heading text-xl font-semibold tracking-tight text-foreground">Overview</h3>
-              <RichText content={description} />
+            <article className="project-overview max-w-[65ch] min-w-0 text-base text-muted-foreground">
+              <h3 className="project-section-title mb-4">Overview</h3>
+              <RichText content={overview} />
               {project.technologies.length > 0 && (
                 <div className="mt-7 border-t border-border pt-6">
-                  <h3 className="mb-3 font-heading text-xl font-semibold tracking-tight text-foreground">Technologies</h3>
+                  <h3 className="project-section-title mb-3">Technologies</h3>
                   <ul className="flex flex-wrap gap-2">
                     {project.technologies.map(({ iconKey, label }) => (
                       <li key={label} className="flex items-center gap-2 rounded-lg border border-border bg-card px-3 py-1.5 text-sm">
