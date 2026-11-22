@@ -78,7 +78,7 @@ function ProjectDetails({ project }: { project: Project }) {
       >
         <div className="site-container pt-7 pb-12 sm:pt-10 sm:pb-16">
           <div className="mb-7 border-b border-border pb-6 sm:mb-9 sm:pb-8">
-            <DialogTitle className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl lg:text-6xl">{project.title}</DialogTitle>
+            <DialogTitle className="text-4xl font-bold wrap-anywhere tracking-tight text-foreground sm:text-5xl lg:text-6xl">{project.title}</DialogTitle>
             <DialogDescription className="sr-only">{project.shortDescription}</DialogDescription>
             <div className="mt-4 flex flex-col items-start gap-x-6 gap-y-3 md:flex-row md:flex-wrap md:items-center md:justify-between">
               <Roles roles={project.roles} size="large" className="gap-2" />
