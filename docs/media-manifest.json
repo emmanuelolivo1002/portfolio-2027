@@ -578,12 +578,12 @@
     "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/wealthcharts_tv_4ec975a434.png",
     "recovery": "live original",
     "sourceSha256": "096b49c9cc01a299736df21fc976ba7e067af0e83b3baca3017aee51bdbbb22b",
-    "src": "/images/projects/wealthcharts/wealthcharts-tv.webp",
-    "sha256": "88e100355898d9c7d62d264b17855df85691352a2c5c90e185f9496bc1411c61",
+    "src": "/images/projects/wealthcharts/wealthcharts-tv-3932b7eb86.webp",
+    "sha256": "3932b7eb86ef397b9e96648fff73c6e54fabd9d86fc1416cf9cf3807203e5f55",
     "optimized": {
       "mime": "image/webp",
-      "width": 1918,
-      "height": 938
+      "width": 1600,
+      "height": 782
     },
     "references": [
       "/#projects, WealthCharts dialog"
@@ -744,12 +744,12 @@
     "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/enjoyspi_hotel_detail_957ce5fde6.jpg",
     "recovery": "live original",
     "sourceSha256": "637d930ec0b5fd325c6225b579036c62f2f6e1ddfbfdf8badf076b2eb296e85c",
-    "src": "/images/projects/enjoyspi/enjoyspi-hotel-detail.webp",
-    "sha256": "372e4ae53631b3b29518e71747dce6069f15538ac2542e81a0ec180de3bae143",
+    "src": "/images/projects/enjoyspi/enjoyspi-hotel-detail-b3b54999a7.webp",
+    "sha256": "b3b54999a7ab186dc2a3250d1e75e58fe82310d192adb62a749f9c5ed14a9496",
     "optimized": {
       "mime": "image/webp",
-      "width": 1265,
-      "height": 8453
+      "width": 960,
+      "height": 6415
     },
     "references": [
       "/#projects, EnjoySPI dialog"
@@ -1078,15 +1078,14 @@
       "medium": "https://adminv2.emmanuelolivo.com/uploads/medium_Unfolded_Poetry_Project_029a1a3578.png",
       "large": "https://adminv2.emmanuelolivo.com/uploads/large_Unfolded_Poetry_Project_029a1a3578.png"
     },
-    "sourceUrl": "https://adminv2.emmanuelolivo.com/uploads/Unfolded_Poetry_Project_029a1a3578.png",
-    "recovery": "live original",
-    "sourceSha256": "4a6d0bb2917c3b58b3e26643f3d99f277114616e9f11b25e92e2bb3ae325c644",
-    "src": "/images/projects/unfolded-poetry-project/unfoldedpoetryproject.webp",
-    "sha256": "87644250904d27d7e5670749d19b071b163e521e89f5db3c904ddb4df5f6879c",
+    "recovery": "Phase 2 screenshot replacement",
+    "sourceSha256": "84bda79658ee2986ad15cc4a254c8dbb417964332b5dfcd281aff194bde090ca",
+    "src": "/images/projects/unfolded-poetry-project/unfoldedpoetryproject-2817647c6d.webp",
+    "sha256": "2817647c6ddedf840812769ce13e46557410d5e22f9fdb66deee46aa25a61e1c",
     "optimized": {
       "mime": "image/webp",
-      "width": 1920,
-      "height": 958
+      "width": 1600,
+      "height": 807
     },
     "references": [
       "/#projects, Unfolded: Poetry Project thumbnail"

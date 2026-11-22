@@ -13,6 +13,8 @@ import { Button } from "./ui/button";
 import { Card } from "./ui/card";
 import { Dialog, DialogContent, DialogDescription, DialogTitle, DialogTrigger } from "./ui/dialog";
 
+const projectDetailImageSizes = "(min-width: 64rem) 40rem, calc(90vw - 3rem)";
+
 function Roles({ roles, className = "" }: { roles: string[]; className?: string }) {
   return (
     <div className={cn("flex flex-wrap gap-3", className)}>
@@ -41,7 +43,7 @@ function ProjectDetails({ project }: { project: Project }) {
         <div className="grid gap-6 pb-1 lg:grid-cols-[minmax(0,65ch)_minmax(15rem,1fr)]">
           <Roles roles={project.roles} className="lg:hidden" />
           <article className="min-w-0">
-            <RichText content={project.detail} />
+            <RichText content={project.detail} imageSizes={projectDetailImageSizes} />
             {project.gallery.length > 0 && (
               <section className="rich-text mt-6" aria-label="Screenshots">
                 <h3>Screenshots</h3>
@@ -52,7 +54,7 @@ function ProjectDetails({ project }: { project: Project }) {
                       alt={image.alt || `${project.title} screenshot ${index + 1}`}
                       width={image.width}
                       height={image.height}
-                      sizes="(min-width: 64rem) 40rem, calc(90vw - 3rem)"
+                      sizes={projectDetailImageSizes}
                     />
                     {image.caption && <figcaption>{image.caption}</figcaption>}
                   </figure>
