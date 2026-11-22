@@ -1,6 +1,6 @@
 {
   "title": "Emmanuel Olivo - Software Engineer",
-  "description": "Front-End software engineer specializing in web and mobile development with React. Based in Texas, I create responsive, user-centric applications that combine exceptional design and functionality. Explore my projects and learn how my expertise can benefit your next project.",
+  "description": "Emmanuel Olivo is a Texas-based software engineer building web and mobile apps with React, Next.js, TypeScript, and AI. Explore his projects and experience.",
   "navigation": [
     {
       "label": "Projects",
@@ -19,9 +19,9 @@
       "href": "#contact"
     }
   ],
-  "sourceLink": "https://github.com/emmanuelolivo1002/portfolio-frontend",
+  "sourceLink": "https://github.com/emmanuelolivo1002/portfolio-2027",
   "hero": {
-    "heading": "Hi! I'm Emmanuel Olivo, a Software Engineer that specializes in Web and Mobile Front-End Development",
+    "heading": "Software engineer building thoughtful web and mobile experiences with React, Next.js, and AI.",
     "workLink": {
       "label": "See my Work",
       "href": "#projects"
@@ -33,7 +33,7 @@
   },
   "work": {
     "title": "Projects",
-    "subtitle": "Discover my recent and ongoing work, showcasing creativity and technical expertise. Explore the projects that highlight my journey and skills.",
+    "subtitle": "",
     "projects": [
       {
         "id": 18,
@@ -47,12 +47,7 @@
           "width": 1920,
           "height": 1080
         },
-        "roles": [
-          "Back End",
-          "Front End",
-          "UX/UI",
-          "Design"
-        ],
+        "roles": ["AI", "Back End", "Front End", "UX/UI", "Design"],
         "technologies": [
           {
             "iconKey": "nextjs",
@@ -69,6 +64,10 @@
           {
             "iconKey": "typescript",
             "label": "TypeScript"
+          },
+          {
+            "iconKey": "supabase",
+            "label": "Supabase"
           }
         ],
         "detail": [
@@ -94,70 +93,70 @@
         "gallery": [
           {
             "src": "/images/projects/atlas/atlas-07-rate-shop.webp",
-            "alt": "",
+            "alt": "ATLAS hotel rate shopping dashboard",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/atlas/atlas-03-forecast-trends.webp",
-            "alt": "",
+            "alt": "ATLAS forecast trends dashboard",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/atlas/atlas-04-realtime.webp",
-            "alt": "ATLAS",
+            "alt": "ATLAS real-time reporting dashboard",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/atlas/atlas-10-purchasing.webp",
-            "alt": "",
+            "alt": "ATLAS purchasing requests",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/atlas/atlas-11-design-requests.webp",
-            "alt": "",
+            "alt": "ATLAS design requests",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/atlas/atlas-06-food-ordering.webp",
-            "alt": "",
+            "alt": "ATLAS food ordering interface",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/atlas/atlas-05-reviews.webp",
-            "alt": "",
+            "alt": "ATLAS guest reviews dashboard",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/atlas/atlas-02-forecast.webp",
-            "alt": "",
+            "alt": "ATLAS hotel occupancy forecast",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/atlas/atlas-09-network-uptime.webp",
-            "alt": "",
+            "alt": "ATLAS network uptime dashboard",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/atlas/atlas-08-maintenance.webp",
-            "alt": "",
+            "alt": "ATLAS maintenance tasks",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
@@ -178,12 +177,7 @@
           "width": 1920,
           "height": 1080
         },
-        "roles": [
-          "UX/UI",
-          "Design",
-          "Back End",
-          "Front End"
-        ],
+        "roles": ["UX/UI", "Design", "Back End", "Front End", "AI"],
         "technologies": [
           {
             "iconKey": "nextjs",
@@ -200,6 +194,10 @@
           {
             "iconKey": "tailwind",
             "label": "TailwindCSS"
+          },
+          {
+            "iconKey": "supabase",
+            "label": "Supabase"
           }
         ],
         "detail": [
@@ -225,42 +223,42 @@
         "gallery": [
           {
             "src": "/images/projects/searchtexastax/stt-06-portfolio.webp",
-            "alt": "",
+            "alt": "SearchTexasTax portfolio view",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/searchtexastax/stt-05-brands.webp",
-            "alt": "",
+            "alt": "SearchTexasTax hotel brands view",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/searchtexastax/stt-04-revenue-chart.webp",
-            "alt": "SearchTexasTax",
+            "alt": "SearchTexasTax property revenue history chart",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/searchtexastax/stt-02-speedsearch.webp",
-            "alt": "",
+            "alt": "SearchTexasTax quick search results",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/searchtexastax/stt-03-hotel-page.webp",
-            "alt": "",
+            "alt": "SearchTexasTax hotel profile",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/searchtexastax/stt-01-search.webp",
-            "alt": "",
+            "alt": "SearchTexasTax main search page",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
@@ -273,7 +271,7 @@
         "id": 1,
         "slug": "wealthcharts",
         "title": "WealthCharts",
-        "shortDescription": "WealthCharts is an award-winning trading platform that provides technical and fundamental analysis for day traders, swing traders, and long-term investors.",
+        "shortDescription": "A market research and trading workspace for stocks, ETFs, options, and futures. I led the React refactor and owned frontend code review and merge approvals.",
         "thumbnail": {
           "src": "/images/projects/wealthcharts/wc-web-options-trading.webp",
           "alt": "Options Trading Components",
@@ -282,10 +280,7 @@
           "width": 750,
           "height": 369
         },
-        "roles": [
-          "Front End",
-          "UX/UI"
-        ],
+        "roles": ["Front End", "UX/UI", "AI"],
         "technologies": [
           {
             "iconKey": "html",
@@ -322,11 +317,12 @@
         ],
         "detail": [
           {
-            "type": "paragraph",
+            "type": "heading",
+            "level": 3,
             "children": [
               {
                 "type": "text",
-                "text": "WealthCharts is an award-winning trading platform designed to offer both technical and fundamental analysis for day traders, swing traders, and long-term investors."
+                "text": "The product"
               }
             ]
           },
@@ -335,7 +331,63 @@
             "children": [
               {
                 "type": "text",
-                "text": "With over 20 scanners, WealthCharts enables users to sift through thousands of symbols in seconds, quickly generating trade ideas. The platform boasts over 200 technical indicators and provides the capability to create custom ones. Additionally, WealthCharts features more than 25 research tools, allowing you to enhance your research and stay informed about market developments anytime, anywhere."
+                "text": "WealthCharts brings market research, charting, and trade execution into one customizable workspace. Traders can scan stocks, ETFs, options, and futures for setups, save symbols to watchlists, and use chart studies and alerts to track what happens next. They can build custom indicators and backtest strategies with WealthScript. When it’s time to place a trade, they can use paper trading to practice or connect a supported broker to trade live."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The options workspace shows how those tools fit together. A trader can inspect the options chain and Greeks, assemble a multi-leg strategy, and compare how that position responds to changes in the underlying price before previewing an order. WealthThoughts and WealthCharts TV add community discussion and on-demand trading education alongside the research tools."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "children": [
+              {
+                "type": "text",
+                "text": "My role"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "As Senior Front-End Software Engineer, I led the redesign and React refactor of the flagship web app. I worked on frontend implementation and UX/UI, reviewed changes across the frontend codebase, and approved frontend pushes and merges. That gave me responsibility for how changes to the shared workspace, charting, research, and order workflows fit together before they reached users."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "children": [
+              {
+                "type": "text",
+                "text": "Frontend architecture"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The web client was a React single-page application built with JavaScript and TypeScript. React Router handled navigation and Redux Toolkit managed shared state for areas such as watchlists, chart preferences, and broker sessions. FlexLayout provided dockable panels so traders could keep charts, scanners, and order entry in view together. The app prefetched the charting engine in the background, and its frontend integrations handled updates for orders, positions, and balances."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The frontend also used AG Grid for data tables and CodeMirror with a custom WealthScript grammar for strategy editing. Together, these components supported an interface where traders could configure a workspace, work through market data, and write and test strategies from the same application."
               }
             ]
           },
@@ -343,12 +395,12 @@
             "type": "image",
             "image": {
               "src": "/images/projects/wealthcharts/wealthcharts-options-trading.webp",
-              "alt": "wealthcharts-options-trading.png",
+              "alt": "WealthCharts options chain, multi-leg order ticket, and strategy payoff chart",
               "mime": "image/webp",
               "width": 1920,
               "height": 944,
               "url": "/images/projects/wealthcharts/wealthcharts-options-trading.webp",
-              "alternativeText": "wealthcharts-options-trading.png"
+              "alternativeText": "WealthCharts options chain, multi-leg order ticket, and strategy payoff chart"
             },
             "children": [
               {
@@ -361,12 +413,12 @@
             "type": "image",
             "image": {
               "src": "/images/projects/wealthcharts/wealthcharts-dashboard.webp",
-              "alt": "wealthcharts-dashboard.png",
+              "alt": "WealthCharts trading dashboard with a watchlist and price chart",
               "mime": "image/webp",
               "width": 1600,
               "height": 1300,
               "url": "/images/projects/wealthcharts/wealthcharts-dashboard.webp",
-              "alternativeText": "wealthcharts-dashboard.png"
+              "alternativeText": "WealthCharts trading dashboard with a watchlist and price chart"
             },
             "children": [
               {
@@ -379,12 +431,12 @@
             "type": "image",
             "image": {
               "src": "/images/projects/wealthcharts/wealthcharts-wealththoughts.webp",
-              "alt": "wealthcharts-wealththoughts.png",
+              "alt": "WealthThoughts feed with community trading ideas and charts",
               "mime": "image/webp",
               "width": 1917,
               "height": 942,
               "url": "/images/projects/wealthcharts/wealthcharts-wealththoughts.webp",
-              "alternativeText": "wealthcharts-wealththoughts.png"
+              "alternativeText": "WealthThoughts feed with community trading ideas and charts"
             },
             "children": [
               {
@@ -396,13 +448,13 @@
           {
             "type": "image",
             "image": {
-              "src": "/images/projects/wealthcharts/wealthcharts-tv.webp",
-              "alt": "wealthcharts-tv.png",
+              "src": "/images/projects/wealthcharts/wealthcharts-tv-3932b7eb86.webp",
+              "alt": "WealthCharts TV library of trading lessons and platform tutorials",
               "mime": "image/webp",
-              "width": 1918,
-              "height": 938,
-              "url": "/images/projects/wealthcharts/wealthcharts-tv.webp",
-              "alternativeText": "wealthcharts-tv.png"
+              "width": 1600,
+              "height": 782,
+              "url": "/images/projects/wealthcharts/wealthcharts-tv-3932b7eb86.webp",
+              "alternativeText": "WealthCharts TV library of trading lessons and platform tutorials"
             },
             "children": [
               {
@@ -428,11 +480,7 @@
           "width": 500,
           "height": 281
         },
-        "roles": [
-          "Front End",
-          "UX/UI",
-          "Design"
-        ],
+        "roles": ["Front End", "UX/UI", "Design"],
         "technologies": [
           {
             "iconKey": "html",
@@ -489,12 +537,12 @@
             "type": "image",
             "image": {
               "src": "/images/projects/wealthcharts-mobile/m-wealthcharts-com-watchlist-i-phone-14-pro-max-3-4b4434bc3a.webp",
-              "alt": "m_wealthcharts_com_watchlist_i_Phone_14_Pro_Max_3_4b4434bc3a.png",
+              "alt": "WealthCharts Mobile tools menu with trading and market features",
               "mime": "image/webp",
               "width": 1290,
               "height": 2796,
               "url": "/images/projects/wealthcharts-mobile/m-wealthcharts-com-watchlist-i-phone-14-pro-max-3-4b4434bc3a.webp",
-              "alternativeText": "m_wealthcharts_com_watchlist_i_Phone_14_Pro_Max_3_4b4434bc3a.png"
+              "alternativeText": "WealthCharts Mobile tools menu with trading and market features"
             },
             "children": [
               {
@@ -507,12 +555,12 @@
             "type": "image",
             "image": {
               "src": "/images/projects/wealthcharts-mobile/m-wealthcharts-com-watchlist-i-phone-14-pro-max-b7357ca25a.webp",
-              "alt": "m_wealthcharts_com_watchlist_i_Phone_14_Pro_Max_b7357ca25a.png",
+              "alt": "WealthCharts Mobile Apple stock chart and trading signals",
               "mime": "image/webp",
               "width": 720,
               "height": 1561,
               "url": "/images/projects/wealthcharts-mobile/m-wealthcharts-com-watchlist-i-phone-14-pro-max-b7357ca25a.webp",
-              "alternativeText": "m_wealthcharts_com_watchlist_i_Phone_14_Pro_Max_b7357ca25a.png"
+              "alternativeText": "WealthCharts Mobile Apple stock chart and trading signals"
             },
             "children": [
               {
@@ -525,12 +573,12 @@
             "type": "image",
             "image": {
               "src": "/images/projects/wealthcharts-mobile/m-wealthcharts-com-watchlist-i-phone-14-pro-max-2-b7153c16cc.webp",
-              "alt": "m_wealthcharts_com_watchlist_i_Phone_14_Pro_Max_2_b7153c16cc.png",
+              "alt": "WealthCharts Mobile settings with theme and notification options",
               "mime": "image/webp",
               "width": 720,
               "height": 1233,
               "url": "/images/projects/wealthcharts-mobile/m-wealthcharts-com-watchlist-i-phone-14-pro-max-2-b7153c16cc.webp",
-              "alternativeText": "m_wealthcharts_com_watchlist_i_Phone_14_Pro_Max_2_b7153c16cc.png"
+              "alternativeText": "WealthCharts Mobile settings with theme and notification options"
             },
             "children": [
               {
@@ -556,10 +604,7 @@
           "width": 1265,
           "height": 712
         },
-        "roles": [
-          "Front End",
-          "UX/UI"
-        ],
+        "roles": ["Front End", "UX/UI", "AI"],
         "technologies": [
           {
             "iconKey": "html",
@@ -653,13 +698,13 @@
           {
             "type": "image",
             "image": {
-              "src": "/images/projects/enjoyspi/enjoyspi-hotel-detail.webp",
-              "alt": "enjoyspi-hotel-detail.jpg",
+              "src": "/images/projects/enjoyspi/enjoyspi-hotel-detail-b3b54999a7.webp",
+              "alt": "EnjoySPI hotel page with photos, amenities, and booking dates",
               "mime": "image/webp",
-              "width": 1265,
-              "height": 8453,
-              "url": "/images/projects/enjoyspi/enjoyspi-hotel-detail.webp",
-              "alternativeText": "enjoyspi-hotel-detail.jpg"
+              "width": 960,
+              "height": 6415,
+              "url": "/images/projects/enjoyspi/enjoyspi-hotel-detail-b3b54999a7.webp",
+              "alternativeText": "EnjoySPI hotel page with photos, amenities, and booking dates"
             },
             "children": [
               {
@@ -691,12 +736,12 @@
             "type": "image",
             "image": {
               "src": "/images/projects/enjoyspi/enjoyspi-package-selection.webp",
-              "alt": "enjoyspi-package-selection.jpg",
+              "alt": "EnjoySPI package selection showing two all-inclusive options",
               "mime": "image/webp",
               "width": 1265,
               "height": 712,
               "url": "/images/projects/enjoyspi/enjoyspi-package-selection.webp",
-              "alternativeText": "enjoyspi-package-selection.jpg"
+              "alternativeText": "EnjoySPI package selection showing two all-inclusive options"
             },
             "children": [
               {
@@ -709,12 +754,12 @@
             "type": "image",
             "image": {
               "src": "/images/projects/enjoyspi/enjoyspi-hotel-selection.webp",
-              "alt": "enjoyspi-hotel-selection.jpg",
+              "alt": "EnjoySPI hotel selection with room prices and the current package",
               "mime": "image/webp",
               "width": 1265,
               "height": 712,
               "url": "/images/projects/enjoyspi/enjoyspi-hotel-selection.webp",
-              "alternativeText": "enjoyspi-hotel-selection.jpg"
+              "alternativeText": "EnjoySPI hotel selection with room prices and the current package"
             },
             "children": [
               {
@@ -727,12 +772,12 @@
             "type": "image",
             "image": {
               "src": "/images/projects/enjoyspi/enjoyspi-room-selection.webp",
-              "alt": "enjoyspi-room-selection.jpg",
+              "alt": "EnjoySPI room selection with room types and prices",
               "mime": "image/webp",
               "width": 1265,
               "height": 712,
               "url": "/images/projects/enjoyspi/enjoyspi-room-selection.webp",
-              "alternativeText": "enjoyspi-room-selection.jpg"
+              "alternativeText": "EnjoySPI room selection with room types and prices"
             },
             "children": [
               {
@@ -764,12 +809,12 @@
             "type": "image",
             "image": {
               "src": "/images/projects/enjoyspi/screencapture-enjoyspi-checkout-2026-11-18-19-43-00.webp",
-              "alt": "screencapture-enjoyspi-checkout-2026-11-18-19_43_00.png",
+              "alt": "EnjoySPI checkout form and reservation summary",
               "mime": "image/webp",
               "width": 1920,
               "height": 1117,
               "url": "/images/projects/enjoyspi/screencapture-enjoyspi-checkout-2026-11-18-19-43-00.webp",
-              "alternativeText": "screencapture-enjoyspi-checkout-2026-11-18-19_43_00.png"
+              "alternativeText": "EnjoySPI checkout form and reservation summary"
             },
             "children": [
               {
@@ -832,11 +877,7 @@
           "width": 1920,
           "height": 1080
         },
-        "roles": [
-          "Front End",
-          "Back End",
-          "UX/UI"
-        ],
+        "roles": ["Front End", "Back End", "UX/UI", "AI"],
         "technologies": [
           {
             "iconKey": "bootstrap",
@@ -1023,49 +1064,49 @@
         "gallery": [
           {
             "src": "/images/projects/all-inclusive-dashboard/console-04-orders.webp",
-            "alt": "",
+            "alt": "All Inclusive Dashboard orders view",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/all-inclusive-dashboard/console-07-woocommerce-payout.webp",
-            "alt": "",
+            "alt": "All Inclusive Dashboard WooCommerce payout view",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/all-inclusive-dashboard/console-05-packages.webp",
-            "alt": "",
+            "alt": "All Inclusive Dashboard hotel packages",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/all-inclusive-dashboard/console-06-rate-calendar.webp",
-            "alt": "",
+            "alt": "All Inclusive Dashboard rate calendar",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/all-inclusive-dashboard/console-03-hotel-payout.webp",
-            "alt": "",
+            "alt": "All Inclusive Dashboard hotel payout view",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/all-inclusive-dashboard/console-02-performance.webp",
-            "alt": "All Inclusive Dashboard",
+            "alt": "All Inclusive Dashboard performance reports",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
           },
           {
             "src": "/images/projects/all-inclusive-dashboard/console-01-dashboard.webp",
-            "alt": "",
+            "alt": "All Inclusive Dashboard overview",
             "mime": "image/webp",
             "width": 1920,
             "height": 1080
@@ -1080,18 +1121,13 @@
         "title": "Unfolded: Poetry Project",
         "shortDescription": "WordPress website and digital infrastructure for Unfolded Poetry Project. The site introduces the organization’s work and accepts online donations through Givebutter.",
         "thumbnail": {
-          "src": "/images/projects/unfolded-poetry-project/unfoldedpoetryproject.webp",
-          "alt": "Unfolded: Poetry Project",
+          "src": "/images/projects/unfolded-poetry-project/unfoldedpoetryproject-2817647c6d.webp",
+          "alt": "Unfolded: Poetry Project homepage",
           "mime": "image/webp",
-          "width": 1920,
-          "height": 958
+          "width": 1600,
+          "height": 807
         },
-        "roles": [
-          "Back End",
-          "Front End",
-          "Design",
-          "UX/UI"
-        ],
+        "roles": ["Back End", "Front End", "Design", "UX/UI", "AI"],
         "technologies": [
           {
             "iconKey": "wordpress",
@@ -1134,11 +1170,7 @@
           "width": 1920,
           "height": 966
         },
-        "roles": [
-          "Design",
-          "Back End",
-          "Front End"
-        ],
+        "roles": ["Design", "Back End", "Front End", "AI"],
         "technologies": [
           {
             "iconKey": "wordpress",
@@ -1170,21 +1202,120 @@
         "linkToCode": null
       },
       {
+        "id": 22,
+        "slug": "verderosa",
+        "title": "VerdeRosa",
+        "shortDescription": "A Game Boy visual novel made in GB Studio for the VerdeRosa art exhibition. It follows Vero and her guide Xolotl on a journey from the green side to the pink side.",
+        "thumbnail": {
+          "src": "/images/projects/verderosa/verderosa-cover.webp",
+          "alt": "VerdeRosa title screen with a pixel-art flower and a Press Start prompt",
+          "mime": "image/webp",
+          "width": 1280,
+          "height": 720
+        },
+        "roles": ["Game Development", "Design"],
+        "technologies": [
+          {
+            "iconKey": "gb-studio",
+            "label": "GB Studio"
+          }
+        ],
+        "detail": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I created this Game Boy game in GB Studio for VerdeRosa, an exhibition I presented as Emmanuel Con Dos Emmes at Paper Caper Co on South Padre Island, Texas, on April 3, 2026."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The story follows Vero, who feels alone and trapped on the green side. A mysterious entity named Xolotl appears and guides her toward the pink side, where things take on their true forms."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "A playthrough takes about 10 minutes. The game uses pixel art and scene scripting to tell its story, with short gameplay sequences that ask the player to press buttons in a specific order."
+              }
+            ]
+          }
+        ],
+        "gallery": [
+          {
+            "src": "/images/projects/verderosa/game-boy-cover.webp",
+            "alt": "A green Game Boy Color displaying the VerdeRosa title screen",
+            "mime": "image/webp",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "src": "/images/projects/verderosa/artist-logo.webp",
+            "alt": "Emmanuel Con Dos Emmes logo with a smiling pixel-art flower",
+            "mime": "image/webp",
+            "width": 640,
+            "height": 576
+          },
+          {
+            "src": "/images/projects/verderosa/title-screen.webp",
+            "alt": "VerdeRosa title screen with a pixel-art flower and a Press Start prompt",
+            "mime": "image/webp",
+            "width": 640,
+            "height": 576
+          },
+          {
+            "src": "/images/projects/verderosa/xolotl.webp",
+            "alt": "Xolotl, drawn in pink and cream pixels, asks Vero her name in Spanish",
+            "mime": "image/webp",
+            "width": 963,
+            "height": 859
+          },
+          {
+            "src": "/images/projects/verderosa/pink-side-background.webp",
+            "alt": "Pixel-art mountains and forest used for the pink side background",
+            "mime": "image/webp",
+            "width": 640,
+            "height": 576
+          },
+          {
+            "src": "/images/projects/verderosa/transformation-gameplay.webp",
+            "alt": "Vero stands against a pink background during a prompt to press the down button",
+            "mime": "image/webp",
+            "width": 962,
+            "height": 862
+          },
+          {
+            "src": "/images/projects/verderosa/transformation-illustration.webp",
+            "alt": "Vero holds a glowing sphere in a pixel-art illustration of her transformation",
+            "mime": "image/webp",
+            "width": 640,
+            "height": 576
+          }
+        ],
+        "linkToView": null,
+        "linkToCode": "https://github.com/emmanuelolivo1002/VerdeRosa"
+      },
+      {
         "id": 8,
         "slug": "las-joyas",
         "title": "Las Joyas",
         "shortDescription": "Developed a custom WordPress website for Las Joyas Residencies featuring detailed property listings, image galleries, and a blog.",
         "thumbnail": {
-          "src": "/images/projects/las-joyas/lasjoyas-1.webp",
-          "alt": "Las Joyas",
+          "src": "/images/projects/las-joyas/screenshot-home-3f5a5cfeb3.webp",
+          "alt": "Las Joyas homepage with a view of the waterfront",
           "mime": "image/webp",
-          "width": 750,
-          "height": 410
+          "width": 1600,
+          "height": 825
         },
-        "roles": [
-          "Front End",
-          "Back End"
-        ],
+        "roles": ["Front End", "Back End"],
         "technologies": [
           {
             "iconKey": "css",
@@ -1287,7 +1418,22 @@
             ]
           }
         ],
-        "gallery": [],
+        "gallery": [
+          {
+            "src": "/images/projects/las-joyas/screenshot-home-3f5a5cfeb3.webp",
+            "alt": "Las Joyas homepage with a view of the waterfront",
+            "mime": "image/webp",
+            "width": 1600,
+            "height": 825
+          },
+          {
+            "src": "/images/projects/las-joyas/screenshot-overview-836d3a68b7.webp",
+            "alt": "Las Joyas waterfront homes overview",
+            "mime": "image/webp",
+            "width": 1600,
+            "height": 826
+          }
+        ],
         "linkToView": "https://lasjoyaspi.com/",
         "linkToCode": null
       },
@@ -1297,16 +1443,13 @@
         "title": "Las Velas Village",
         "shortDescription": "Developed a custom WordPress website for Las Velas Village, a premier condo complex located in South Padre Island, TX. ",
         "thumbnail": {
-          "src": "/images/projects/las-velas-village/lasvelas-1.webp",
-          "alt": "Las Velas Village",
+          "src": "/images/projects/las-velas-village/screenshot-home-e3846d49f5.webp",
+          "alt": "Las Velas Village homepage with an aerial view of the waterfront condos",
           "mime": "image/webp",
-          "width": 750,
-          "height": 403
+          "width": 1600,
+          "height": 824
         },
-        "roles": [
-          "Front End",
-          "Back End"
-        ],
+        "roles": ["Front End", "Back End"],
         "technologies": [
           {
             "iconKey": "css",
@@ -1399,7 +1542,22 @@
             ]
           }
         ],
-        "gallery": [],
+        "gallery": [
+          {
+            "src": "/images/projects/las-velas-village/screenshot-home-e3846d49f5.webp",
+            "alt": "Las Velas Village homepage with an aerial view of the waterfront condos",
+            "mime": "image/webp",
+            "width": 1600,
+            "height": 824
+          },
+          {
+            "src": "/images/projects/las-velas-village/screenshot-details-8447234aec.webp",
+            "alt": "Las Velas Village property photo gallery",
+            "mime": "image/webp",
+            "width": 1600,
+            "height": 817
+          }
+        ],
         "linkToView": "https://lasvelasvillage.com/",
         "linkToCode": null
       },
@@ -1409,17 +1567,13 @@
         "title": "Paez Development",
         "shortDescription": "WordPress website with custom theme for Paez Development, showcasing their unique and high-standard tropical living properties.",
         "thumbnail": {
-          "src": "/images/projects/paez-development/paezdevelopment-1.webp",
-          "alt": "Paez Development",
+          "src": "/images/projects/paez-development/screenshot-home.webp",
+          "alt": "Paez Development homepage",
           "mime": "image/webp",
-          "width": 750,
-          "height": 676
+          "width": 1920,
+          "height": 1080
         },
-        "roles": [
-          "Design",
-          "Front End",
-          "Back End"
-        ],
+        "roles": ["Design", "Front End", "Back End"],
         "technologies": [
           {
             "iconKey": "css",
@@ -1472,45 +1626,24 @@
                 "text": "This website was developed using WordPress with a custom-built theme based on the Foundation front-end framework. It features three main pages that highlight the company’s offerings and additional pages for detailed property listings and information."
               }
             ]
-          },
-          {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/paez-development/paezdevelopment-3-640x2353.webp",
-              "alt": "PaezDevelopment-3-640x2353.png",
-              "mime": "image/webp",
-              "width": 82,
-              "height": 300,
-              "url": "/images/projects/paez-development/paezdevelopment-3-640x2353.webp",
-              "alternativeText": "PaezDevelopment-3-640x2353.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
-          },
-          {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/paez-development/paezdevelopment-4-640x1400.webp",
-              "alt": "PaezDevelopment-4-640x1400.png",
-              "mime": "image/webp",
-              "width": 137,
-              "height": 300,
-              "url": "/images/projects/paez-development/paezdevelopment-4-640x1400.webp",
-              "alternativeText": "PaezDevelopment-4-640x1400.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
           }
         ],
-        "gallery": [],
+        "gallery": [
+          {
+            "src": "/images/projects/paez-development/screenshot-home.webp",
+            "alt": "Paez Development homepage",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "/images/projects/paez-development/screenshot-details.webp",
+            "alt": "Paez Development company overview",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
         "linkToView": "https://paezdevelopment.com/",
         "linkToCode": null
       },
@@ -1520,16 +1653,13 @@
         "title": "Valley Animal Hospital",
         "shortDescription": "WordPress website with a custom theme for a veterinary hospital in Pharr, TX, featuring detailed service information, doctor profiles, a newsletter, and a blog",
         "thumbnail": {
-          "src": "/images/projects/valley-animal-hospital/vah-1.webp",
-          "alt": "Valley Animal Hospital",
+          "src": "/images/projects/valley-animal-hospital/screenshot-home.webp",
+          "alt": "Valley Animal Hospital homepage",
           "mime": "image/webp",
-          "width": 750,
-          "height": 542
+          "width": 1920,
+          "height": 1080
         },
-        "roles": [
-          "Front End",
-          "Back End"
-        ],
+        "roles": ["Front End", "Back End"],
         "technologies": [
           {
             "iconKey": "wordpress",
@@ -1632,42 +1762,6 @@
             ]
           },
           {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/valley-animal-hospital/webp-net-resizeimage-768x2565.webp",
-              "alt": "Webp.net-resizeimage-768x2565.png",
-              "mime": "image/webp",
-              "width": 90,
-              "height": 300,
-              "url": "/images/projects/valley-animal-hospital/webp-net-resizeimage-768x2565.webp",
-              "alternativeText": "Webp.net-resizeimage-768x2565.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
-          },
-          {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/valley-animal-hospital/vah-3-768x1718.webp",
-              "alt": "VAH-3-768x1718.png",
-              "mime": "image/webp",
-              "width": 134,
-              "height": 300,
-              "url": "/images/projects/valley-animal-hospital/vah-3-768x1718.webp",
-              "alternativeText": "VAH-3-768x1718.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
-          },
-          {
             "type": "paragraph",
             "children": [
               {
@@ -1677,7 +1771,22 @@
             ]
           }
         ],
-        "gallery": [],
+        "gallery": [
+          {
+            "src": "/images/projects/valley-animal-hospital/screenshot-home.webp",
+            "alt": "Valley Animal Hospital homepage",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "/images/projects/valley-animal-hospital/screenshot-doctors.webp",
+            "alt": "Valley Animal Hospital doctors page",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
         "linkToView": "https://valleyanimal.net/",
         "linkToCode": null
       },
@@ -1687,16 +1796,13 @@
         "title": "Atlas Hall Rodriguez",
         "shortDescription": "Website is a comprehensive marketing platform for a leading full-service law firm in South Texas. Built using a fully custom WordPress theme and Foundation as the CSS framework.",
         "thumbnail": {
-          "src": "/images/projects/atlas-hall-rodriguez/ahr-1.webp",
-          "alt": "Atlas Hall Rodriguez",
+          "src": "/images/projects/atlas-hall-rodriguez/screenshot-home.webp",
+          "alt": "Atlas Hall Rodriguez homepage",
           "mime": "image/webp",
-          "width": 300,
-          "height": 191
+          "width": 1920,
+          "height": 1080
         },
-        "roles": [
-          "Front End",
-          "Back End"
-        ],
+        "roles": ["Front End", "Back End"],
         "technologies": [
           {
             "iconKey": "wordpress",
@@ -1729,24 +1835,6 @@
         ],
         "detail": [
           {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/atlas-hall-rodriguez/ahr-1.webp",
-              "alt": "AHR-1.png",
-              "mime": "image/webp",
-              "width": 300,
-              "height": 191,
-              "url": "/images/projects/atlas-hall-rodriguez/ahr-1.webp",
-              "alternativeText": "AHR-1.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
-          },
-          {
             "type": "paragraph",
             "children": [
               {
@@ -1772,45 +1860,24 @@
                 "text": "With offices in McAllen and Brownsville, Atlas Hall Rodriguez provides legal representation in various fields, including litigation, corporate law, real estate, insurance, employment, and more. The website highlights the firm’s dedication to serving a diverse clientele, from individuals to large corporations and governmental entities, across the Rio Grande Valley and beyond."
               }
             ]
-          },
-          {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/atlas-hall-rodriguez/ahr-2-640x1366.webp",
-              "alt": "AHR-2-640x1366.png",
-              "mime": "image/webp",
-              "width": 141,
-              "height": 300,
-              "url": "/images/projects/atlas-hall-rodriguez/ahr-2-640x1366.webp",
-              "alternativeText": "AHR-2-640x1366.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
-          },
-          {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/atlas-hall-rodriguez/ahr-3-640x1284.webp",
-              "alt": "AHR-3-640x1284.png",
-              "mime": "image/webp",
-              "width": 150,
-              "height": 300,
-              "url": "/images/projects/atlas-hall-rodriguez/ahr-3-640x1284.webp",
-              "alternativeText": "AHR-3-640x1284.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
           }
         ],
-        "gallery": [],
+        "gallery": [
+          {
+            "src": "/images/projects/atlas-hall-rodriguez/screenshot-home.webp",
+            "alt": "Atlas Hall Rodriguez homepage",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "/images/projects/atlas-hall-rodriguez/screenshot-attorneys.webp",
+            "alt": "Atlas Hall Rodriguez attorney directory",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
         "linkToView": "https://atlashall.com/",
         "linkToCode": null
       },
@@ -1820,17 +1887,13 @@
         "title": "Chorizo de San Manuel",
         "shortDescription": "Website is a dynamic marketing and e-commerce platform developed with WordPress, utilizing a custom theme built on the Foundation CSS framework. Specializing in selling high-quality chorizo and meats across Texas, this site provides a seamless shopping experience for customers.",
         "thumbnail": {
-          "src": "/images/projects/chorizo-de-san-manuel/chorizo-1-956x1024.webp",
-          "alt": "Chorizo de San Manuel",
+          "src": "/images/projects/chorizo-de-san-manuel/screenshot-home-3d70a0a257.webp",
+          "alt": "Chorizo de San Manuel homepage",
           "mime": "image/webp",
-          "width": 750,
-          "height": 370
+          "width": 1600,
+          "height": 900
         },
-        "roles": [
-          "Design",
-          "Front End",
-          "Back End"
-        ],
+        "roles": ["Design", "Front End", "Back End"],
         "technologies": [
           {
             "iconKey": "foundation",
@@ -1905,81 +1968,24 @@
                 "text": "I was responsible for both the UX and UI design, which I crafted using Figma, ensuring a user-friendly and visually appealing interface. The design focuses on providing an intuitive shopping experience while highlighting the rich culinary heritage and quality of the products offered by Chorizo de San Manuel."
               }
             ]
-          },
-          {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/chorizo-de-san-manuel/chorizo-5-768x2018.webp",
-              "alt": "chorizo-5-768x2018.png",
-              "mime": "image/webp",
-              "width": 114,
-              "height": 300,
-              "url": "/images/projects/chorizo-de-san-manuel/chorizo-5-768x2018.webp",
-              "alternativeText": "chorizo-5-768x2018.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
-          },
-          {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/chorizo-de-san-manuel/chorizo-6-768x1620.webp",
-              "alt": "chorizo-6-768x1620.png",
-              "mime": "image/webp",
-              "width": 142,
-              "height": 300,
-              "url": "/images/projects/chorizo-de-san-manuel/chorizo-6-768x1620.webp",
-              "alternativeText": "chorizo-6-768x1620.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
-          },
-          {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/chorizo-de-san-manuel/chorizo-4-768x1625.webp",
-              "alt": "chorizo-4-768x1625.png",
-              "mime": "image/webp",
-              "width": 142,
-              "height": 300,
-              "url": "/images/projects/chorizo-de-san-manuel/chorizo-4-768x1625.webp",
-              "alternativeText": "chorizo-4-768x1625.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
-          },
-          {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/chorizo-de-san-manuel/chorizo-3-768x1108.webp",
-              "alt": "chorizo-3-768x1108.png",
-              "mime": "image/webp",
-              "width": 208,
-              "height": 300,
-              "url": "/images/projects/chorizo-de-san-manuel/chorizo-3-768x1108.webp",
-              "alternativeText": "chorizo-3-768x1108.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
           }
         ],
-        "gallery": [],
+        "gallery": [
+          {
+            "src": "/images/projects/chorizo-de-san-manuel/screenshot-home-3d70a0a257.webp",
+            "alt": "Chorizo de San Manuel homepage",
+            "mime": "image/webp",
+            "width": 1600,
+            "height": 900
+          },
+          {
+            "src": "/images/projects/chorizo-de-san-manuel/screenshot-products-fbe2778102.webp",
+            "alt": "Chorizo de San Manuel product listings",
+            "mime": "image/webp",
+            "width": 1600,
+            "height": 1291
+          }
+        ],
         "linkToView": "https://www.chorizodesanmanuel.com/",
         "linkToCode": null
       },
@@ -1989,16 +1995,13 @@
         "title": "Kapal Industries",
         "shortDescription": "E-commerce website, built with a custom WordPress theme and Foundation framework, offers a streamlined catalog and filter functionality. It specializes in granite, quartz, and solid surface countertops, ensuring seamless product browsing and professional installation.",
         "thumbnail": {
-          "src": "/images/projects/kapal-industries/kapal-thumbnail.webp",
-          "alt": "Kapal Industries",
+          "src": "/images/projects/kapal-industries/screenshot-home-4ba3a19a40.webp",
+          "alt": "Kapal Industries homepage with an aerial view of the facility",
           "mime": "image/webp",
-          "width": 750,
-          "height": 392
+          "width": 1600,
+          "height": 826
         },
-        "roles": [
-          "Front End",
-          "Back End"
-        ],
+        "roles": ["Front End", "Back End"],
         "technologies": [
           {
             "iconKey": "css",
@@ -2071,7 +2074,36 @@
             ]
           }
         ],
-        "gallery": [],
+        "gallery": [
+          {
+            "src": "/images/projects/kapal-industries/screenshot-home-4ba3a19a40.webp",
+            "alt": "Kapal Industries homepage with an aerial view of the facility",
+            "mime": "image/webp",
+            "width": 1600,
+            "height": 826
+          },
+          {
+            "src": "/images/projects/kapal-industries/screenshot-about-75d3c47021.webp",
+            "alt": "Kapal Industries About Us page and facility locations",
+            "mime": "image/webp",
+            "width": 1600,
+            "height": 827
+          },
+          {
+            "src": "/images/projects/kapal-industries/screenshot-gallery.webp",
+            "alt": "Kapal Industries project gallery",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "/images/projects/kapal-industries/screenshot-products.webp",
+            "alt": "Kapal Industries product catalog",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
         "linkToView": "https://kapalindustries.com/",
         "linkToCode": null
       },
@@ -2079,19 +2111,15 @@
         "id": 11,
         "slug": "silver-ribbon-community-partners",
         "title": "Silver Ribbon Community Partners",
-        "shortDescription": "Wordpress website for an organization dedicated to providing advocacy, education, and resources to prevent the elderly or disabled from becoming victims of abuse, neglect, and financial exploitation. ",
+        "shortDescription": "A WordPress website built for a nonprofit that helps protect older adults and people with disabilities from abuse, neglect, and financial exploitation.",
         "thumbnail": {
-          "src": "/images/projects/silver-ribbon-community-partners/silverribbon-4.webp",
-          "alt": "Silver Ribbon Community Partners",
+          "src": "/images/projects/silver-ribbon-community-partners/screenshot-home.webp",
+          "alt": "Silver Ribbon Community Partners homepage and mission statement",
           "mime": "image/webp",
-          "width": 300,
-          "height": 233
+          "width": 1920,
+          "height": 1080
         },
-        "roles": [
-          "Back End",
-          "Front End",
-          "Design"
-        ],
+        "roles": ["Back End", "Front End", "Design"],
         "technologies": [
           {
             "iconKey": "css",
@@ -2124,29 +2152,11 @@
         ],
         "detail": [
           {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/silver-ribbon-community-partners/silverribbon-1.webp",
-              "alt": "SilverRibbon-1.png",
-              "mime": "image/webp",
-              "width": 300,
-              "height": 179,
-              "url": "/images/projects/silver-ribbon-community-partners/silverribbon-1.webp",
-              "alternativeText": "SilverRibbon-1.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
-          },
-          {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "Silver Ribbon Community Partners is an organization dedicated to providing advocacy, education, and resources to prevent the elderly or disabled from becoming victims of abuse, neglect, and financial exploitation. They also raise community awareness through yearly events in May and June to ensure these individuals are not forgotten."
+                "text": "Silver Ribbon Community Partners provides advocacy, education, and resources for older adults and people with disabilities. The nonprofit also raises awareness of abuse, neglect, and financial exploitation through annual community events."
               }
             ]
           },
@@ -2164,67 +2174,36 @@
             "children": [
               {
                 "type": "text",
-                "text": "The website features five main pages, including a dedicated Donation page that handles contributions through a PayPal plugin, ensuring secure and seamless transactions."
-              }
-            ]
-          },
-          {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/silver-ribbon-community-partners/silverribbon-2-640x1944.webp",
-              "alt": "SilverRibbon-2-640x1944.png",
-              "mime": "image/webp",
-              "width": 99,
-              "height": 300,
-              "url": "/images/projects/silver-ribbon-community-partners/silverribbon-2-640x1944.webp",
-              "alternativeText": "SilverRibbon-2-640x1944.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
-          },
-          {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/silver-ribbon-community-partners/silverribbon-3.webp",
-              "alt": "SilverRibbon-3.png",
-              "mime": "image/webp",
-              "width": 230,
-              "height": 300,
-              "url": "/images/projects/silver-ribbon-community-partners/silverribbon-3.webp",
-              "alternativeText": "SilverRibbon-3.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
-          },
-          {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/silver-ribbon-community-partners/silverribbon-4.webp",
-              "alt": "SilverRibbon-4.png",
-              "mime": "image/webp",
-              "width": 300,
-              "height": 233,
-              "url": "/images/projects/silver-ribbon-community-partners/silverribbon-4.webp",
-              "alternativeText": "SilverRibbon-4.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
+                "text": "The original site had five main pages, including a donations page that accepted contributions through PayPal. The gallery shows that WordPress version."
               }
             ]
           }
         ],
-        "gallery": [],
-        "linkToView": "https://web.archive.org/web/20180809080200/http://silverribboncommunitypartners.org/",
+        "gallery": [
+          {
+            "src": "/images/projects/silver-ribbon-community-partners/screenshot-home.webp",
+            "alt": "Silver Ribbon Community Partners homepage and mission statement",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "/images/projects/silver-ribbon-community-partners/screenshot-details.webp",
+            "alt": "Silver Ribbon Community Partners community impact and organization overview",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "/images/projects/silver-ribbon-community-partners/screenshot-full-page.webp",
+            "alt": "Silver Ribbon Community Partners full-page website view",
+            "mime": "image/webp",
+            "width": 632,
+            "height": 1920
+          }
+        ],
+        "linkToView": "https://www.silverribboncommunitypartners.com/",
+        "linkToViewLabel": "Visit organization website",
         "linkToCode": null
       },
       {
@@ -2233,17 +2212,13 @@
         "title": "McAllen Year in Review 2018",
         "shortDescription": "Website developed for the City of McAllen, TX, to commemorate every relevant development and newsworthy event that took place in the year 2018. ",
         "thumbnail": {
-          "src": "/images/projects/mcallen-year-in-review-2018/mcallen-1.webp",
-          "alt": "McAllen Year in Review 2018",
+          "src": "/images/projects/mcallen-year-in-review-2018/screenshot-title-screen.webp",
+          "alt": "McAllen Year in Review 2018 title screen",
           "mime": "image/webp",
-          "width": 300,
-          "height": 173
+          "width": 1920,
+          "height": 1107
         },
-        "roles": [
-          "Front End",
-          "Design",
-          "Back End"
-        ],
+        "roles": ["Front End", "Design", "Back End"],
         "technologies": [
           {
             "iconKey": "css",
@@ -2279,24 +2254,6 @@
           }
         ],
         "detail": [
-          {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/mcallen-year-in-review-2018/mcallen-1.webp",
-              "alt": "McAllen-1.png",
-              "mime": "image/webp",
-              "width": 300,
-              "height": 173,
-              "url": "/images/projects/mcallen-year-in-review-2018/mcallen-1.webp",
-              "alternativeText": "McAllen-1.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
-          },
           {
             "type": "paragraph",
             "children": [
@@ -2391,27 +2348,31 @@
                 ]
               }
             ]
-          },
-          {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/mcallen-year-in-review-2018/mcallen-2-768x482.webp",
-              "alt": "McAllen-2-768x482.png",
-              "mime": "image/webp",
-              "width": 300,
-              "height": 188,
-              "url": "/images/projects/mcallen-year-in-review-2018/mcallen-2-768x482.webp",
-              "alternativeText": "McAllen-2-768x482.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
           }
         ],
-        "gallery": [],
+        "gallery": [
+          {
+            "src": "/images/projects/mcallen-year-in-review-2018/screenshot-title-screen.webp",
+            "alt": "McAllen Year in Review 2018 title screen",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1107
+          },
+          {
+            "src": "/images/projects/mcallen-year-in-review-2018/screenshot-noteworthy-events.webp",
+            "alt": "McAllen Year in Review 2018 noteworthy events section",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1206
+          },
+          {
+            "src": "/images/projects/mcallen-year-in-review-2018/screenshot-community-engagement.webp",
+            "alt": "McAllen Year in Review 2018 community engagement section",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1210
+          }
+        ],
         "linkToView": null,
         "linkToCode": null
       },
@@ -2427,10 +2388,7 @@
           "width": 750,
           "height": 453
         },
-        "roles": [
-          "Front End",
-          "Back End"
-        ],
+        "roles": ["Front End", "Back End"],
         "technologies": [
           {
             "iconKey": "swift",
@@ -2459,12 +2417,12 @@
             "type": "image",
             "image": {
               "src": "/images/projects/ur-invited/uri-2.webp",
-              "alt": "URI-2.png",
+              "alt": "UR Invited account registration screen",
               "mime": "image/webp",
               "width": 169,
               "height": 300,
               "url": "/images/projects/ur-invited/uri-2.webp",
-              "alternativeText": "URI-2.png"
+              "alternativeText": "UR Invited account registration screen"
             },
             "children": [
               {
@@ -2477,12 +2435,12 @@
             "type": "image",
             "image": {
               "src": "/images/projects/ur-invited/uri-4.webp",
-              "alt": "URI-4.png",
+              "alt": "UR Invited group chat with the emoji keyboard open",
               "mime": "image/webp",
               "width": 169,
               "height": 300,
               "url": "/images/projects/ur-invited/uri-4.webp",
-              "alternativeText": "URI-4.png"
+              "alternativeText": "UR Invited group chat with the emoji keyboard open"
             },
             "children": [
               {
@@ -2502,16 +2460,13 @@
         "title": "Valley Technical Academy",
         "shortDescription": "Worpress website for Coding Bootcamp located in Mission, TX, offering comprehensive training in Web Development, UX Design, and Cyber Security.",
         "thumbnail": {
-          "src": "/images/projects/valley-technical-academy/valleytech-thumnail.webp",
-          "alt": "Valley Technical Academy",
+          "src": "/images/projects/valley-technical-academy/screenshot-overview-f5e8645cfc.webp",
+          "alt": "Valley Technical Academy academy overview and enrollment information",
           "mime": "image/webp",
-          "width": 750,
-          "height": 622
+          "width": 1600,
+          "height": 971
         },
-        "roles": [
-          "Front End",
-          "Back End"
-        ],
+        "roles": ["Front End", "Back End"],
         "technologies": [
           {
             "iconKey": "wordpress",
@@ -2560,63 +2515,24 @@
                 "text": "This website was developed using a WordPress backend with a custom-built theme utilizing Themeco’s Pro Theme builder. It features four main pages that provide detailed information about the academy's programs, instructors, and success stories. Additionally, there is an Enroll page designed to streamline the registration process for prospective students. The website's design ensures a user-friendly experience, making it easy for visitors to navigate and find the information they need."
               }
             ]
-          },
-          {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/valley-technical-academy/valleytech-1-1-768x3146.webp",
-              "alt": "ValleyTech-1-1-768x3146.png",
-              "mime": "image/webp",
-              "width": 73,
-              "height": 300,
-              "url": "/images/projects/valley-technical-academy/valleytech-1-1-768x3146.webp",
-              "alternativeText": "ValleyTech-1-1-768x3146.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
-          },
-          {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/valley-technical-academy/valleytech-2-768x2445.webp",
-              "alt": "ValleyTech-2-768x2445.png",
-              "mime": "image/webp",
-              "width": 94,
-              "height": 300,
-              "url": "/images/projects/valley-technical-academy/valleytech-2-768x2445.webp",
-              "alternativeText": "ValleyTech-2-768x2445.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
-          },
-          {
-            "type": "image",
-            "image": {
-              "src": "/images/projects/valley-technical-academy/valleytech-3-768x1508.webp",
-              "alt": "ValleyTech-3-768x1508.png",
-              "mime": "image/webp",
-              "width": 153,
-              "height": 300,
-              "url": "/images/projects/valley-technical-academy/valleytech-3-768x1508.webp",
-              "alternativeText": "ValleyTech-3-768x1508.png"
-            },
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
           }
         ],
-        "gallery": [],
+        "gallery": [
+          {
+            "src": "/images/projects/valley-technical-academy/screenshot-overview-f5e8645cfc.webp",
+            "alt": "Valley Technical Academy academy overview and enrollment information",
+            "mime": "image/webp",
+            "width": 1600,
+            "height": 971
+          },
+          {
+            "src": "/images/projects/valley-technical-academy/screenshot-courses.webp",
+            "alt": "Valley Technical Academy courses page",
+            "mime": "image/webp",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
         "linkToView": null,
         "linkToCode": null
       }
@@ -3006,7 +2922,7 @@
         "children": [
           {
             "type": "text",
-            "text": "Hi there! I'm a Software Engineer specializing in front-end web and mobile development since 2017. Originally from Veracruz, Mexico, I've been calling Texas home since 2012. I graduated with a degree in Computer Engineering from The University of Texas Rio Grande Valley in 2016."
+            "text": "Hi there! I’m Emmanuel, a software engineer and technical lead who’s been building web and mobile applications since 2017. Originally from Veracruz, Mexico, I’ve called Texas home since 2012. I graduated from The University of Texas Rio Grande Valley with a degree in Computer Engineering in 2016."
           }
         ]
       },
@@ -3015,22 +2931,33 @@
         "children": [
           {
             "type": "text",
-            "text": "I've always loved video games and computers. I started making my first text adventure games in high school with Pascal, and later, I created my first apps with Visual Basic for school projects. These days, I work mainly with React, building responsive, user-friendly applications that look great and work even better."
+            "text": "I’ve always loved video games and computers. I started by making text adventure games in Pascal in high school, then built my first apps in Visual Basic for school projects. That same curiosity still drives me today: I enjoy turning complex problems into useful, intuitive experiences."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "These days, I work with React, Next.js, TypeScript, and React Native to build everything from booking and payment platforms to mobile apps and tools for hospitality operations. I’ve led engineering teams, redesigned a trading platform, and built AI-assisted workflows that help people spend less time on repetitive tasks. I also volunteer my technical skills with local nonprofits, helping them use technology to support their communities."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Whether I’m working on a new feature or a whole product, my goal is the same: build things that look great, work even better, and make someone’s day a little easier."
           }
         ]
       }
-    ],
-    "portrait": {
-      "src": "/images/about/img-7516.webp",
-      "alt": "Emmanuel Olivo",
-      "mime": "image/webp",
-      "width": 750,
-      "height": 1000
-    }
+    ]
   },
   "contact": {
     "title": "Stay Connected",
-    "subtitle": "Feel free to reach out and connect with me through any of the platforms below. Whether you want to discuss potential projects, collaborate on exciting ideas, or simply chat about tech and design, I'm always open to engaging conversations. Let's stay connected and create something amazing together!",
+    "subtitle": "Have a project in mind or want to talk about tech and design? I’d love to hear from you.",
     "links": [
       {
         "label": "email",

@@ -1,36 +1,38 @@
 "use client";
 
 import { useRef } from "react";
-import { motion, useReducedMotion, useScroll, useSpring } from "motion/react";
+import { motion, useScroll, useSpring } from "motion/react";
 import type { Experience } from "@/content/portfolio";
 import { RichText } from "./rich-text";
 
 export function Timeline({ jobs }: { jobs: Experience[] }) {
-  const timeline = useRef<HTMLOListElement>(null);
-  const reduceMotion = useReducedMotion();
-  const { scrollYProgress } = useScroll({ target: timeline, offset: ["start 75%", "end center"] });
+  const timeline = useRef<HTMLDivElement>(null);
+  const { scrollYProgress } = useScroll({ target: timeline, offset: ["start 78%", "end 57%"] });
   const progress = useSpring(scrollYProgress, { stiffness: 100, damping: 30 });
 
   return (
-    <ol ref={timeline} className="relative grid gap-2 py-20">
-      <motion.li role="presentation" aria-hidden="true" className="absolute bottom-0 left-0 top-0 w-1 origin-top -translate-x-1/2 rounded-full bg-primary lg:left-1/2" style={{ scaleY: reduceMotion ? 1 : progress }} />
-      {jobs.map((job, index) => {
-        const left = index % 2 === 0;
-        const years = `${job.startDate.slice(0, 4)} - ${job.endDate?.slice(0, 4) ?? "Present"}`;
-        return (
-          <li key={job.id} className={`relative flex ${left ? "lg:justify-start" : "lg:justify-end"}`}>
-            <span aria-hidden="true" className="absolute left-0 top-7 size-6 -translate-x-1/2 rounded-full border-8 border-primary bg-background lg:left-1/2" />
-            <div className={`w-full pl-7 pt-7 lg:w-1/2 lg:px-8 ${left ? "lg:text-right" : ""}`}>
-              <p className="inline-block rounded-2xl bg-primary px-2 py-1 text-sm font-semibold text-primary-foreground lg:text-base">{years}</p>
-              <h3 className="mb-1 mt-2 text-xl font-semibold lg:text-2xl">{job.title}</h3>
-              <p className="mb-4 text-muted-foreground lg:text-lg">{job.company} | {job.location}</p>
-              <article className="text-left lg:max-w-prose">
+    <div ref={timeline} className="experience-timeline">
+      <motion.span
+        aria-hidden="true"
+        className="experience-progress origin-top bg-primary motion-reduce:transform-none!"
+        style={{ scaleY: progress }}
+      />
+      <ol className="experience-cards" role="list">
+        {jobs.map((job) => {
+          const years = `${job.startDate.slice(0, 4)} – ${job.endDate?.slice(0, 4) ?? "Present"}`;
+          return (
+            <li key={job.id} data-scroll-enter="" className="experience-card relative rounded-xl border border-border bg-background p-5 sm:p-7">
+              <span aria-hidden="true" className="experience-marker size-2.5 rounded-full bg-primary" />
+              <p className="text-sm font-semibold text-primary">{years}</p>
+              <h3 className="mt-1 font-heading text-xl font-bold tracking-tight sm:text-[1.55rem]">{job.title}</h3>
+              <p className="mb-3 text-muted-foreground">{job.company} | {job.location}</p>
+              <article className="text-base">
                 <RichText content={job.detail} />
               </article>
-            </div>
-          </li>
-        );
-      })}
-    </ol>
+            </li>
+          );
+        })}
+      </ol>
+    </div>
   );
 }

@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { portfolio } from "@/content/portfolio";
-import "@fontsource-variable/lexend-deca";
+import "@fontsource-variable/bricolage-grotesque";
+import "@fontsource-variable/geist";
 import "./globals.css";
 
 export const metadata: Metadata = {

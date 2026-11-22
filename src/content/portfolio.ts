@@ -24,6 +24,7 @@ export type Project = {
   detail: BlocksContent;
   gallery: PortfolioImage[];
   linkToView: string | null;
+  linkToViewLabel?: string;
   linkToCode: string | null;
 };
 
@@ -47,8 +48,50 @@ type Portfolio = {
   hero: { heading: string; workLink: SiteLink; resumeLink: SiteLink };
   work: Section & { projects: Project[] };
   experience: Section & { jobs: Experience[] };
-  about: { title: string; detail: BlocksContent; portrait: PortfolioImage | null };
+  about: { title: string; detail: BlocksContent };
   contact: Section & { links: SiteLink[] };
 };
 
-export const portfolio = data as Portfolio;
+const technologyPriority = [
+  "nextjs",
+  "react",
+  "react-native",
+  "wordpress",
+  "typescript",
+  "mysql",
+  "supabase",
+  "swift",
+  "firebase",
+  "tailwind",
+  "bootstrap",
+  "foundation",
+  "capacitor",
+  "javascript",
+  "figma",
+  "oneSignal",
+  "jquery",
+  "php",
+  "css",
+  "html",
+];
+
+const technologyRanks = new Map(technologyPriority.map((iconKey, rank) => [iconKey, rank]));
+
+function technologyRank(iconKey: string) {
+  return technologyRanks.get(iconKey) ?? technologyPriority.length;
+}
+
+const source = data as Portfolio;
+
+export const portfolio: Portfolio = {
+  ...source,
+  work: {
+    ...source.work,
+    projects: source.work.projects.map((project) => ({
+      ...project,
+      technologies: project.technologies.toSorted((first, second) =>
+        technologyRank(first.iconKey) - technologyRank(second.iconKey),
+      ),
+    })),
+  },
+};

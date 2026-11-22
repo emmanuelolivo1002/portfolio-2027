@@ -15,7 +15,8 @@
     "migration:ingest": "node scripts/ingest-portfolio.mjs"
   },
   "dependencies": {
-    "@fontsource-variable/lexend-deca": "^5.3.0",
+    "@fontsource-variable/bricolage-grotesque": "^5.3.0",
+    "@fontsource-variable/geist": "^5.3.0",
     "@strapi/blocks-react-renderer": "^1.0.2",
     "@vercel/analytics": "^2.0.1",
     "@vercel/speed-insights": "^2.1.0",

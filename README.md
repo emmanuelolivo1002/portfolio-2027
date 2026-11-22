@@ -34,4 +34,4 @@ Add `--archive-library` to retain reachable original media and variants privatel
 
 ## Deployment
 
-Import this repository in the dedicated Vercel project and use its Next.js defaults. Review an isolated Preview deployment before promoting a release. Keep migration files and credentials out of Vercel. See [the migration report](docs/migration.md) for route coverage, backup status, and rollback procedure.
+The GitHub repository is connected to the `portfolio-2027-rebuild` Vercel project. Push a topic branch to create a Preview deployment. Review the preview before promoting a release. Keep migration files and credentials out of Vercel. See [the migration report](docs/migration.md) for the verified previews, backup status, and rollback procedure.
