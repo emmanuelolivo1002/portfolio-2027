@@ -1,4 +1,4 @@
-import { Copyright, Heart, Link as LinkIcon, Mail } from "lucide-react";
+import { ArrowRight, ArrowUpRight, Copyright, Heart, Link as LinkIcon, Mail } from "lucide-react";
 import { siGithub } from "simple-icons";
 import { HeroProjects } from "@/components/hero-projects";
 import { ProjectCard } from "@/components/project-card";
@@ -104,22 +104,25 @@ export default function Home() {
         </section>
 
         <section id="contact" aria-labelledby="contact-title" className="contact-band">
-          <div className="site-container contact-layout">
-            <div data-scroll-enter="">
-              <h2 id="contact-title" className="section-heading">{contact.title}</h2>
-              <p className="contact-intro">{contact.subtitle}</p>
-            </div>
-            <div className="contact-links" data-scroll-enter="">
+          <div className="site-container contact-layout" data-scroll-enter="">
+            <h2 id="contact-title" className="section-heading">{contact.title}</h2>
+            <p className="contact-intro">{contact.subtitle}</p>
+            <ul className="contact-links" role="list">
               {contact.links.map(({ label, href }) => {
                 const name = ({ email: "Email", linkedIn: "LinkedIn", github: "GitHub" })[label] ?? label;
+                const isEmail = href.startsWith("mailto:");
+                const Arrow = isEmail ? ArrowRight : ArrowUpRight;
                 return (
-                  <a key={label} href={href} target="_blank" rel="noopener noreferrer" className="contact-link">
-                    <ContactIcon name={label} />
-                    {name}
-                  </a>
+                  <li key={label}>
+                    <a href={href} target={isEmail ? undefined : "_blank"} rel={isEmail ? undefined : "noopener noreferrer"} className="contact-link">
+                      <ContactIcon name={label} />
+                      <span>{name}</span>
+                      <Arrow aria-hidden="true" className="ml-auto size-4 shrink-0 opacity-75" />
+                    </a>
+                  </li>
                 );
               })}
-            </div>
+            </ul>
           </div>
         </section>
         <ScrollEntrances />
