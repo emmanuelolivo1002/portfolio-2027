@@ -462,6 +462,24 @@
                 "text": ""
               }
             ]
+          },
+          {
+            "type": "image",
+            "image": {
+              "src": "/images/projects/wealthcharts/wealthcharts-wealthscanner.webp",
+              "alt": "WealthScanner workspace with trade ideas, a research bar chart, and an Apple stock candlestick chart",
+              "mime": "image/webp",
+              "width": 1920,
+              "height": 1080,
+              "url": "/images/projects/wealthcharts/wealthcharts-wealthscanner.webp",
+              "alternativeText": "WealthScanner workspace with trade ideas, a research bar chart, and an Apple stock candlestick chart"
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": ""
+              }
+            ]
           }
         ],
         "gallery": [],
