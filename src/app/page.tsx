@@ -64,7 +64,7 @@ export default function Home() {
                 <Button asChild className="hero-work-link h-11 rounded-full px-3 text-sm font-semibold sm:px-6">
                   <a href={hero.workLink.href}>{hero.workLink.label}</a>
                 </Button>
-                <Button asChild variant="outline" className="h-11 rounded-full border-primary/35 bg-background/45 px-3 text-sm font-semibold text-foreground hover:border-primary hover:bg-muted sm:px-6">
+                <Button asChild className="h-11 rounded-full bg-[#c6e3b5] px-3 text-sm font-semibold hover:bg-[#d9edcd] sm:px-6">
                   <a href={hero.resumeLink.href} target="_blank" rel="noopener noreferrer">{hero.resumeLink.label}</a>
                 </Button>
               </div>
