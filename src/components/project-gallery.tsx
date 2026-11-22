@@ -160,6 +160,7 @@ export function ProjectGallery({ title, images }: { title: string; images: Portf
                   </Button>
                   <span role="status" className="min-w-16 text-center text-sm text-muted-foreground tabular-nums">
                     {index + 1} of {images.length}
+                    <span className="sr-only">. {image.alt}</span>
                   </span>
                   <Button type="button" variant="outline" size="icon" className="size-11" aria-label="Next image" onClick={() => select(index + 1)}>
                     <ChevronRight aria-hidden="true" />

@@ -24,6 +24,7 @@ export type Project = {
   detail: BlocksContent;
   gallery: PortfolioImage[];
   linkToView: string | null;
+  linkToViewLabel?: string;
   linkToCode: string | null;
 };
 

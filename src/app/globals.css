@@ -213,6 +213,7 @@
     font-family: var(--font-heading);
     font-weight: 720;
     letter-spacing: -0.07em;
+    overflow-wrap: anywhere;
   }
 
   .hero-copy { container-type: inline-size; }
@@ -234,7 +235,7 @@
   .hero-surname span { -webkit-text-fill-color: var(--foreground); }
 
   .hero-intro {
-    color: var(--muted-foreground);
+    color: var(--foreground);
     font-size: clamp(1.06rem, 1.55vw, 1.35rem);
     line-height: 1.45;
     max-width: 28ch;
@@ -275,9 +276,16 @@
 
   .hero-feature-caption {
     display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    column-gap: 0.75rem;
     min-width: 0;
     padding-top: 0.85rem;
     border-top: 1px solid #c3e6b43d;
+  }
+
+  .hero-panel:has([data-preview-paused="true"]) .hero-lights::before,
+  .hero-panel:has([data-preview-paused="true"]) .hero-lights::after {
+    animation-play-state: paused;
   }
 
   .hero-feature-caption > div {

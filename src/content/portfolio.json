@@ -1,6 +1,6 @@
 {
   "title": "Emmanuel Olivo - Software Engineer",
-  "description": "Front-End software engineer specializing in web and mobile development with React. Based in Texas, I create responsive, user-centric applications that combine exceptional design and functionality. Explore my projects and learn how my expertise can benefit your next project.",
+  "description": "Emmanuel Olivo is a Texas-based software engineer building web and mobile apps with React, Next.js, TypeScript, and AI. Explore his projects and experience.",
   "navigation": [
     {
       "label": "Projects",
@@ -19,7 +19,7 @@
       "href": "#contact"
     }
   ],
-  "sourceLink": "https://github.com/emmanuelolivo1002/portfolio-frontend",
+  "sourceLink": "https://github.com/emmanuelolivo1002/portfolio-2027",
   "hero": {
     "heading": "Software engineer building thoughtful web and mobile experiences with React, Next.js, and AI.",
     "workLink": {
@@ -395,12 +395,12 @@
             "type": "image",
             "image": {
               "src": "/images/projects/wealthcharts/wealthcharts-options-trading.webp",
-              "alt": "wealthcharts-options-trading.png",
+              "alt": "WealthCharts options chain, multi-leg order ticket, and strategy payoff chart",
               "mime": "image/webp",
               "width": 1920,
               "height": 944,
               "url": "/images/projects/wealthcharts/wealthcharts-options-trading.webp",
-              "alternativeText": "wealthcharts-options-trading.png"
+              "alternativeText": "WealthCharts options chain, multi-leg order ticket, and strategy payoff chart"
             },
             "children": [
               {
@@ -413,12 +413,12 @@
             "type": "image",
             "image": {
               "src": "/images/projects/wealthcharts/wealthcharts-dashboard.webp",
-              "alt": "wealthcharts-dashboard.png",
+              "alt": "WealthCharts trading dashboard with a watchlist and price chart",
               "mime": "image/webp",
               "width": 1600,
               "height": 1300,
               "url": "/images/projects/wealthcharts/wealthcharts-dashboard.webp",
-              "alternativeText": "wealthcharts-dashboard.png"
+              "alternativeText": "WealthCharts trading dashboard with a watchlist and price chart"
             },
             "children": [
               {
@@ -431,12 +431,12 @@
             "type": "image",
             "image": {
               "src": "/images/projects/wealthcharts/wealthcharts-wealththoughts.webp",
-              "alt": "wealthcharts-wealththoughts.png",
+              "alt": "WealthThoughts feed with community trading ideas and charts",
               "mime": "image/webp",
               "width": 1917,
               "height": 942,
               "url": "/images/projects/wealthcharts/wealthcharts-wealththoughts.webp",
-              "alternativeText": "wealthcharts-wealththoughts.png"
+              "alternativeText": "WealthThoughts feed with community trading ideas and charts"
             },
             "children": [
               {
@@ -449,12 +449,12 @@
             "type": "image",
             "image": {
               "src": "/images/projects/wealthcharts/wealthcharts-tv-3932b7eb86.webp",
-              "alt": "wealthcharts-tv.png",
+              "alt": "WealthCharts TV library of trading lessons and platform tutorials",
               "mime": "image/webp",
               "width": 1600,
               "height": 782,
               "url": "/images/projects/wealthcharts/wealthcharts-tv-3932b7eb86.webp",
-              "alternativeText": "wealthcharts-tv.png"
+              "alternativeText": "WealthCharts TV library of trading lessons and platform tutorials"
             },
             "children": [
               {
@@ -537,12 +537,12 @@
             "type": "image",
             "image": {
               "src": "/images/projects/wealthcharts-mobile/m-wealthcharts-com-watchlist-i-phone-14-pro-max-3-4b4434bc3a.webp",
-              "alt": "m_wealthcharts_com_watchlist_i_Phone_14_Pro_Max_3_4b4434bc3a.png",
+              "alt": "WealthCharts Mobile tools menu with trading and market features",
               "mime": "image/webp",
               "width": 1290,
               "height": 2796,
               "url": "/images/projects/wealthcharts-mobile/m-wealthcharts-com-watchlist-i-phone-14-pro-max-3-4b4434bc3a.webp",
-              "alternativeText": "m_wealthcharts_com_watchlist_i_Phone_14_Pro_Max_3_4b4434bc3a.png"
+              "alternativeText": "WealthCharts Mobile tools menu with trading and market features"
             },
             "children": [
               {
@@ -555,12 +555,12 @@
             "type": "image",
             "image": {
               "src": "/images/projects/wealthcharts-mobile/m-wealthcharts-com-watchlist-i-phone-14-pro-max-b7357ca25a.webp",
-              "alt": "m_wealthcharts_com_watchlist_i_Phone_14_Pro_Max_b7357ca25a.png",
+              "alt": "WealthCharts Mobile Apple stock chart and trading signals",
               "mime": "image/webp",
               "width": 720,
               "height": 1561,
               "url": "/images/projects/wealthcharts-mobile/m-wealthcharts-com-watchlist-i-phone-14-pro-max-b7357ca25a.webp",
-              "alternativeText": "m_wealthcharts_com_watchlist_i_Phone_14_Pro_Max_b7357ca25a.png"
+              "alternativeText": "WealthCharts Mobile Apple stock chart and trading signals"
             },
             "children": [
               {
@@ -573,12 +573,12 @@
             "type": "image",
             "image": {
               "src": "/images/projects/wealthcharts-mobile/m-wealthcharts-com-watchlist-i-phone-14-pro-max-2-b7153c16cc.webp",
-              "alt": "m_wealthcharts_com_watchlist_i_Phone_14_Pro_Max_2_b7153c16cc.png",
+              "alt": "WealthCharts Mobile settings with theme and notification options",
               "mime": "image/webp",
               "width": 720,
               "height": 1233,
               "url": "/images/projects/wealthcharts-mobile/m-wealthcharts-com-watchlist-i-phone-14-pro-max-2-b7153c16cc.webp",
-              "alternativeText": "m_wealthcharts_com_watchlist_i_Phone_14_Pro_Max_2_b7153c16cc.png"
+              "alternativeText": "WealthCharts Mobile settings with theme and notification options"
             },
             "children": [
               {
@@ -699,12 +699,12 @@
             "type": "image",
             "image": {
               "src": "/images/projects/enjoyspi/enjoyspi-hotel-detail-b3b54999a7.webp",
-              "alt": "enjoyspi-hotel-detail.jpg",
+              "alt": "EnjoySPI hotel page with photos, amenities, and booking dates",
               "mime": "image/webp",
               "width": 960,
               "height": 6415,
               "url": "/images/projects/enjoyspi/enjoyspi-hotel-detail-b3b54999a7.webp",
-              "alternativeText": "enjoyspi-hotel-detail.jpg"
+              "alternativeText": "EnjoySPI hotel page with photos, amenities, and booking dates"
             },
             "children": [
               {
@@ -736,12 +736,12 @@
             "type": "image",
             "image": {
               "src": "/images/projects/enjoyspi/enjoyspi-package-selection.webp",
-              "alt": "enjoyspi-package-selection.jpg",
+              "alt": "EnjoySPI package selection showing two all-inclusive options",
               "mime": "image/webp",
               "width": 1265,
               "height": 712,
               "url": "/images/projects/enjoyspi/enjoyspi-package-selection.webp",
-              "alternativeText": "enjoyspi-package-selection.jpg"
+              "alternativeText": "EnjoySPI package selection showing two all-inclusive options"
             },
             "children": [
               {
@@ -754,12 +754,12 @@
             "type": "image",
             "image": {
               "src": "/images/projects/enjoyspi/enjoyspi-hotel-selection.webp",
-              "alt": "enjoyspi-hotel-selection.jpg",
+              "alt": "EnjoySPI hotel selection with room prices and the current package",
               "mime": "image/webp",
               "width": 1265,
               "height": 712,
               "url": "/images/projects/enjoyspi/enjoyspi-hotel-selection.webp",
-              "alternativeText": "enjoyspi-hotel-selection.jpg"
+              "alternativeText": "EnjoySPI hotel selection with room prices and the current package"
             },
             "children": [
               {
@@ -772,12 +772,12 @@
             "type": "image",
             "image": {
               "src": "/images/projects/enjoyspi/enjoyspi-room-selection.webp",
-              "alt": "enjoyspi-room-selection.jpg",
+              "alt": "EnjoySPI room selection with room types and prices",
               "mime": "image/webp",
               "width": 1265,
               "height": 712,
               "url": "/images/projects/enjoyspi/enjoyspi-room-selection.webp",
-              "alternativeText": "enjoyspi-room-selection.jpg"
+              "alternativeText": "EnjoySPI room selection with room types and prices"
             },
             "children": [
               {
@@ -809,12 +809,12 @@
             "type": "image",
             "image": {
               "src": "/images/projects/enjoyspi/screencapture-enjoyspi-checkout-2026-11-18-19-43-00.webp",
-              "alt": "screencapture-enjoyspi-checkout-2026-11-18-19_43_00.png",
+              "alt": "EnjoySPI checkout form and reservation summary",
               "mime": "image/webp",
               "width": 1920,
               "height": 1117,
               "url": "/images/projects/enjoyspi/screencapture-enjoyspi-checkout-2026-11-18-19-43-00.webp",
-              "alternativeText": "screencapture-enjoyspi-checkout-2026-11-18-19_43_00.png"
+              "alternativeText": "EnjoySPI checkout form and reservation summary"
             },
             "children": [
               {
@@ -2111,7 +2111,7 @@
         "id": 11,
         "slug": "silver-ribbon-community-partners",
         "title": "Silver Ribbon Community Partners",
-        "shortDescription": "Wordpress website for an organization dedicated to providing advocacy, education, and resources to prevent the elderly or disabled from becoming victims of abuse, neglect, and financial exploitation. ",
+        "shortDescription": "A WordPress website built for a nonprofit that helps protect older adults and people with disabilities from abuse, neglect, and financial exploitation.",
         "thumbnail": {
           "src": "/images/projects/silver-ribbon-community-partners/screenshot-home.webp",
           "alt": "Silver Ribbon Community Partners homepage and mission statement",
@@ -2156,7 +2156,7 @@
             "children": [
               {
                 "type": "text",
-                "text": "Silver Ribbon Community Partners is an organization dedicated to providing advocacy, education, and resources to prevent the elderly or disabled from becoming victims of abuse, neglect, and financial exploitation. They also raise community awareness through yearly events in May and June to ensure these individuals are not forgotten."
+                "text": "Silver Ribbon Community Partners provides advocacy, education, and resources for older adults and people with disabilities. The nonprofit also raises awareness of abuse, neglect, and financial exploitation through annual community events."
               }
             ]
           },
@@ -2174,7 +2174,7 @@
             "children": [
               {
                 "type": "text",
-                "text": "The website features five main pages, including a dedicated Donation page that handles contributions through a PayPal plugin, ensuring secure and seamless transactions."
+                "text": "The original site had five main pages, including a donations page that accepted contributions through PayPal. The gallery shows that WordPress version."
               }
             ]
           }
@@ -2202,7 +2202,8 @@
             "height": 1920
           }
         ],
-        "linkToView": "https://silverribboncommunitypartners.org/",
+        "linkToView": "https://www.silverribboncommunitypartners.com/",
+        "linkToViewLabel": "Visit organization website",
         "linkToCode": null
       },
       {
@@ -2416,12 +2417,12 @@
             "type": "image",
             "image": {
               "src": "/images/projects/ur-invited/uri-2.webp",
-              "alt": "URI-2.png",
+              "alt": "UR Invited account registration screen",
               "mime": "image/webp",
               "width": 169,
               "height": 300,
               "url": "/images/projects/ur-invited/uri-2.webp",
-              "alternativeText": "URI-2.png"
+              "alternativeText": "UR Invited account registration screen"
             },
             "children": [
               {
@@ -2434,12 +2435,12 @@
             "type": "image",
             "image": {
               "src": "/images/projects/ur-invited/uri-4.webp",
-              "alt": "URI-4.png",
+              "alt": "UR Invited group chat with the emoji keyboard open",
               "mime": "image/webp",
               "width": 169,
               "height": 300,
               "url": "/images/projects/ur-invited/uri-4.webp",
-              "alternativeText": "URI-4.png"
+              "alternativeText": "UR Invited group chat with the emoji keyboard open"
             },
             "children": [
               {
@@ -2956,7 +2957,7 @@
   },
   "contact": {
     "title": "Stay Connected",
-    "subtitle": "Feel free to reach out and connect with me through any of the platforms below. Whether you want to discuss potential projects, collaborate on exciting ideas, or simply chat about tech and design, I'm always open to engaging conversations. Let's stay connected and create something amazing together!",
+    "subtitle": "Have a project in mind or want to talk about tech and design? I’d love to hear from you.",
     "links": [
       {
         "label": "email",

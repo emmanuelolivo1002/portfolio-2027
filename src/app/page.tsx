@@ -73,10 +73,10 @@ export default function Home() {
           </section>
         </div>
 
-        <section id="projects" className="site-container section-space">
+        <section id="projects" aria-labelledby="projects-title" className="site-container section-space">
           <div className="section-intro" data-scroll-enter="">
-            <h2 className="section-heading">{work.title}</h2>
-            <p>{work.subtitle}</p>
+            <h2 id="projects-title" className="section-heading">{work.title}</h2>
+            {work.subtitle && <p>{work.subtitle}</p>}
           </div>
           <div className="grid gap-5 sm:grid-cols-2 lg:gap-7">
             {work.projects.slice(0, 2).map((project) => <ProjectCard key={project.id} project={project} featured />)}
@@ -86,10 +86,10 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="experience" className="border-y border-border bg-background-alt">
+        <section id="experience" aria-labelledby="experience-title" className="border-y border-border bg-background-alt">
           <div className="site-container section-space experience-layout">
             <div className="experience-heading" data-scroll-enter="">
-              <h2 className="section-heading">{experience.title}</h2>
+              <h2 id="experience-title" className="section-heading">{experience.title}</h2>
               <p>{experience.subtitle}</p>
             </div>
             <Timeline jobs={experience.jobs} />
@@ -131,10 +131,13 @@ export default function Home() {
       <footer className="border-t border-border py-5 text-sm text-muted-foreground">
         <div className="site-container flex flex-wrap items-center justify-between gap-x-5 gap-y-2">
           <p className="flex items-center gap-1"><Copyright aria-hidden="true" className="size-4" /> Emmanuel Olivo 2024 – Present</p>
-          <p className="flex items-center">
-            Made with <Heart aria-label="love" className="mx-1 size-4 fill-red-700 text-red-700" /> and{" "}
-            <a href={sourceLink} target="_blank" rel="noopener noreferrer" className="ml-1 underline underline-offset-3 hover:text-foreground">Next.js</a>
-          </p>
+          <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
+            <p className="flex items-center">
+              Made with <Heart aria-hidden="true" className="mx-1 size-4 fill-current text-rose-400" />
+              <span className="sr-only">love</span> and Next.js
+            </p>
+            <a href={sourceLink} target="_blank" rel="noopener noreferrer" className="underline underline-offset-3 hover:text-foreground">View source code</a>
+          </div>
         </div>
       </footer>
     </>

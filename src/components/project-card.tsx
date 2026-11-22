@@ -87,7 +87,7 @@ function ProjectDetails({ project }: { project: Project }) {
                   {project.linkToView && (
                     <Button asChild variant="outline" className="h-11 px-3 text-foreground">
                       <a href={project.linkToView} target="_blank" rel="noopener noreferrer">
-                        <ArrowUpRight aria-hidden="true" /> Go To Live Project
+                        <ArrowUpRight aria-hidden="true" /> {project.linkToViewLabel ?? "Go To Live Project"}
                       </a>
                     </Button>
                   )}
@@ -157,7 +157,7 @@ export function ProjectCard({ project, featured = false }: { project: Project; f
               </button>
             </DialogTrigger>
           </h3>
-          <p className="mt-2 pb-4 text-sm leading-relaxed text-muted-foreground md:text-base">{shortDescription}</p>
+          <p className="mt-2 pb-4 text-base leading-relaxed text-muted-foreground">{shortDescription}</p>
           <div className="mt-auto flex flex-wrap gap-2 text-base text-muted-foreground">
             {technologies.slice(0, 6).map(({ iconKey, label }) => (
               <span key={label} title={label} className="rounded-full border border-border bg-secondary p-1.5">

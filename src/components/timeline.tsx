@@ -26,7 +26,7 @@ export function Timeline({ jobs }: { jobs: Experience[] }) {
               <p className="text-sm font-semibold text-primary">{years}</p>
               <h3 className="mt-1 font-heading text-xl font-bold tracking-tight sm:text-[1.55rem]">{job.title}</h3>
               <p className="mb-3 text-muted-foreground">{job.company} | {job.location}</p>
-              <article className="text-sm sm:text-base">
+              <article className="text-base">
                 <RichText content={job.detail} />
               </article>
             </li>
