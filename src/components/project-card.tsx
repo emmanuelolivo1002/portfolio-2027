@@ -152,7 +152,7 @@ export function ProjectCard({ project, featured = false }: { project: Project; f
           <Roles roles={project.roles} className="gap-1.5" />
           <h3 className={`mt-3 font-heading font-bold tracking-tight ${featured ? "text-3xl" : "text-[1.65rem]"}`}>
             <DialogTrigger asChild>
-              <button type="button" className="cursor-pointer text-left after:absolute after:inset-0 after:rounded-lg hover:text-primary hover:underline focus-visible:outline-none focus-visible:after:outline-2 focus-visible:after:-outline-offset-3 focus-visible:after:outline-primary">
+              <button type="button" className="text-left after:absolute after:inset-0 after:rounded-lg hover:text-primary hover:underline focus-visible:outline-none focus-visible:after:outline-2 focus-visible:after:-outline-offset-3 focus-visible:after:outline-primary">
                 {title}
               </button>
             </DialogTrigger>

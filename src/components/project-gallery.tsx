@@ -40,7 +40,7 @@ export function ProjectGallery({ title, images }: { title: string; images: Portf
                 type="button"
                 aria-label={`View image ${position + 1}: ${item.alt}`}
                 aria-haspopup="dialog"
-                className={`group relative aspect-video min-w-0 cursor-zoom-in overflow-hidden rounded-xl border border-border bg-background-alt hover:border-primary ${lead ? "col-span-full shadow-xl shadow-black/20" : ""}`}
+                className={`group relative aspect-video min-w-0 overflow-hidden rounded-xl border border-border bg-background-alt hover:border-primary ${lead ? "col-span-full shadow-xl shadow-black/20" : ""}`}
                 onClick={(event) => {
                   opener.current = event.currentTarget;
                   select(position);
