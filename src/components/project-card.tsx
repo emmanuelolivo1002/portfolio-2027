@@ -14,11 +14,18 @@ import { Button } from "./ui/button";
 import { Card } from "./ui/card";
 import { Dialog, DialogClose, DialogContent, DialogDescription, DialogTitle, DialogTrigger } from "./ui/dialog";
 
-function Roles({ roles, className = "" }: { roles: string[]; className?: string }) {
+function Roles({ roles, className, size = "compact" }: { roles: string[]; className?: string; size?: "compact" | "large" }) {
   return (
     <div className={cn("flex flex-wrap gap-3", className)}>
       {roles.map((role) => (
-        <Badge key={role} variant="outline" className="h-auto rounded-full border-border bg-secondary px-2.5 py-1 text-xs font-medium text-muted-foreground">
+        <Badge
+          key={role}
+          variant="outline"
+          className={cn(
+            "rounded-full border-border bg-secondary font-medium text-muted-foreground",
+            size === "large" ? "h-11 px-3.5 py-0 text-sm" : "h-auto px-2.5 py-1 text-xs",
+          )}
+        >
           {role}
         </Badge>
       ))}
@@ -73,8 +80,8 @@ function ProjectDetails({ project }: { project: Project }) {
           <div className="mb-7 border-b border-border pb-6 sm:mb-9 sm:pb-8">
             <DialogTitle className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl lg:text-6xl">{project.title}</DialogTitle>
             <DialogDescription className="sr-only">{project.shortDescription}</DialogDescription>
-            <div className="mt-4 flex flex-wrap items-center justify-between gap-4">
-              <Roles roles={project.roles} className="gap-2" />
+            <div className="mt-4 flex flex-col items-start gap-x-6 gap-y-3 md:flex-row md:flex-wrap md:items-center md:justify-between">
+              <Roles roles={project.roles} size="large" className="gap-2" />
               {(project.linkToView || project.linkToCode) && (
                 <div className="flex flex-wrap gap-2.5">
                   {project.linkToView && (
