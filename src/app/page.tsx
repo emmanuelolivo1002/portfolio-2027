@@ -60,11 +60,11 @@ export default function Home() {
             <div className="hero-copy">
               <h1>Emmanuel<br /><span className="hero-surname">Olivo<span>.</span></span></h1>
               <p className="hero-intro">{intro}</p>
-              <div className="flex flex-wrap gap-3">
-                <Button asChild className="hero-work-link h-11 rounded-full px-5 text-sm font-semibold sm:px-6">
+              <div className="hero-actions">
+                <Button asChild className="hero-work-link h-11 rounded-full px-3 text-sm font-semibold sm:px-6">
                   <a href={hero.workLink.href}>{hero.workLink.label}</a>
                 </Button>
-                <Button asChild variant="outline" className="h-11 rounded-full border-primary/35 bg-background/45 px-5 text-sm font-semibold text-foreground hover:border-primary hover:bg-muted sm:px-6">
+                <Button asChild variant="outline" className="h-11 rounded-full border-primary/35 bg-background/45 px-3 text-sm font-semibold text-foreground hover:border-primary hover:bg-muted sm:px-6">
                   <a href={hero.resumeLink.href} target="_blank" rel="noopener noreferrer">{hero.resumeLink.label}</a>
                 </Button>
               </div>

@@ -8,6 +8,7 @@ import { LoadingImage } from "./loading-image";
 type HeroProject = Pick<Project, "id" | "title" | "roles"> & { thumbnail: PortfolioImage };
 
 const rotationInterval = 6500;
+const transparentPixel = `data:image/svg+xml,${encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="1" height="1"/>')}`;
 
 export function HeroProjects({ projects }: { projects: HeroProject[] }) {
   const carousel = useRef<HTMLDivElement>(null);
@@ -52,8 +53,9 @@ export function HeroProjects({ projects }: { projects: HeroProject[] }) {
             alt={project.thumbnail.alt || project.title}
             width={project.thumbnail.width}
             height={project.thumbnail.height}
-            preload={index === 0}
-            sizes="(min-width: 1200px) 560px, (min-width: 768px) 42vw, 80vw"
+            fetchPriority={index === 0 ? "high" : undefined}
+            sizes="(min-width: 1200px) 560px, 42vw"
+            sources={<source media="(max-width: 47.99rem)" srcSet={transparentPixel} />}
             className="h-full w-full object-contain"
           />
         </div>
