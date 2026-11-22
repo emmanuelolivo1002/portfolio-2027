@@ -47,13 +47,7 @@
           "width": 1920,
           "height": 1080
         },
-        "roles": [
-          "AI",
-          "Back End",
-          "Front End",
-          "UX/UI",
-          "Design"
-        ],
+        "roles": ["AI", "Back End", "Front End", "UX/UI", "Design"],
         "technologies": [
           {
             "iconKey": "nextjs",
@@ -183,13 +177,7 @@
           "width": 1920,
           "height": 1080
         },
-        "roles": [
-          "UX/UI",
-          "Design",
-          "Back End",
-          "Front End",
-          "AI"
-        ],
+        "roles": ["UX/UI", "Design", "Back End", "Front End", "AI"],
         "technologies": [
           {
             "iconKey": "nextjs",
@@ -292,11 +280,7 @@
           "width": 750,
           "height": 369
         },
-        "roles": [
-          "Front End",
-          "UX/UI",
-          "AI"
-        ],
+        "roles": ["Front End", "UX/UI", "AI"],
         "technologies": [
           {
             "iconKey": "html",
@@ -439,11 +423,7 @@
           "width": 500,
           "height": 281
         },
-        "roles": [
-          "Front End",
-          "UX/UI",
-          "Design"
-        ],
+        "roles": ["Front End", "UX/UI", "Design"],
         "technologies": [
           {
             "iconKey": "html",
@@ -567,11 +547,7 @@
           "width": 1265,
           "height": 712
         },
-        "roles": [
-          "Front End",
-          "UX/UI",
-          "AI"
-        ],
+        "roles": ["Front End", "UX/UI", "AI"],
         "technologies": [
           {
             "iconKey": "html",
@@ -844,12 +820,7 @@
           "width": 1920,
           "height": 1080
         },
-        "roles": [
-          "Front End",
-          "Back End",
-          "UX/UI",
-          "AI"
-        ],
+        "roles": ["Front End", "Back End", "UX/UI", "AI"],
         "technologies": [
           {
             "iconKey": "bootstrap",
@@ -1094,18 +1065,12 @@
         "shortDescription": "WordPress website and digital infrastructure for Unfolded Poetry Project. The site introduces the organization’s work and accepts online donations through Givebutter.",
         "thumbnail": {
           "src": "/images/projects/unfolded-poetry-project/unfoldedpoetryproject.webp",
-          "alt": "Unfolded: Poetry Project",
+          "alt": "Unfolded: Poetry Project homepage",
           "mime": "image/webp",
-          "width": 1920,
-          "height": 958
+          "width": 4593,
+          "height": 2316
         },
-        "roles": [
-          "Back End",
-          "Front End",
-          "Design",
-          "UX/UI",
-          "AI"
-        ],
+        "roles": ["Back End", "Front End", "Design", "UX/UI", "AI"],
         "technologies": [
           {
             "iconKey": "wordpress",
@@ -1148,12 +1113,7 @@
           "width": 1920,
           "height": 966
         },
-        "roles": [
-          "Design",
-          "Back End",
-          "Front End",
-          "AI"
-        ],
+        "roles": ["Design", "Back End", "Front End", "AI"],
         "technologies": [
           {
             "iconKey": "wordpress",
@@ -1196,10 +1156,7 @@
           "width": 1280,
           "height": 720
         },
-        "roles": [
-          "Game Development",
-          "Design"
-        ],
+        "roles": ["Game Development", "Design"],
         "technologies": [
           {
             "iconKey": "gb-studio",
@@ -1296,15 +1253,12 @@
         "shortDescription": "Developed a custom WordPress website for Las Joyas Residencies featuring detailed property listings, image galleries, and a blog.",
         "thumbnail": {
           "src": "/images/projects/las-joyas/screenshot-home.webp",
-          "alt": "Las Joyas homepage",
+          "alt": "Las Joyas homepage with a view of the waterfront",
           "mime": "image/webp",
-          "width": 1920,
-          "height": 1080
+          "width": 4622,
+          "height": 2383
         },
-        "roles": [
-          "Front End",
-          "Back End"
-        ],
+        "roles": ["Front End", "Back End"],
         "technologies": [
           {
             "iconKey": "css",
@@ -1410,17 +1364,17 @@
         "gallery": [
           {
             "src": "/images/projects/las-joyas/screenshot-home.webp",
-            "alt": "Las Joyas homepage",
+            "alt": "Las Joyas homepage with a view of the waterfront",
             "mime": "image/webp",
-            "width": 1920,
-            "height": 1080
+            "width": 4622,
+            "height": 2383
           },
           {
-            "src": "/images/projects/las-joyas/screenshot-residences.webp",
-            "alt": "Las Joyas residences page and site plan",
+            "src": "/images/projects/las-joyas/screenshot-overview.webp",
+            "alt": "Las Joyas waterfront homes overview",
             "mime": "image/webp",
-            "width": 1920,
-            "height": 1080
+            "width": 4621,
+            "height": 2385
           }
         ],
         "linkToView": "https://lasjoyaspi.com/",
@@ -1433,15 +1387,12 @@
         "shortDescription": "Developed a custom WordPress website for Las Velas Village, a premier condo complex located in South Padre Island, TX. ",
         "thumbnail": {
           "src": "/images/projects/las-velas-village/screenshot-home.webp",
-          "alt": "Las Velas Village homepage",
+          "alt": "Las Velas Village homepage with an aerial view of the waterfront condos",
           "mime": "image/webp",
-          "width": 1920,
-          "height": 1080
+          "width": 4622,
+          "height": 2380
         },
-        "roles": [
-          "Front End",
-          "Back End"
-        ],
+        "roles": ["Front End", "Back End"],
         "technologies": [
           {
             "iconKey": "css",
@@ -1537,17 +1488,17 @@
         "gallery": [
           {
             "src": "/images/projects/las-velas-village/screenshot-home.webp",
-            "alt": "Las Velas Village homepage",
+            "alt": "Las Velas Village homepage with an aerial view of the waterfront condos",
             "mime": "image/webp",
-            "width": 1920,
-            "height": 1080
+            "width": 4622,
+            "height": 2380
           },
           {
             "src": "/images/projects/las-velas-village/screenshot-details.webp",
             "alt": "Las Velas Village property photo gallery",
             "mime": "image/webp",
-            "width": 1920,
-            "height": 1080
+            "width": 4627,
+            "height": 2362
           }
         ],
         "linkToView": "https://lasvelasvillage.com/",
@@ -1565,11 +1516,7 @@
           "width": 1920,
           "height": 1080
         },
-        "roles": [
-          "Design",
-          "Front End",
-          "Back End"
-        ],
+        "roles": ["Design", "Front End", "Back End"],
         "technologies": [
           {
             "iconKey": "css",
@@ -1655,10 +1602,7 @@
           "width": 1920,
           "height": 1080
         },
-        "roles": [
-          "Front End",
-          "Back End"
-        ],
+        "roles": ["Front End", "Back End"],
         "technologies": [
           {
             "iconKey": "wordpress",
@@ -1801,10 +1745,7 @@
           "width": 1920,
           "height": 1080
         },
-        "roles": [
-          "Front End",
-          "Back End"
-        ],
+        "roles": ["Front End", "Back End"],
         "technologies": [
           {
             "iconKey": "wordpress",
@@ -1895,11 +1836,7 @@
           "width": 1920,
           "height": 1080
         },
-        "roles": [
-          "Design",
-          "Front End",
-          "Back End"
-        ],
+        "roles": ["Design", "Front End", "Back End"],
         "technologies": [
           {
             "iconKey": "foundation",
@@ -1988,8 +1925,8 @@
             "src": "/images/projects/chorizo-de-san-manuel/screenshot-products.webp",
             "alt": "Chorizo de San Manuel product listings",
             "mime": "image/webp",
-            "width": 1920,
-            "height": 1080
+            "width": 2738,
+            "height": 2210
           }
         ],
         "linkToView": "https://www.chorizodesanmanuel.com/",
@@ -2002,15 +1939,12 @@
         "shortDescription": "E-commerce website, built with a custom WordPress theme and Foundation framework, offers a streamlined catalog and filter functionality. It specializes in granite, quartz, and solid surface countertops, ensuring seamless product browsing and professional installation.",
         "thumbnail": {
           "src": "/images/projects/kapal-industries/screenshot-home.webp",
-          "alt": "Kapal Industries homepage",
+          "alt": "Kapal Industries homepage with an aerial view of the facility",
           "mime": "image/webp",
-          "width": 1920,
-          "height": 1080
+          "width": 4626,
+          "height": 2389
         },
-        "roles": [
-          "Front End",
-          "Back End"
-        ],
+        "roles": ["Front End", "Back End"],
         "technologies": [
           {
             "iconKey": "css",
@@ -2086,17 +2020,17 @@
         "gallery": [
           {
             "src": "/images/projects/kapal-industries/screenshot-home.webp",
-            "alt": "Kapal Industries homepage",
+            "alt": "Kapal Industries homepage with an aerial view of the facility",
             "mime": "image/webp",
-            "width": 1920,
-            "height": 1080
+            "width": 4626,
+            "height": 2389
           },
           {
-            "src": "/images/projects/kapal-industries/screenshot-video-frame.webp",
-            "alt": "Kapal Industries manufacturing video still",
+            "src": "/images/projects/kapal-industries/screenshot-about.webp",
+            "alt": "Kapal Industries About Us page and facility locations",
             "mime": "image/webp",
-            "width": 1920,
-            "height": 1080
+            "width": 4621,
+            "height": 2388
           },
           {
             "src": "/images/projects/kapal-industries/screenshot-gallery.webp",
@@ -2128,11 +2062,7 @@
           "width": 1920,
           "height": 1080
         },
-        "roles": [
-          "Back End",
-          "Front End",
-          "Design"
-        ],
+        "roles": ["Back End", "Front End", "Design"],
         "technologies": [
           {
             "iconKey": "css",
@@ -2215,7 +2145,7 @@
             "height": 1920
           }
         ],
-        "linkToView": "https://web.archive.org/web/20180809080200/http://silverribboncommunitypartners.org/",
+        "linkToView": "https://silverribboncommunitypartners.org/",
         "linkToCode": null
       },
       {
@@ -2230,11 +2160,7 @@
           "width": 1920,
           "height": 1107
         },
-        "roles": [
-          "Front End",
-          "Design",
-          "Back End"
-        ],
+        "roles": ["Front End", "Design", "Back End"],
         "technologies": [
           {
             "iconKey": "css",
@@ -2404,10 +2330,7 @@
           "width": 750,
           "height": 453
         },
-        "roles": [
-          "Front End",
-          "Back End"
-        ],
+        "roles": ["Front End", "Back End"],
         "technologies": [
           {
             "iconKey": "swift",
@@ -2480,15 +2403,12 @@
         "shortDescription": "Worpress website for Coding Bootcamp located in Mission, TX, offering comprehensive training in Web Development, UX Design, and Cyber Security.",
         "thumbnail": {
           "src": "/images/projects/valley-technical-academy/screenshot-overview.webp",
-          "alt": "Valley Technical Academy academy overview",
+          "alt": "Valley Technical Academy academy overview and enrollment information",
           "mime": "image/webp",
-          "width": 1920,
-          "height": 1080
+          "width": 2944,
+          "height": 1786
         },
-        "roles": [
-          "Front End",
-          "Back End"
-        ],
+        "roles": ["Front End", "Back End"],
         "technologies": [
           {
             "iconKey": "wordpress",
@@ -2542,10 +2462,10 @@
         "gallery": [
           {
             "src": "/images/projects/valley-technical-academy/screenshot-overview.webp",
-            "alt": "Valley Technical Academy academy overview",
+            "alt": "Valley Technical Academy academy overview and enrollment information",
             "mime": "image/webp",
-            "width": 1920,
-            "height": 1080
+            "width": 2944,
+            "height": 1786
           },
           {
             "src": "/images/projects/valley-technical-academy/screenshot-courses.webp",
