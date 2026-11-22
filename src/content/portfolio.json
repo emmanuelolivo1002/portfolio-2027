@@ -271,7 +271,7 @@
         "id": 1,
         "slug": "wealthcharts",
         "title": "WealthCharts",
-        "shortDescription": "WealthCharts is an award-winning trading platform that provides technical and fundamental analysis for day traders, swing traders, and long-term investors.",
+        "shortDescription": "A market research and trading workspace for stocks, ETFs, options, and futures. I led the React refactor and owned frontend code review and merge approvals.",
         "thumbnail": {
           "src": "/images/projects/wealthcharts/wc-web-options-trading.webp",
           "alt": "Options Trading Components",
@@ -317,11 +317,12 @@
         ],
         "detail": [
           {
-            "type": "paragraph",
+            "type": "heading",
+            "level": 3,
             "children": [
               {
                 "type": "text",
-                "text": "WealthCharts is an award-winning trading platform designed to offer both technical and fundamental analysis for day traders, swing traders, and long-term investors."
+                "text": "The product"
               }
             ]
           },
@@ -330,7 +331,63 @@
             "children": [
               {
                 "type": "text",
-                "text": "With over 20 scanners, WealthCharts enables users to sift through thousands of symbols in seconds, quickly generating trade ideas. The platform boasts over 200 technical indicators and provides the capability to create custom ones. Additionally, WealthCharts features more than 25 research tools, allowing you to enhance your research and stay informed about market developments anytime, anywhere."
+                "text": "WealthCharts brings market research, charting, and trade execution into one customizable workspace. Traders can scan stocks, ETFs, options, and futures for setups, save symbols to watchlists, and use chart studies and alerts to track what happens next. They can build custom indicators and backtest strategies with WealthScript. When it’s time to place a trade, they can use paper trading to practice or connect a supported broker to trade live."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The options workspace shows how those tools fit together. A trader can inspect the options chain and Greeks, assemble a multi-leg strategy, and compare how that position responds to changes in the underlying price before previewing an order. WealthThoughts and WealthCharts TV add community discussion and on-demand trading education alongside the research tools."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "children": [
+              {
+                "type": "text",
+                "text": "My role"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "As Senior Front-End Software Engineer, I led the redesign and React refactor of the flagship web app. I worked on frontend implementation and UX/UI, reviewed changes across the frontend codebase, and approved frontend pushes and merges. That gave me responsibility for how changes to the shared workspace, charting, research, and order workflows fit together before they reached users."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "children": [
+              {
+                "type": "text",
+                "text": "Frontend architecture"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The web client was a React single-page application built with JavaScript and TypeScript. React Router handled navigation and Redux Toolkit managed shared state for areas such as watchlists, chart preferences, and broker sessions. FlexLayout provided dockable panels so traders could keep charts, scanners, and order entry in view together. The app prefetched the charting engine in the background, and its frontend integrations handled updates for orders, positions, and balances."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The frontend also used AG Grid for data tables and CodeMirror with a custom WealthScript grammar for strategy editing. Together, these components supported an interface where traders could configure a workspace, work through market data, and write and test strategies from the same application."
               }
             ]
           },
